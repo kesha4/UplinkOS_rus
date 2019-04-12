@@ -1,0 +1,20 @@
+SDL_Mixer 1.2.7
+
+Patched to add .uni playing capabilities
+
+- Added mikmod\load_uni.c from libmikmod-3.1.9.tar.gz
+
+- Modified mikmod\mlreg.c, void MikMod_RegisterAllLoaders_internal(void) :
+
+#if 1
+	_mm_registerloader(&load_it);
+	_mm_registerloader(&load_mod);
+	_mm_registerloader(&load_s3m);
+	_mm_registerloader(&load_xm);
++	
++	// Added by François to have load .uni files
++	_mm_registerloader(&load_uni);
+#else
+	_mm_registerloader(&load_669);
+	_mm_registerloader(&load_amf);
+	_mm_registerloader(&load_dsm);
