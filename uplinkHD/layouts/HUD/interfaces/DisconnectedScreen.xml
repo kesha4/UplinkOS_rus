@@ -6,8 +6,8 @@
     <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
     <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
     <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
-    <TextPoint name="txtCaption" x="80" y="1" align="center" font="AeroMaticsLightRegular" size="24" text="OK" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtCaption" x="80" y="1" align="center" font="Philosopher-Regular" size="24" text="OK" fillColor="2BAAFF" alpha="1"/>
   </ButtonStandard>
-  <TextParagraph name="txtLoginsLost" x="80" y="498" w="802.067504882813" h="454.058746337891" align="left" font="AeroMaticsLightRegular" size="30" leading="0" text="Your username and password was revoked on these systems:&#xD;&#xD;127.0.0.1    - Personal Gateway" fillColor="2BAAFF" alpha="1"/>
-  <TextPoint name="txtMessage" x="481" y="349" align="center" font="AeroMaticsLightRegular" size="42" text="Connection terminated by remote host" fillColor="2BAAFF" alpha="1"/>
+  <TextParagraph name="txtLoginsLost" x="80" y="498" w="802.067504882813" h="454.058746337891" align="left" font="Philosopher-Regular" size="30" leading="0" text="Ваш логин и пароль был деактивирован на этих системах:&#xD;&#xD;127.0.0.1    - Personal Gateway" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtMessage" x="481" y="349" align="center" font="Philosopher-Regular" size="42" text="Соединение прервано удаленным хостом" fillColor="2BAAFF" alpha="1"/>
 </layout>

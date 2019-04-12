@@ -12,7 +12,7 @@
   <Image name="signal03" file="lanEl_base_signal03.png" x="16" y="61" alpha="1"/>
   <Image name="signal01" file="lanEl_base_signal01.png" x="16" y="61" alpha="1"/>
   <Image name="signal02" file="lanEl_base_signal02.png" x="16" y="61" alpha="1"/>
-  <TextPoint name="txtLabel" x="79" y="67" align="left" font="AeroMaticsLightRegular" size="18" text="Text" fillColor="FFA41C" alpha="1"/>
+  <TextPoint name="txtLabel" x="79" y="67" align="left" font="Philosopher-Regular" size="18" text="Text" fillColor="FFA41C" alpha="1"/>
   <Image name="selection" file="lanEl_base_selection.png" x="16" y="54" alpha="1"/>
   <Image name="icon" file="lanEl_icon_router.png" x="15" y="0" alpha="1"/>
   <Arc name="appCharge" x="0" y="0" w="30" h="30" strokeColor="FFFFFF" strokeW="4" alpha="1"/>

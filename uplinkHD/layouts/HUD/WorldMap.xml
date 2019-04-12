@@ -36,23 +36,23 @@
         <Vertex x="160" y="30"/>
         <Vertex x="60" y="30"/>
       </Poly>
-      <TextPoint name="txtCaption" x="60" y="1" align="left" font="AeroMaticsLightRegular" size="24" text="Connect" fillColor="2BAAFF" alpha="1"/>
+      <TextPoint name="txtCaption" x="60" y="1" align="left" font="Philosopher-Regular" size="24" text="Connect" fillColor="2BAAFF" alpha="1"/>
     </ButtonStandard>
     <ButtonStandard name="btnReset" x="640" y="0" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
       <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
       <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
-      <TextPoint name="txtCaption" x="80" y="1" align="center" font="AeroMaticsLightRegular" size="24" text="Reset" fillColor="2BAAFF" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="1" align="center" font="Philosopher-Regular" size="24" text="Reset" fillColor="2BAAFF" alpha="1"/>
     </ButtonStandard>
     <Line name="sep2" x="540" y="30" w="340" h="1" x1="0" y1="0" x2="340" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
     <ButtonStandard name="btnLoad" x="160" y="0" w="80" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
       <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="80" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
       <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="80" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
-      <TextPoint name="txtCaption" x="40" y="1" align="center" font="AeroMaticsLightRegular" size="24" text="Load" fillColor="2BAAFF" alpha="1"/>
+      <TextPoint name="txtCaption" x="40" y="1" align="center" font="Philosopher-Regular" size="24" text="Load" fillColor="2BAAFF" alpha="1"/>
     </ButtonStandard>
     <ButtonStandard name="btnRandomize" x="0" y="0" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
       <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
       <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
-      <TextPoint name="txtCaption" x="80" y="1" align="center" font="AeroMaticsLightRegular" size="24" text="Randomize" fillColor="2BAAFF" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="1" align="center" font="Philosopher-Regular" size="24" text="Randomize" fillColor="2BAAFF" alpha="1"/>
     </ButtonStandard>
     <ButtonStandard name="btnSave" x="240" y="0" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
       <Poly name="gfxClick" subtype="filled" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" alpha="1">
@@ -67,13 +67,13 @@
         <Vertex x="100" y="30"/>
         <Vertex x="0" y="30"/>
       </Poly>
-      <TextPoint name="txtCaption" x="100" y="1" align="right" font="AeroMaticsLightRegular" size="24" text="Save" fillColor="2BAAFF" alpha="1"/>
+      <TextPoint name="txtCaption" x="100" y="1" align="right" font="Philosopher-Regular" size="24" text="Save" fillColor="2BAAFF" alpha="1"/>
     </ButtonStandard>
     <Line name="sep1" x="0" y="31" w="340" h="1" x1="340" y1="1" x2="0" y2="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
     <ButtonStandard name="btnClose" x="800" y="0" w="80" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
       <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="80" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
       <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="80" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
-      <TextPoint name="txtCaption" x="40" y="1" align="center" font="AeroMaticsLightRegular" size="24" text="Close" fillColor="2BAAFF" alpha="1"/>
+      <TextPoint name="txtCaption" x="40" y="1" align="center" font="Philosopher-Regular" size="24" text="Close" fillColor="2BAAFF" alpha="1"/>
     </ButtonStandard>
   </Container>
 </layout>

@@ -5,9 +5,9 @@
     <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="922" h="44" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
   </ButtonStandard>
   <Rectangle name="dlProgress" subtype="filled" x="0" y="0" w="922" h="44" fillColor="1E62A8" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
-  <TextPoint name="txtProgress" x="912" y="4" align="right" font="AeroMaticsRegular" size="30" text="20%" fillColor="2BAAFF" alpha="1"/>
-  <TextPoint name="txtComp" x="707" y="4" align="left" font="AeroMaticsLightRegular" size="30" text="Level 0" fillColor="2BAAFF" alpha="1"/>
-  <TextPoint name="txtEncr" x="547" y="4" align="left" font="AeroMaticsLightRegular" size="30" text="Level 0" fillColor="2BAAFF" alpha="1"/>
-  <TextPoint name="txtSize" x="387" y="4" align="left" font="AeroMaticsLightRegular" size="30" text="2gq" fillColor="2BAAFF" alpha="1"/>
-  <TextPoint name="txtName" x="10" y="4" align="left" font="AeroMaticsLightRegular" size="30" text="upl-data-012545.dat" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtProgress" x="912" y="4" align="right" font="Philosopher-Bold" size="30" text="20%" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtComp" x="707" y="4" align="left" font="Philosopher-Regular" size="30" text="Level 0" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtEncr" x="547" y="4" align="left" font="Philosopher-Regular" size="30" text="Level 0" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtSize" x="387" y="4" align="left" font="Philosopher-Regular" size="30" text="2gq" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtName" x="10" y="4" align="left" font="Philosopher-Regular" size="30" text="upl-data-012545.dat" fillColor="2BAAFF" alpha="1"/>
 </layout>

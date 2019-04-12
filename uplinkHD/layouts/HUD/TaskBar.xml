@@ -6,7 +6,7 @@
     <Image name="gfxClick" file="btnEmail_c.png" x="2" y="0" alpha="1"/>
     <Container name="notification" x="0" y="3" w="25" h="25" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
       <Image name="base" file="emailNotif.png" x="0" y="0" alpha="1"/>
-      <TextPoint name="txtNumber" x="13" y="2" align="center" font="AeroMaticsRegular" size="18" text="99" fillColor="FFFFFF" alpha="1"/>
+      <TextPoint name="txtNumber" x="13" y="2" align="center" font="Philosopher-Bold" size="18" text="99" fillColor="FFFFFF" alpha="1"/>
     </Container>
   </ButtonStandard>
   <ButtonStandard name="btnFiles" x="77" y="1" w="60" h="60" scalingType="scaleByHeight" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
