@@ -1,0 +1,32 @@
+<defaultHotkeys>
+	<hotkey commandName="Open E-Mail" key="5" modifier="2" canOverwrite="0"></hotkey>
+	<hotkey commandName="Open App Menu" key="15" modifier="2" canOverwrite="0"></hotkey>
+	<hotkey commandName="Open Files Manager" key="6" modifier="2" canOverwrite="0"></hotkey>
+	<hotkey commandName="Open LAN View" key="12" modifier="2" canOverwrite="0"></hotkey>
+	<hotkey commandName="Open Internal Help" key="47" modifier="0" canOverwrite="0"></hotkey>
+	<hotkey commandName="Open Status" key="48" modifier="0" canOverwrite="0"></hotkey>
+	<hotkey commandName="Open Gateway Info" key="49" modifier="0" canOverwrite="0"></hotkey>
+	<hotkey commandName="View Notes" key="14" modifier="2" canOverwrite="0"></hotkey>
+	<hotkey commandName="Set Gamespeed 0" key="51" modifier="0" canOverwrite="0"></hotkey>
+	<hotkey commandName="Set Gamespeed 1" key="52" modifier="0" canOverwrite="0"></hotkey>
+	<hotkey commandName="Set Gamespeed 2" key="53" modifier="0" canOverwrite="0"></hotkey>
+	<hotkey commandName="Set Gamespeed 3" key="54" modifier="0" canOverwrite="0"></hotkey>
+	<hotkey commandName="Log Out" key="12" modifier="4" canOverwrite="0"></hotkey>
+	<hotkey commandName="Quit" key="17" modifier="4" canOverwrite="0"></hotkey>
+	<hotkey commandName="Copy" key="3" modifier="2" canOverwrite="0"></hotkey>
+	<hotkey commandName="Delete" key="77" modifier="0" canOverwrite="0"></hotkey>
+	<hotkey commandName="Decrypt" key="4" modifier="2" canOverwrite="0"></hotkey>
+	<hotkey commandName="Undo" key="26" modifier="2" canOverwrite="0"></hotkey>
+	<hotkey commandName="Modify" key="13" modifier="2" canOverwrite="0"></hotkey>
+	<hotkey commandName="Bookmark" key="2" modifier="0" canOverwrite="0"></hotkey>
+	<hotkey commandName="Show On Map" key="13" modifier="0" canOverwrite="0"></hotkey>
+	<hotkey commandName="Favourite" key="6" modifier="0" canOverwrite="0"></hotkey>
+	<hotkey commandName="Reply" key="18" modifier="0" canOverwrite="0"></hotkey>
+	<hotkey commandName="Play" key="67" modifier="0" canOverwrite="0"></hotkey>
+	<hotkey commandName="LAN Probe" key="16" modifier="0" canOverwrite="0"></hotkey>
+	<hotkey commandName="LAN Scan" key="19" modifier="0" canOverwrite="0"></hotkey>
+	<hotkey commandName="LAN Spoof" key="15" modifier="0" canOverwrite="0"></hotkey>
+	<hotkey commandName="LAN Force" key="6" modifier="4" canOverwrite="0"></hotkey>
+	<hotkey commandName="LAN Connect" key="3" modifier="0" canOverwrite="0"></hotkey>
+	<hotkey commandName="LAN Reset" key="24" modifier="0" canOverwrite="0"></hotkey>
+</defaultHotkeys>

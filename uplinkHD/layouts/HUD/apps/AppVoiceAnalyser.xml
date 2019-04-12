@@ -1,0 +1,41 @@
+<layout name="AppVoiceAnalyser" w="90" h="90">
+  <Image name="base" file="appBase_01.png" x="0" y="0" alpha="1"/>
+  <ButtonStandard name="btnStart" x="4" y="4" w="82" h="82" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxHover" file="appBtn_01_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="appBtn_01_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+  <Image name="iconApp" file="appIcon_voiceAnalyser.png" x="8" y="10" alpha="1"/>
+  <Image name="iconPlay" file="appIcon_play_01.png" x="32" y="32" alpha="1"/>
+  <Image name="iconLoading" file="appIcon_loading.png" x="11" y="11" alpha="1"/>
+  <ButtonStandard name="btnPlay" x="4" y="4" w="82" h="41" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="appBtn_play_s.png" x="31" y="11" alpha="1"/>
+    <Image name="gfxHover" file="appBtn_play_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="appBtn_play_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnLoad" x="4" y="45" w="41" h="41" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="appBtn_load_s.png" x="13" y="7" alpha="1"/>
+    <Image name="gfxHover" file="appBtn_load_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="appBtn_load_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnSave" x="45" y="45" w="41" h="41" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="appBtn_save_s.png" x="8" y="7" alpha="1"/>
+    <Image name="gfxHover" file="appBtn_save_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="appBtn_save_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+  <Line name="separator" x="12" y="44" w="66" h="1" x1="0" y1="0" x2="66" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+  <Container name="soundBars" x="25" y="25" w="40" h="40" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="bar0" subtype="filled" x="0" y="0" w="4" h="40" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="bar1" subtype="filled" x="6" y="0" w="4" h="40" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="bar2" subtype="filled" x="12" y="0" w="4" h="40" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="bar3" subtype="filled" x="18" y="0" w="4" h="40" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="bar4" subtype="filled" x="24" y="0" w="4" h="40" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="bar5" subtype="filled" x="30" y="0" w="4" h="40" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="bar6" subtype="filled" x="36" y="0" w="4" h="40" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  </Container>
+  <Image name="iconError" file="appIcon_error_01.png" x="22" y="22" alpha="1"/>
+  <ButtonStandard name="btnClose" x="72" y="0" w="18" h="18" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="appBtn_close_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="appBtn_close_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="appBtn_close_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+</layout>

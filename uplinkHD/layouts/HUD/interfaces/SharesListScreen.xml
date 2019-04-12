@@ -1,0 +1,24 @@
+<layout name="SharesListScreen" w="962" h="1082">
+  <ScrollableList name="sharesList" x="13" y="271" w="936" h="749" scalingType="scaleByWidth" arrangeType="arrangeVertical" arrangePadding="2.0" alpha="1"/>
+  <Line name="topSeparator" x="13" y="268" w="936" h="2" x1="0" y1="0" x2="936" y2="0" strokeColor="2BAAFF" strokeW="2" alpha="1"/>
+  <TextPoint name="txtCName" x="12" y="233" align="left" font="AeroMaticsLightRegular" size="24" text="Company Name" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtPrice" x="560" y="233" align="left" font="AeroMaticsLightRegular" size="24" text="Price / Share" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtChange" x="720" y="233" align="left" font="AeroMaticsLightRegular" size="24" text="Change (Qtr)" fillColor="2BAAFF" alpha="1"/>
+  <ButtonTextField name="btnFilter" x="61" y="156" w="271" h="50" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Line name="gfxStandard" x="0" y="49" w="271" h="1" x1="0" y1="0" x2="271" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Container name="gfxHover" x="0" y="0" w="271" h="50" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Line name="line" x="0" y="49" w="271" h="1" x1="0" y1="0" x2="271" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="base" subtype="filled" x="0" y="0" w="271" h="50" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.25098039215686"/>
+    </Container>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="271" h="50" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <TextPoint name="txtCaption" x="9" y="4" align="left" font="AeroMaticsLightRegular" size="36" text="Filter" fillColor="2BAAFF" alpha="1"/>
+  </ButtonTextField>
+  <Image name="icon" file="findIcon.png" x="12" y="161" alpha="1"/>
+  <TextPoint name="txtSubtitle" x="12" y="92" align="left" font="AeroMaticsLightRegular" size="30" text="Subtitle Long Name" fillColor="1E62A8" alpha="1"/>
+  <TextPoint name="txtTitle" x="61" y="41" align="left" font="AeroMaticsLightRegular" size="48" text="Main Title" fillColor="2BAAFF" alpha="1"/>
+  <ButtonStandard name="btnBack" x="13" y="51" w="40" h="40" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="btnBack_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnBack_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="btnBack_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+</layout>

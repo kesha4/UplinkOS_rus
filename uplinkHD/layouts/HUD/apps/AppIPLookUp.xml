@@ -1,0 +1,15 @@
+<layout name="AppIPLookUp" w="240" h="45">
+  <Image name="base" file="appBase_02.png" x="0" y="0" alpha="1"/>
+  <ButtonTextField name="btnInput" x="36" y="4" w="186" h="37" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Line name="gfxHover" x="16" y="31" w="155" h="1" x1="0" y1="0" x2="155" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Line name="gfxClick" x="16" y="31" w="155" h="1" x1="0" y1="0" x2="155" y2="0" strokeColor="FFFFFF" strokeW="1" alpha="1"/>
+    <TextPoint name="txtCaption" x="16" y="8" align="left" font="AeroMaticsLightRegular" size="18" text="Enter IP" fillColor="FFFFFF" alpha="1"/>
+  </ButtonTextField>
+  <Image name="icon" file="appIcon_ipLookUp.png" x="8" y="12" alpha="1"/>
+  <Image name="iconLoading" file="appIcon_loading_02.png" x="5" y="7" alpha="1"/>
+  <ButtonStandard name="btnClose" x="222" y="0" w="18" h="18" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="appBtn_close_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="appBtn_close_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="appBtn_close_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+</layout>

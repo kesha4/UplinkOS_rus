@@ -1,0 +1,60 @@
+<layout name="WinSystem" w="480" h="434">
+  <Rectangle name="baseBG" subtype="strokedFill" x="0" y="0" w="479" h="432" fillColor="112B3C" fillA="0.94901960784314" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+  <Rectangle name="baseTitle" subtype="filled" x="0" y="0" w="480" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  <Line name="baseLine" x="0" y="430" w="480" h="4" x1="0" y1="2" x2="480" y2="2" strokeColor="2BAAFF" strokeW="4" alpha="1"/>
+  <Container name="gateway" x="10" y="85" w="460" h="337" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <TextPoint name="txtHardware" x="9" y="-5" align="left" font="AeroMaticsRegular" size="24" text="HARDWARE" fillColor="2BAAFF" alpha="1"/>
+    <Line name="separator" x="0" y="22" w="460" h="2" x1="0" y1="1" x2="460" y2="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <TextPoint name="txtCPU" x="10" y="31" align="left" font="AeroMaticsLightRegular" size="18" text="Total CPU speed:" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtBandwidth" x="10" y="51" align="left" font="AeroMaticsLightRegular" size="18" text="Bandwidth:" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtMemory" x="10" y="71" align="left" font="AeroMaticsLightRegular" size="18" text="Memory capacity:" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtCPUAmount" x="232" y="31" align="right" font="AeroMaticsRegular" size="18" text="260 GHz" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtBandwidthAmount" x="232" y="51" align="right" font="AeroMaticsRegular" size="18" text="8 GQ/s" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtMemoryAmount" x="232" y="71" align="right" font="AeroMaticsRegular" size="18" text="24 GQ" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtCPUMax" x="451" y="31" align="right" font="AeroMaticsRegular" size="18" text="1/2 Slots used" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtBandwidthMax" x="451" y="51" align="right" font="AeroMaticsRegular" size="18" text="16 GQ/s supported" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtMemoryMax" x="451" y="71" align="right" font="AeroMaticsRegular" size="18" text="80 GQ supported" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtDevices" x="9" y="115" align="left" font="AeroMaticsRegular" size="24" text="DEVICES" fillColor="2BAAFF" alpha="1"/>
+    <Line name="separator2" x="0" y="142" w="460" h="2" x1="0" y1="1" x2="460" y2="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <TextPoint name="txtDevice01" x="10" y="151" align="left" font="AeroMaticsLightRegular" size="18" text="Motion Sensor" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtDevice02" x="10" y="171" align="left" font="AeroMaticsLightRegular" size="18" text="Gateway Self-Distruct" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtDeviceMax" x="451" y="151" align="right" font="AeroMaticsLightRegular" size="18" text="1/2 Slots used" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtHUD" x="9" y="215" align="left" font="AeroMaticsRegular" size="24" text="HUD UPGRADES" fillColor="2BAAFF" alpha="1"/>
+    <Line name="separator3" x="0" y="242" w="460" h="2" x1="0" y1="1" x2="460" y2="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <TextParagraph name="txtHUD" x="10" y="252" w="441" h="47.0000038146973" align="left" font="AeroMaticsLightRegular" size="18" leading="0" text="Motion Sensor" fillColor="2BAAFF" alpha="1"/>
+    <ButtonStandard name="btnViewGateway" x="110" y="307" w="240" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="240" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="240" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="240" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <TextPoint name="txtCaption" x="120" y="0" align="center" font="AeroMaticsLightRegular" size="24" text="View Gateway" fillColor="2BAAFF" alpha="1"/>
+    </ButtonStandard>
+  </Container>
+  <Container name="about" x="83" y="103" w="316" h="297" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <TextPoint name="txtUplink" x="158" y="-5" align="center" font="AeroMaticsRegular" size="24" text="UPLINK v1.5" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtUplinkCredit" x="158" y="25" align="center" font="AeroMaticsLightRegular" size="24" text="Created by Introversion Software" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtUplinkOS" x="158" y="77" align="center" font="AeroMaticsRegular" size="24" text="UPLINK OS vBETA" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtUplinkOSCredit" x="158" y="107" align="center" font="AeroMaticsLightRegular" size="24" text="Created by Tudor C. Stamate" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtFont" x="158" y="159" align="center" font="AeroMaticsRegular" size="24" text="AERO MATICS FONT" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtFontCredit" x="158" y="189" align="center" font="AeroMaticsLightRegular" size="24" text="Created by Jayvee Enaguas" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtSound" x="158" y="240" align="center" font="AeroMaticsRegular" size="24" text="SOUNDS" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtSoundCredits" x="158" y="270" align="center" font="AeroMaticsLightRegular" size="24" text="Created by narfstuff &amp; dev_tones" fillColor="2BAAFF" alpha="1"/>
+  </Container>
+  <TextPoint name="txtTitle" x="240" y="5" align="center" font="AeroMaticsRegular" size="30" text="SYSTEM" fillColor="0B0B0B" alpha="1"/>
+  <Rectangle name="tabsBg" subtype="filled" x="1" y="45" w="478" h="30" fillColor="1E62A8" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  <ButtonStandard name="btnTab0" x="1" y="45" w="235" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="235" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.50196078431373"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="235" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <TextPoint name="txtCaption" x="118" y="0" align="center" font="AeroMaticsLightRegular" size="24" text="Gateway" fillColor="FFFFFF" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnTab1" x="246" y="45" w="233" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="233" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.50196078431373"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="233" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <TextPoint name="txtCaption" x="116" y="1" align="center" font="AeroMaticsLightRegular" size="24" text="About" fillColor="FFFFFF" alpha="1"/>
+  </ButtonStandard>
+  <Line name="tabSelection" x="1" y="73" w="235" h="2" x1="0" y1="0" x2="235" y2="0" strokeColor="FFFFFF" strokeW="2" alpha="1"/>
+  <ButtonStandard name="btnClose" x="435" y="0" w="45" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="btnCloseWin_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnCloseWin_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="btnCloseWin_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+</layout>

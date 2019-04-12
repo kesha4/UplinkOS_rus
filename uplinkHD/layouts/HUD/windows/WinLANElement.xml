@@ -1,0 +1,20 @@
+<layout name="WinLANElement" w="90" h="94">
+  <ButtonStandard name="btnBase01" x="24" y="65" w="42" h="25" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="btnBase_lanEl01_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnBase_lanEl01_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="btnBase_lanEl01_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnBase02" x="24" y="65" w="42" h="25" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="btnBase_lanEl02_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnBase_lanEl02_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="btnBase_lanEl01_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+  <Image name="signal03" file="lanEl_base_signal03.png" x="16" y="61" alpha="1"/>
+  <Image name="signal01" file="lanEl_base_signal01.png" x="16" y="61" alpha="1"/>
+  <Image name="signal02" file="lanEl_base_signal02.png" x="16" y="61" alpha="1"/>
+  <TextPoint name="txtLabel" x="79" y="67" align="left" font="AeroMaticsLightRegular" size="18" text="Text" fillColor="FFA41C" alpha="1"/>
+  <Image name="selection" file="lanEl_base_selection.png" x="16" y="54" alpha="1"/>
+  <Image name="icon" file="lanEl_icon_router.png" x="15" y="0" alpha="1"/>
+  <Arc name="appCharge" x="0" y="0" w="30" h="30" strokeColor="FFFFFF" strokeW="4" alpha="1"/>
+  <Image name="appDone" file="lanEl_appDone.png" x="6" y="8" alpha="1"/>
+</layout>

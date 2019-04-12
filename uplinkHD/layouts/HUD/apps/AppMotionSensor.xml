@@ -1,0 +1,10 @@
+<layout name="AppMotionSensor" w="160" h="18">
+  <Image name="base" file="appBase_04.png" x="0" y="0" alpha="1"/>
+  <Image name="icon" file="appIcon_motionSensor_01.png" x="2" y="2" alpha="1"/>
+  <TextPoint name="txtDesc" x="39" y="-1" align="left" font="AeroMaticsRegular" size="18" text="0 Persons" fillColor="112B3C" alpha="1"/>
+  <ButtonStandard name="btnClose" x="142" y="0" w="18" h="18" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="appBtn_close_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="appBtn_close_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="appBtn_close_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+</layout>

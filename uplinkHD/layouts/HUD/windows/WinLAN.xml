@@ -1,0 +1,40 @@
+<layout name="WinLAN" w="962" h="1082">
+  <Gradient name="overlay" subtype="gradVertical" x="0" y="0" w="962" h="1082" alpha="1">
+    <GradStop location="0" fillColor="0B0B0B"/>
+    <GradStop location="0.5" fillColor="0B0B0B"/>
+    <GradStop location="1" fillColor="112B3C"/>
+  </Gradient>
+  <Rectangle name="overlayStroke" subtype="stroked" x="0" y="0" w="962" h="1082" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="0.8"/>
+  <Container name="network" x="84" y="62" w="846" h="770" scalingType="scaleFree" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <ClippingMask name="clipMask" x="-84" y="-62" w="962" h="1082"/>
+    <Draggable name="elements" x="83" y="432" w="90" h="94" scalingType="scaleByWidth" arrangeType="arrangeFree" arrangePadding="0" alpha="1"/>
+  </Container>
+  <Container name="controls" x="790" y="921" w="160" h="70" scalingType="scaleByWidth" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <ButtonStandard name="btnReset" x="0" y="0" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="-1" align="center" font="AeroMaticsLightRegular" size="24" text="Reset" fillColor="2BAAFF" alpha="1"/>
+    </ButtonStandard>
+    <ButtonStandard name="btnConnect" x="0" y="40" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="-1" align="center" font="AeroMaticsLightRegular" size="24" text="Connect" fillColor="2BAAFF" alpha="1"/>
+    </ButtonStandard>
+  </Container>
+  <Container name="sidePanel" x="12" y="42" w="938" h="68" scalingType="scaleByWidth" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Line name="separatorH" x="0" y="19" w="229" h="1" x1="0" y1="0" x2="229" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <TextPoint name="txtTitle" x="0" y="-3" align="left" font="AeroMaticsRegular" size="18" text="SYSTEM TITLE" fillColor="2BAAFF" alpha="1"/>
+    <TextParagraph name="txtDesc" x="1" y="27" w="307.827026367188" h="201.365234375" align="left" font="AeroMaticsLightRegular" size="18" leading="0" text="System description&#xD;on two lines really." fillColor="2BAAFF" alpha="1"/>
+    <ButtonStandard name="btnClose" x="893" y="2" w="45" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Image name="gfxStandard" file="btnClose_lan_s.png" x="0" y="0" alpha="1"/>
+      <Image name="gfxHover" file="btnClose_lan_h.png" x="0" y="0" alpha="1"/>
+      <Image name="gfxClick" file="btnClose_lan_c.png" x="0" y="0" alpha="1"/>
+    </ButtonStandard>
+  </Container>
+  <TextPoint name="txtAdminStatus" x="13" y="959" align="left" font="AeroMaticsLightRegular" size="24" text="Admin Status:" fillColor="D31A1A" alpha="1"/>
+  <Line name="lineNormal" x="197" y="270" w="38" h="2" x1="0" y1="0" x2="38" y2="0" strokeColor="1E62A8" strokeW="2" alpha="1"/>
+  <Line name="lineConnected" x="197" y="280" w="38" h="2" x1="0" y1="0" x2="38" y2="0" strokeColor="FFFFFF" strokeW="2" alpha="1"/>
+  <Line name="lineTrace" x="197" y="290" w="38" h="2" x1="0" y1="0" x2="38" y2="0" strokeColor="D31A1A" strokeW="2" alpha="1"/>
+</layout>

@@ -1,0 +1,22 @@
+<layout name="PopUp" w="1920" h="1080">
+  <Rectangle name="overlay" subtype="filled" x="0" y="0" w="1920" h="1180" fillColor="0B0B0B" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.50196078431373"/>
+  <Container name="dialogueBox" x="720" y="405" w="480" h="272" scalingType="scaleByHeight" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="base" subtype="strokedFill" x="0" y="39" w="479" h="231" fillColor="112B3C" fillA="0.90196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="titleBase" subtype="filled" x="0" y="0" w="480" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Line name="line" x="0" y="268" w="480" h="4" x1="0" y1="2" x2="480" y2="2" strokeColor="2BAAFF" strokeW="4" alpha="1"/>
+    <ButtonStandard name="btnCancel" x="40" y="210" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="1" align="center" font="AeroMaticsLightRegular" size="24" text="Cancel" fillColor="2BAAFF" alpha="1"/>
+    </ButtonStandard>
+    <ButtonStandard name="btnOK" x="280" y="210" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="1" align="center" font="AeroMaticsLightRegular" size="24" text="OK" fillColor="2BAAFF" alpha="1"/>
+    </ButtonStandard>
+    <TextPoint name="txtTitle" x="239" y="5" align="center" font="AeroMaticsRegular" size="30" text="TITLE ALL CAPS 30px" fillColor="0B0B0B" alpha="1"/>
+    <TextParagraph name="txtContents" x="40" y="65" w="400" h="123" align="left" font="AeroMaticsLightRegular" size="24" leading="0" text="Pop-Up text body long, very long. So long that it’s a multiline text!&#xD;My god, so much text this is getting ridiculous!&#xD;Jeezus, still going with this? Really? It w..." fillColor="2BAAFF" alpha="1"/>
+  </Container>
+</layout>

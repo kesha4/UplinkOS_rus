@@ -1,0 +1,26 @@
+<layout name="SoftwareElement" w="308" h="226">
+  <ButtonStandard name="btnBase" x="0" y="0" w="308" h="226" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="308" h="226" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.30196078431373"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="308" h="226" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  </ButtonStandard>
+  <TextPoint name="txtName" x="154" y="134" align="center" font="AeroMaticsRegular" size="24" text="HUD Connection Analysis" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtType" x="154" y="167" align="center" font="AeroMaticsLightRegular" size="18" text="HUD Upgrade" fillColor="2BAAFF" alpha="1"/>
+  <Image name="appIcon" file="icon_app_unknown.png" x="109" y="30" alpha="1"/>
+  <Container name="info" x="0" y="0" w="308" h="226" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="base" subtype="filled" x="0" y="0" w="308" h="226" fillColor="112B3C" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <TextPoint name="txtName" x="11" y="4" align="left" font="AeroMaticsRegular" size="24" text="HUD Connection Analysis" fillColor="2BAAFF" alpha="1"/>
+    <TextParagraph name="txtDesc" x="11" y="38" w="287.999969482422" h="130.999992370605" align="left" font="AeroMaticsLightRegular" size="18" leading="0" text="v1.0 - This tool will force open any lock system you might encounter on a LAN system.&#xD;The sys Admin will probably notice this." fillColor="2BAAFF" alpha="1"/>
+    <ButtonStandard name="btnVersion" x="0" y="181" w="80" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="80" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.4"/>
+      <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="80" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <TextPoint name="txtCaption" x="40" y="5" align="center" font="AeroMaticsRegular" size="30" text="v1.0" fillColor="2BAAFF" alpha="1"/>
+    </ButtonStandard>
+    <Line name="canChangeVs" x="0" y="224" w="80" h="2" x1="0" y1="0" x2="80" y2="0" strokeColor="2BAAFF" strokeW="2" alpha="1"/>
+    <TextPoint name="txtPrice" x="154" y="186" align="center" font="AeroMaticsRegular" size="30" text="25000c" fillColor="2BAAFF" alpha="1"/>
+    <ButtonStandard name="btnBuy" x="228" y="181" w="80" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Image name="gfxStandard" file="btnBuy_s.png" x="0" y="0" alpha="1"/>
+      <Image name="gfxHover" file="btnBuy_h.png" x="0" y="0" alpha="1"/>
+      <Image name="gfxClick" file="btnBuy_c.png" x="0" y="0" alpha="1"/>
+    </ButtonStandard>
+  </Container>
+</layout>

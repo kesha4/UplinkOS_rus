@@ -1,0 +1,68 @@
+<layout name="Obituary" w="1920" h="1080">
+  <Container name="contents" x="639" y="138" w="642" h="752" scalingType="scaleByHeight" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="logo" file="logo.png" x="51" y="133" alpha="1"/>
+    <TextPoint name="txtScoreVal" x="643" y="680" align="right" font="AeroMaticsRegular" size="60" text="2710000" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtScore" x="642" y="649" align="right" font="AeroMaticsLightRegular" size="24" text="Final Score" fillColor="2BAAFF" alpha="1"/>
+    <Container name="awards" x="1" y="688" w="224" h="64" scalingType="scaleByWidth" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <ButtonStandard name="iconAw0" x="0" y="0" w="24" h="24" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+        <Image name="iconAw0" file="iconAwNone_24px.png" x="0" y="0" alpha="1"/>
+      </ButtonStandard>
+      <ButtonStandard name="iconAw1" x="40" y="0" w="24" h="24" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+        <Image name="iconAw1" file="iconAwNone_24px.png" x="0" y="0" alpha="1"/>
+      </ButtonStandard>
+      <ButtonStandard name="iconAw2" x="80" y="0" w="24" h="24" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+        <Image name="iconAw2" file="iconAwNone_24px.png" x="0" y="0" alpha="1"/>
+      </ButtonStandard>
+      <ButtonStandard name="iconAw3" x="120" y="0" w="24" h="24" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+        <Image name="iconAw3" file="iconAwNone_24px.png" x="0" y="0" alpha="1"/>
+      </ButtonStandard>
+      <ButtonStandard name="iconAw4" x="160" y="0" w="24" h="24" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+        <Image name="iconAw4" file="iconAwNone_24px.png" x="0" y="0" alpha="1"/>
+      </ButtonStandard>
+      <ButtonStandard name="iconAw5" x="200" y="0" w="24" h="24" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+        <Image name="iconAw5" file="iconAwNone_24px.png" x="0" y="0" alpha="1"/>
+      </ButtonStandard>
+      <ButtonStandard name="iconAw6" x="0" y="40" w="24" h="24" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+        <Image name="iconAw6" file="iconAwNone_24px.png" x="0" y="0" alpha="1"/>
+      </ButtonStandard>
+      <ButtonStandard name="iconAw7" x="40" y="40" w="24" h="24" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+        <Image name="iconAw7" file="iconAwNone_24px.png" x="0" y="0" alpha="1"/>
+      </ButtonStandard>
+      <ButtonStandard name="iconAw8" x="80" y="40" w="24" h="24" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+        <Image name="iconAw8" file="iconAwNone_24px.png" x="0" y="0" alpha="1"/>
+      </ButtonStandard>
+      <ButtonStandard name="iconAw9" x="120" y="40" w="24" h="24" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+        <Image name="iconAw9" file="iconAwNone_24px.png" x="0" y="0" alpha="1"/>
+      </ButtonStandard>
+      <ButtonStandard name="iconAw10" x="160" y="40" w="24" h="24" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+        <Image name="iconAw10" file="iconAwNone_24px.png" x="0" y="0" alpha="1"/>
+      </ButtonStandard>
+      <ButtonStandard name="iconAw11" x="200" y="40" w="24" h="24" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+        <Image name="iconAw11" file="iconAwNone_24px.png" x="0" y="0" alpha="1"/>
+      </ButtonStandard>
+    </Container>
+    <TextPoint name="txtAwardsVal" x="184" y="649" align="left" font="AeroMaticsRegular" size="24" text="0/12" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtAwards" x="-1" y="649" align="left" font="AeroMaticsLightRegular" size="24" text="Special Awards" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtLives" x="321" y="559" align="center" font="AeroMaticsLightRegular" size="24" text="You ruined the lives of 0 people" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtDestroyed" x="321" y="519" align="center" font="AeroMaticsLightRegular" size="24" text="You destroyed 0 computers" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtSecurity" x="321" y="479" align="center" font="AeroMaticsLightRegular" size="24" text="You compromised 2 high security systems" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtNRatingVal" x="420" y="379" align="left" font="AeroMaticsRegular" size="24" text="Neutral" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtURatingVal" x="420" y="339" align="left" font="AeroMaticsRegular" size="24" text="Skilled" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtFinanceVal" x="420" y="299" align="left" font="AeroMaticsRegular" size="24" text="1000 credits" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtNRating" x="102" y="379" align="left" font="AeroMaticsLightRegular" size="24" text="Neuromancer Rating" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtURating" x="102" y="339" align="left" font="AeroMaticsLightRegular" size="24" text="Uplink Rating" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtFinance" x="102" y="299" align="left" font="AeroMaticsLightRegular" size="24" text="Finances" fillColor="2BAAFF" alpha="1"/>
+    <TextParagraph name="txtDisavow" x="2" y="173" w="638.1484375" h="84" align="center" font="AeroMaticsLightRegular" size="24" leading="0" text="Disavowed by Uplink Corporation at 20:09, 6 April 2010&#xD;for hacking into the Global Criminal Database." fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtName" x="321" y="-17" align="center" font="AeroMaticsRegular" size="60" text="Agent Name" fillColor="2BAAFF" alpha="1"/>
+  </Container>
+  <ButtonStandard name="btnPI" x="1820" y="70" w="40" h="40" scalingType="scaleByHeight" arrangeType="arrangeFree" arrangePadding="0" alpha="0.10196078431373">
+    <Image name="gfxStandard" file="btnPI_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnPI_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="btnPI_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnBack" x="60" y="70" w="40" h="40" scalingType="scaleByHeight" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="btnBack_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnBack_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="btnBack_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+</layout>

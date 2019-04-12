@@ -1,0 +1,8 @@
+<layout name="Tooltip" w="238" h="38">
+  <Container name="Tooltip" x="0" y="0" w="238" h="38" scalingType="scaleByHeight" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="partR" file="tooltip_R.png" x="219" y="0" alpha="1"/>
+    <Rectangle name="partM" subtype="filled" x="19" y="0" w="200" h="38" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Image name="partL" file="tooltip_L.png" x="0" y="0" alpha="1"/>
+    <TextPoint name="txtCaption" x="18" y="4" align="left" font="AeroMaticsLightRegular" size="24" text="Enter your Username." fillColor="FFFFFF" alpha="1"/>
+  </Container>
+</layout>

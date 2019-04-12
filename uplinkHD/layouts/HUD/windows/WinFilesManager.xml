@@ -1,0 +1,48 @@
+<layout name="WinFilesManager" w="480" h="668">
+  <Rectangle name="baseBG" subtype="strokedFill" x="0" y="5" w="479" h="659" fillColor="112B3C" fillA="0.94901960784314" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+  <Rectangle name="baseTitle" subtype="filled" x="0" y="0" w="480" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  <Line name="baseLine" x="0" y="662" w="479" h="4" x1="0" y1="2" x2="479" y2="2" strokeColor="2BAAFF" strokeW="4" alpha="1"/>
+  <TextPoint name="txtTitle" x="240" y="5" align="center" font="AeroMaticsRegular" size="30" text="FILES MANAGER" fillColor="0B0B0B" alpha="1"/>
+  <ScrollableList name="list" x="12" y="75" w="467" h="588" scalingType="scaleByWidth" arrangeType="arrangeVertical" arrangePadding="0.0" alpha="1"/>
+  <Rectangle name="tabsBg" subtype="filled" x="1" y="45" w="478" h="30" fillColor="1E62A8" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  <ButtonStandard name="btnTab0" x="1" y="45" w="120" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="120" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.50196078431373"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="120" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <TextPoint name="txtCaption" x="29" y="1" align="left" font="AeroMaticsLightRegular" size="24" text="Apps" fillColor="FFFFFF" alpha="1"/>
+    <Image name="icon" file="winIcon_tab_app.png" x="5" y="5" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnTab1" x="121" y="45" w="120" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="120" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.50196078431373"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="120" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <TextPoint name="txtCaption" x="29" y="1" align="left" font="AeroMaticsLightRegular" size="24" text="Files" fillColor="FFFFFF" alpha="1"/>
+    <Image name="icon" file="winIcon_tab_file.png" x="8" y="5" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnTab2" x="241" y="45" w="120" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="120" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.50196078431373"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="120" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <TextPoint name="txtCaption" x="29" y="1" align="left" font="AeroMaticsLightRegular" size="24" text="Audio" fillColor="FFFFFF" alpha="1"/>
+    <Image name="icon" file="appBtn_play_s.png" x="5" y="5" alpha="1"/>
+  </ButtonStandard>
+  <Line name="tabSelection" x="1" y="73" w="120" h="2" x1="0" y1="0" x2="120" y2="0" strokeColor="FFFFFF" strokeW="2" alpha="1"/>
+  <Container name="hddSpace" x="371" y="49" w="99" h="22" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Poly name="barBase" subtype="filled" x="0" y="18" w="99" h="4" fillColor="083E76" fillA="1" strokeColor="FF00FF" alpha="1">
+      <Vertex x="0" y="4"/>
+      <Vertex x="0" y="0"/>
+      <Vertex x="99" y="0"/>
+      <Vertex x="99" y="4"/>
+    </Poly>
+    <Poly name="barFill" subtype="filled" x="0" y="18" w="99" h="4" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" alpha="1">
+      <Vertex x="0" y="4"/>
+      <Vertex x="0" y="0"/>
+      <Vertex x="99" y="0"/>
+      <Vertex x="99" y="4"/>
+    </Poly>
+    <TextPoint name="txtAmount" x="99" y="-3" align="right" font="AeroMaticsLightRegular" size="18" text="10 GQs" fillColor="FFFFFF" alpha="1"/>
+    <TextPoint name="txtFree" x="-1" y="-3" align="left" font="AeroMaticsLightRegular" size="18" text="Free:" fillColor="FFFFFF" alpha="1"/>
+  </Container>
+  <ButtonStandard name="btnClose" x="435" y="0" w="45" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="btnCloseWin_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnCloseWin_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="btnCloseWin_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+</layout>

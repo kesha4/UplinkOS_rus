@@ -1,0 +1,23 @@
+<layout name="CypherScreen" w="962" h="1082">
+  <ButtonStandard name="btnBypass" x="720" y="810" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <TextPoint name="txtCaption" x="80" y="-1" align="center" font="AeroMaticsLightRegular" size="24" text="Bypass" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnProceed" x="401" y="780" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <TextPoint name="txtCaption" x="80" y="-1" align="center" font="AeroMaticsLightRegular" size="24" text="Proceed" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <Line name="bottomSeparator" x="13" y="722" w="936" h="2" x1="0" y1="0" x2="936" y2="0" strokeColor="2BAAFF" strokeW="2" alpha="1"/>
+  <TextPoint name="txtNumberLine" x="480" y="662" align="center" font="AeroMaticsRegular" size="48" text="012345678901234567890123456789" fillColor="2BAAFF" alpha="1"/>
+  <Image name="icon1" file="icon_cypher_01.png" x="398" y="438" alpha="1"/>
+  <Image name="icon2" file="icon_cypher_02.png" x="353" y="393" alpha="1"/>
+  <Image name="icon3" file="icon_cypher_03.png" x="341" y="381" alpha="1"/>
+  <TextPoint name="txtNumber" x="481" y="491" align="center" font="AeroMaticsRegular" size="48" text="0" fillColor="FFFFFF" alpha="1"/>
+  <Line name="topSeparator" x="13" y="358" w="936" h="2" x1="0" y1="0" x2="936" y2="0" strokeColor="2BAAFF" strokeW="2" alpha="1"/>
+  <TextPoint name="txtSubtitle" x="12" y="182" align="left" font="AeroMaticsLightRegular" size="30" text="Subtitle Long Name" fillColor="1E62A8" alpha="1"/>
+  <TextPoint name="txtTitle" x="12" y="134" align="left" font="AeroMaticsLightRegular" size="48" text="Main Title" fillColor="2BAAFF" alpha="1"/>
+</layout>

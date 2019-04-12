@@ -1,0 +1,51 @@
+<layout name="SecurityScreen" w="962" h="1082">
+  <Line name="topSeparator" x="13" y="370" w="936" h="2" x1="0" y1="0" x2="936" y2="0" strokeColor="2BAAFF" strokeW="2" alpha="1"/>
+  <Line name="bottomSeparator" x="13" y="709" w="936" h="2" x1="0" y1="0" x2="936" y2="0" strokeColor="2BAAFF" strokeW="2" alpha="1"/>
+  <ButtonStandard name="btnClose" x="401" y="780" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <TextPoint name="txtCaption" x="80" y="1" align="center" font="AeroMaticsLightRegular" size="24" text="Close" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <Rectangle name="rect0" subtype="filled" x="14" y="428" w="935" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.25098039215686"/>
+  <Image name="iconProxy" file="icon_proxy_40px.png" x="80" y="430" alpha="1"/>
+  <TextPoint name="txtSystem0" x="159" y="432" align="left" font="AeroMaticsLightRegular" size="30" text="Proxy" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtLevel0" x="400" y="432" align="left" font="AeroMaticsLightRegular" size="30" text="Level 1" fillColor="2BAAFF" alpha="1"/>
+  <ButtonStandard name="btnStatus0" x="561" y="428" w="322" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="322" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.30196078431373"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="322" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Image name="iconOn" file="icon_doneFill40x.png" x="201" y="2" alpha="1"/>
+    <Image name="iconOff" file="icon_notDoneFill40x.png" x="201" y="2" alpha="1"/>
+    <TextPoint name="txtCaption" x="79" y="4" align="left" font="AeroMaticsLightRegular" size="30" text="Enabled" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <Rectangle name="rect1" subtype="filled" x="14" y="518" w="935" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.25098039215686"/>
+  <Image name="iconFirewall" file="icon_firewall_40px.png" x="80" y="520" alpha="1"/>
+  <TextPoint name="txtSystem1" x="159" y="522" align="left" font="AeroMaticsLightRegular" size="30" text="Firewall" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtLevel1" x="400" y="522" align="left" font="AeroMaticsLightRegular" size="30" text="Level 1" fillColor="2BAAFF" alpha="1"/>
+  <ButtonStandard name="btnStatus1" x="561" y="518" w="322" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="322" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.30196078431373"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="322" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Image name="iconOn" file="icon_doneFill40x.png" x="201" y="2" alpha="1"/>
+    <Image name="iconOff" file="icon_notDoneFill40x.png" x="201" y="2" alpha="1"/>
+    <TextPoint name="txtCaption" x="79" y="4" align="left" font="AeroMaticsLightRegular" size="30" text="Enabled" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <Rectangle name="rect2" subtype="filled" x="14" y="608" w="935" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.25098039215686"/>
+  <Image name="iconMonitor" file="icon_monitor_40px.png" x="80" y="610" alpha="1"/>
+  <TextPoint name="txtSystem2" x="159" y="612" align="left" font="AeroMaticsLightRegular" size="30" text="Monitor" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtLevel2" x="400" y="612" align="left" font="AeroMaticsLightRegular" size="30" text="Level 1" fillColor="2BAAFF" alpha="1"/>
+  <ButtonStandard name="btnStatus2" x="561" y="608" w="322" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="322" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.30196078431373"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="322" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Image name="iconOn" file="icon_doneFill40x.png" x="201" y="2" alpha="1"/>
+    <Image name="iconOff" file="icon_notDoneFill40x.png" x="201" y="2" alpha="1"/>
+    <TextPoint name="txtCaption" x="79" y="4" align="left" font="AeroMaticsLightRegular" size="30" text="Enabled" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <TextPoint name="txtNoSystems" x="481" y="515" align="center" font="AeroMaticsLightRegular" size="36" text="No Security Systems installed" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtSubtitle" x="12" y="182" align="left" font="AeroMaticsLightRegular" size="30" text="Subtitle Long Name" fillColor="1E62A8" alpha="1"/>
+  <TextPoint name="txtTitle" x="61" y="131" align="left" font="AeroMaticsLightRegular" size="48" text="Main Title" fillColor="2BAAFF" alpha="1"/>
+  <ButtonStandard name="btnBack" x="13" y="141" w="40" h="40" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="btnBack_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnBack_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="btnBack_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+</layout>

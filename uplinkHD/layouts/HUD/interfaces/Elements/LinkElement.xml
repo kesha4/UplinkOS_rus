@@ -1,0 +1,14 @@
+<layout name="LinkElement" w="922" h="45">
+  <ButtonStandard name="btnBase" x="0" y="0" w="922" h="44" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="922" h="44" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.30196078431373"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="922" h="44" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  </ButtonStandard>
+  <Image name="iconBookmark" file="icon_link_bookmark.png" x="10" y="13" alpha="1"/>
+  <Image name="iconFavOff" file="icon_link_favourite_off.png" x="862" y="13" alpha="1"/>
+  <Image name="iconFavOn" file="icon_link_favourite_on.png" x="862" y="13" alpha="1"/>
+  <Image name="iconMapOff" file="icon_link_onMap_off.png" x="892" y="13" alpha="1"/>
+  <Image name="iconMapOn" file="icon_link_onMap_on.png" x="892" y="13" alpha="1"/>
+  <Line name="separator" x="0" y="44" w="922" h="1" x1="0" y1="0" x2="922" y2="0" strokeColor="1E62A8" strokeW="1" alpha="1"/>
+  <TextPoint name="txtName" x="39" y="4" align="left" font="AeroMaticsLightRegular" size="30" text="Uplink Test Machine" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtIP" x="852" y="4" align="right" font="AeroMaticsLightRegular" size="30" text="128.185.0.4" fillColor="1E62A8" alpha="1"/>
+</layout>

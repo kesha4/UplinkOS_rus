@@ -1,0 +1,123 @@
+<layout name="WinOptions" w="320" h="469">
+  <Rectangle name="baseBG" subtype="strokedFill" x="0" y="0" w="319" h="467" fillColor="112B3C" fillA="0.94901960784314" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+  <Rectangle name="baseTitle" subtype="filled" x="0" y="0" w="320" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  <Line name="baseLine" x="0" y="465" w="320" h="4" x1="0" y1="2" x2="320" y2="2" strokeColor="2BAAFF" strokeW="4" alpha="1"/>
+  <ButtonStandard name="btnApply" x="0" y="422" w="319" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Line name="separator03" x="10" y="0" w="299" h="1" x1="0" y1="0" x2="299" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="319" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="319" h="45" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <TextPoint name="txtCaption" x="160" y="7" align="center" font="AeroMaticsLightRegular" size="24" text="Apply Changes" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <ButtonSelect name="btnSWMouse" x="10" y="373" w="275" h="30" scalingType="scaleByWidth" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <TextPoint name="txtOn" x="203" y="1" align="left" font="AeroMaticsLightRegular" size="24" text="On" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtOff" x="239" y="1" align="left" font="AeroMaticsLightRegular" size="24" text="Off" fillColor="1E62A8" alpha="1"/>
+    <Container name="gfxStandardOn" x="235" y="0" w="40" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="switch" subtype="filled" x="0" y="0" w="40" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    </Container>
+    <Container name="gfxHoverOn" x="0" y="0" w="275" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="base" subtype="filled" x="0" y="0" w="275" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <Rectangle name="switch" subtype="filled" x="235" y="0" w="40" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    </Container>
+    <Container name="gfxClickOn" x="0" y="0" w="275" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="base" subtype="filled" x="0" y="0" w="275" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <Rectangle name="switch" subtype="filled" x="215" y="0" w="40" h="30" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    </Container>
+    <Container name="gfxStandardOff" x="195" y="0" w="40" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="switch" subtype="filled" x="0" y="0" w="40" h="30" fillColor="1E62A8" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    </Container>
+    <Container name="gfxHoverOff" x="0" y="0" w="275" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="base" subtype="filled" x="0" y="0" w="275" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <Rectangle name="switch" subtype="filled" x="195" y="0" w="40" h="30" fillColor="1E62A8" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    </Container>
+    <Container name="gfxClickOff" x="0" y="0" w="275" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="base" subtype="filled" x="0" y="0" w="275" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <Rectangle name="switch" subtype="filled" x="215" y="0" w="40" h="30" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    </Container>
+    <TextPoint name="txtCaption" x="6" y="1" align="left" font="AeroMaticsLightRegular" size="24" text="Software Mouse" fillColor="2BAAFF" alpha="1"/>
+  </ButtonSelect>
+  <TextPoint name="txtMisc" x="9" y="321" align="left" font="AeroMaticsLightRegular" size="36" text="Misc" fillColor="2BAAFF" alpha="1"/>
+  <ButtonSelect name="btnMusic" x="10" y="260" w="275" h="30" scalingType="scaleByWidth" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <TextPoint name="txtOn" x="203" y="1" align="left" font="AeroMaticsLightRegular" size="24" text="On" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtOff" x="239" y="1" align="left" font="AeroMaticsLightRegular" size="24" text="Off" fillColor="1E62A8" alpha="1"/>
+    <Container name="gfxStandardOn" x="235" y="0" w="40" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="switch" subtype="filled" x="0" y="0" w="40" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    </Container>
+    <Container name="gfxHoverOn" x="0" y="0" w="275" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="base" subtype="filled" x="0" y="0" w="275" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <Rectangle name="switch" subtype="filled" x="235" y="0" w="40" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    </Container>
+    <Container name="gfxClickOn" x="0" y="0" w="275" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="base" subtype="filled" x="0" y="0" w="275" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <Rectangle name="switch" subtype="filled" x="215" y="0" w="40" h="30" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    </Container>
+    <Container name="gfxStandardOff" x="195" y="0" w="40" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="switch" subtype="filled" x="0" y="0" w="40" h="30" fillColor="1E62A8" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    </Container>
+    <Container name="gfxHoverOff" x="0" y="0" w="275" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="base" subtype="filled" x="0" y="0" w="275" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <Rectangle name="switch" subtype="filled" x="195" y="0" w="40" h="30" fillColor="1E62A8" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    </Container>
+    <Container name="gfxClickOff" x="0" y="0" w="275" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="base" subtype="filled" x="0" y="0" w="275" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <Rectangle name="switch" subtype="filled" x="215" y="0" w="40" h="30" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    </Container>
+    <TextPoint name="txtCaption" x="6" y="1" align="left" font="AeroMaticsLightRegular" size="24" text="Music" fillColor="2BAAFF" alpha="1"/>
+  </ButtonSelect>
+  <TextPoint name="txtSounds" x="9" y="208" align="left" font="AeroMaticsLightRegular" size="36" text="Sounds" fillColor="2BAAFF" alpha="1"/>
+  <Line name="separator" x="10" y="197" w="299" h="1" x1="0" y1="0" x2="299" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+  <Line name="separator2" x="10" y="310" w="299" h="1" x1="0" y1="0" x2="299" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+  <ButtonSelect name="btnFrameless" x="10" y="147" w="275" h="30" scalingType="scaleByWidth" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <TextPoint name="txtOn" x="203" y="1" align="left" font="AeroMaticsLightRegular" size="24" text="On" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtOff" x="239" y="1" align="left" font="AeroMaticsLightRegular" size="24" text="Off" fillColor="1E62A8" alpha="1"/>
+    <Container name="gfxStandardOn" x="235" y="0" w="40" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="switch" subtype="filled" x="0" y="0" w="40" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    </Container>
+    <Container name="gfxHoverOn" x="0" y="0" w="275" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="base" subtype="filled" x="0" y="0" w="275" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <Rectangle name="switch" subtype="filled" x="235" y="0" w="40" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    </Container>
+    <Container name="gfxClickOn" x="0" y="0" w="275" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="base" subtype="filled" x="0" y="0" w="275" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <Rectangle name="switch" subtype="filled" x="215" y="0" w="40" h="30" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    </Container>
+    <Container name="gfxStandardOff" x="195" y="0" w="40" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="switch" subtype="filled" x="0" y="0" w="40" h="30" fillColor="1E62A8" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    </Container>
+    <Container name="gfxHoverOff" x="0" y="0" w="275" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="base" subtype="filled" x="0" y="0" w="275" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <Rectangle name="switch" subtype="filled" x="195" y="0" w="40" h="30" fillColor="1E62A8" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    </Container>
+    <Container name="gfxClickOff" x="0" y="0" w="275" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="base" subtype="filled" x="0" y="0" w="275" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <Rectangle name="switch" subtype="filled" x="215" y="0" w="40" h="30" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    </Container>
+    <TextPoint name="txtCaption" x="6" y="1" align="left" font="AeroMaticsLightRegular" size="24" text="Fullscreen" fillColor="2BAAFF" alpha="1"/>
+  </ButtonSelect>
+  <ButtonStandard name="btnResolution" x="10" y="107" w="275" h="30" scalingType="scaleByWidth" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Poly name="gfxStandard" subtype="filled" x="253" y="10" w="18" h="9" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" alpha="1">
+      <Vertex x="18" y="0"/>
+      <Vertex x="9" y="9"/>
+      <Vertex x="0" y="0"/>
+    </Poly>
+    <Container name="gfxHover" x="0" y="0" w="275" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="base" subtype="filled" x="0" y="0" w="275" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <Poly name="arrowD" subtype="filled" x="253" y="10" w="18" h="9" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" alpha="1">
+        <Vertex x="18" y="0"/>
+        <Vertex x="9" y="9"/>
+        <Vertex x="0" y="0"/>
+      </Poly>
+    </Container>
+    <Container name="gfxClick" x="0" y="0" w="275" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="base" subtype="filled" x="0" y="0" w="275" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <Rectangle name="arrowMid" subtype="filled" x="253" y="13" w="18" h="4" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    </Container>
+    <TextPoint name="txtCaption" x="5" y="1" align="left" font="AeroMaticsLightRegular" size="24" text="Resolution" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <TextPoint name="txtResolution" x="9" y="53" align="left" font="AeroMaticsLightRegular" size="36" text="Screen Settings" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtTitle" x="62" y="5" align="center" font="AeroMaticsRegular" size="30" text="OPTIONS" fillColor="0B0B0B" alpha="1"/>
+  <ButtonStandard name="btnClose" x="275" y="0" w="45" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="btnCloseWin_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnCloseWin_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="btnCloseWin_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+</layout>

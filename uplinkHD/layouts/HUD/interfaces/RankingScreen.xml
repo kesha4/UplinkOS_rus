@@ -1,0 +1,40 @@
+<layout name="RankingScreen" w="962" h="1082">
+  <Rectangle name="playerBg" subtype="filled" x="14" y="812" w="935" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.2"/>
+  <TextPoint name="txtName0" x="168" y="261" align="left" font="AeroMaticsLightRegular" size="36" text="1 : King" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtStatus0" x="642" y="273" align="left" font="AeroMaticsLightRegular" size="24" text="Active" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtName1" x="158" y="311" align="left" font="AeroMaticsLightRegular" size="36" text="2 : King" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtStatus1" x="642" y="323" align="left" font="AeroMaticsLightRegular" size="24" text="Active" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtName2" x="160" y="361" align="left" font="AeroMaticsLightRegular" size="36" text="3 : King" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtStatus2" x="642" y="373" align="left" font="AeroMaticsLightRegular" size="24" text="Active" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtName3" x="158" y="411" align="left" font="AeroMaticsLightRegular" size="36" text="4 : King" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtStatus3" x="642" y="423" align="left" font="AeroMaticsLightRegular" size="24" text="Active" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtName4" x="159" y="461" align="left" font="AeroMaticsLightRegular" size="36" text="5 : King" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtStatus4" x="642" y="473" align="left" font="AeroMaticsLightRegular" size="24" text="Active" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtName5" x="158" y="511" align="left" font="AeroMaticsLightRegular" size="36" text="6 : King" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtStatus5" x="642" y="523" align="left" font="AeroMaticsLightRegular" size="24" text="Active" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtName6" x="158" y="561" align="left" font="AeroMaticsLightRegular" size="36" text="7 : King" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtStatus6" x="642" y="573" align="left" font="AeroMaticsLightRegular" size="24" text="Active" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtName7" x="158" y="611" align="left" font="AeroMaticsLightRegular" size="36" text="8 : King" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtStatus7" x="642" y="623" align="left" font="AeroMaticsLightRegular" size="24" text="Active" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtName8" x="158" y="661" align="left" font="AeroMaticsLightRegular" size="36" text="9 : King" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtStatus8" x="642" y="673" align="left" font="AeroMaticsLightRegular" size="24" text="Active" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtName9" x="149" y="711" align="left" font="AeroMaticsLightRegular" size="36" text="10 : King" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtStatus9" x="642" y="723" align="left" font="AeroMaticsLightRegular" size="24" text="Active" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtNamePlayer" x="142" y="811" align="left" font="AeroMaticsLightRegular" size="36" text="32 : Player" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtStatusPlayer" x="642" y="823" align="left" font="AeroMaticsLightRegular" size="24" text="Active" fillColor="2BAAFF" alpha="1"/>
+  <Line name="separator" x="335" y="779" w="291" h="1" x1="0" y1="0" x2="291" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+  <Line name="separatorTop" x="13" y="297" w="721" h="1" x1="0" y1="0" x2="721" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+  <ButtonStandard name="btnClose" x="401" y="900" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <TextPoint name="txtCaption" x="80" y="1" align="center" font="AeroMaticsLightRegular" size="24" text="Close" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <TextPoint name="txtSubtitle" x="12" y="182" align="left" font="AeroMaticsLightRegular" size="30" text="Subtitle Long Name" fillColor="1E62A8" alpha="1"/>
+  <TextPoint name="txtTitle" x="61" y="131" align="left" font="AeroMaticsLightRegular" size="48" text="Main Title" fillColor="2BAAFF" alpha="1"/>
+  <ButtonStandard name="btnBack" x="13" y="141" w="40" h="40" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="btnBack_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnBack_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="btnBack_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+</layout>

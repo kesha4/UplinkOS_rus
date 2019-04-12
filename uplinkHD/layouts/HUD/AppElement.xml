@@ -1,0 +1,11 @@
+<layout name="AppElement" w="232" h="180">
+  <ButtonStandard name="btnBase" x="0" y="0" w="232" h="180" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="232" h="180" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.50196078431373"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="232" h="180" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  </ButtonStandard>
+  <TextParagraph name="txtName" x="10" y="107" w="212.69140625" h="54" align="center" font="AeroMaticsRegular" size="24" leading="0" text="HUD Connection&#xD;Analysis" fillColor="2BAAFF" alpha="1"/>
+  <Image name="appIcon" file="icon_app_unknown.png" x="71" y="10" alpha="1"/>
+  <Image name="iconContext" file="iconAppActive.png" x="171" y="10" alpha="1"/>
+  <Image name="iconHotkey" file="iconAppHotkey.png" x="35" y="10" alpha="1"/>
+  <TextPoint name="txtHotkey" x="48" y="13" align="center" font="AeroMaticsRegular" size="18" text="1" fillColor="FFFFFF" alpha="1"/>
+</layout>

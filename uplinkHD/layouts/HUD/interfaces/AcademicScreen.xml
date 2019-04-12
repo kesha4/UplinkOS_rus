@@ -1,0 +1,43 @@
+<layout name="AcademicScreen" w="962" h="1082">
+  <Image name="portrait" file="person_portrait_unknown.png" x="120" y="270" alpha="1"/>
+  <ButtonStandard name="btnDone" x="321" y="906" w="320" h="40" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="320" h="40" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="320" h="40" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="320" h="40" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <TextPoint name="txtCaption" x="160" y="6" align="center" font="AeroMaticsLightRegular" size="24" text="Done" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnCommit" x="321" y="856" w="320" h="40" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="320" h="40" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="320" h="40" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="320" h="40" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <TextPoint name="txtCaption" x="160" y="6" align="center" font="AeroMaticsLightRegular" size="24" text="Commit" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <Rectangle name="nameBase" subtype="filled" x="120" y="586" w="320" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  <TextPoint name="txtName" x="130" y="588" align="left" font="AeroMaticsRegular" size="30" text="Tom Woollven" fillColor="FFFFFF" alpha="1"/>
+  <Rectangle name="collegeBase" subtype="filled" x="520" y="270" w="320" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  <TextPoint name="txtCollege" x="679" y="272" align="center" font="AeroMaticsRegular" size="30" text="College Qualifications" fillColor="FFFFFF" alpha="1"/>
+  <ButtonTextFieldBox name="btnCollege" x="520" y="315" w="320" h="316" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="320" h="316" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="stroked" x="0" y="0" w="320" h="316" fillColor="FF00FF" fillA="1" strokeColor="FFFFFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxClick" subtype="stroked" x="0" y="0" w="320" h="316" fillColor="FF00FF" fillA="1" strokeColor="FFFFFF" strokeW="1" alpha="1"/>
+    <TextParagraph name="txtCaption" x="10" y="1" w="299.666656494141" h="309.372497558594" align="left" font="AeroMaticsLightRegular" size="24" leading="0" text="No college qualifications" fillColor="2BAAFF" alpha="1"/>
+  </ButtonTextFieldBox>
+  <Rectangle name="gradBase" subtype="filled" x="120" y="676" w="320" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  <TextPoint name="txtGrad" x="279" y="678" align="center" font="AeroMaticsRegular" size="30" text="Graduate Qualifications" fillColor="FFFFFF" alpha="1"/>
+  <ButtonTextFieldBox name="btnGrad" x="120" y="721" w="320" h="90" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="320" h="90" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="stroked" x="0" y="0" w="320" h="90" fillColor="FF00FF" fillA="1" strokeColor="FFFFFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxClick" subtype="stroked" x="0" y="0" w="320" h="90" fillColor="FF00FF" fillA="1" strokeColor="FFFFFF" strokeW="1" alpha="1"/>
+    <TextParagraph name="txtCaption" x="10" y="1" w="299.666656494141" h="83" align="left" font="AeroMaticsLightRegular" size="24" leading="0" text="No graduate qualifications" fillColor="2BAAFF" alpha="1"/>
+  </ButtonTextFieldBox>
+  <Rectangle name="otherBase" subtype="filled" x="520" y="676" w="320" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  <TextPoint name="txtOther" x="679" y="678" align="center" font="AeroMaticsRegular" size="30" text="Other Qualifications" fillColor="FFFFFF" alpha="1"/>
+  <ButtonTextFieldBox name="btnOther" x="520" y="721" w="320" h="90" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="320" h="90" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="stroked" x="0" y="0" w="320" h="90" fillColor="FF00FF" fillA="1" strokeColor="FFFFFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxClick" subtype="stroked" x="0" y="0" w="320" h="90" fillColor="FF00FF" fillA="1" strokeColor="FFFFFF" strokeW="1" alpha="1"/>
+    <TextParagraph name="txtCaption" x="10" y="1" w="299.666656494141" h="83" align="left" font="AeroMaticsLightRegular" size="24" leading="0" text="No other qualifications" fillColor="2BAAFF" alpha="1"/>
+  </ButtonTextFieldBox>
+  <TextPoint name="txtSubtitle" x="12" y="182" align="left" font="AeroMaticsLightRegular" size="30" text="Subtitle Long Name" fillColor="1E62A8" alpha="1"/>
+  <TextPoint name="txtTitle" x="12" y="134" align="left" font="AeroMaticsLightRegular" size="48" text="Main Title" fillColor="2BAAFF" alpha="1"/>
+</layout>

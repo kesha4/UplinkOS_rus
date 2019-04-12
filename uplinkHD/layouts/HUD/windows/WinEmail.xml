@@ -1,0 +1,122 @@
+<layout name="WinEmail" w="480" h="668">
+  <Rectangle name="baseBG" subtype="strokedFill" x="0" y="0" w="479" h="664" fillColor="112B3C" fillA="0.94901960784314" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+  <Rectangle name="baseTitle" subtype="filled" x="0" y="0" w="480" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  <Line name="baseLine" x="0" y="661" w="479" h="4" x1="0" y1="2" x2="479" y2="2" strokeColor="2BAAFF" strokeW="4" alpha="1"/>
+  <TextPoint name="txtTitle" x="240" y="5" align="center" font="AeroMaticsRegular" size="30" text="E-Mail" fillColor="0B0B0B" alpha="1"/>
+  <ScrollableList name="list" x="12" y="75" w="467" h="588" scalingType="scaleByWidth" arrangeType="arrangeVertical" arrangePadding="0.0" alpha="1"/>
+  <Container name="viewMessage" x="1" y="75" w="478" h="588" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <ScrollableList name="contentsScroll" x="11" y="81" w="467" h="474" scalingType="scaleByWidth" arrangeType="arrangeVertical" arrangePadding="0.0" alpha="1"/>
+    <TextParagraph name="txtContents" x="12" y="103" w="449.333312988281" h="180" align="left" font="AeroMaticsLightRegular" size="20" leading="0" text="Message Mail Contents. Resizable." fillColor="2BAAFF" alpha="1"/>
+    <Line name="separator02" x="2" y="79" w="474" h="4" x1="0" y1="0" x2="474" y2="0" strokeColor="2BAAFF" strokeW="4" alpha="1"/>
+    <TextPoint name="txtFrom" x="67" y="7" align="right" font="AeroMaticsLightRegular" size="18" text="From" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtDate" x="67" y="29" align="right" font="AeroMaticsLightRegular" size="18" text="Date" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtSubject" x="67" y="52" align="right" font="AeroMaticsLightRegular" size="18" text="Subject" fillColor="2BAAFF" alpha="1"/>
+    <Line name="separator01" x="72" y="8" w="1" h="64" x1="0" y1="64" x2="0" y2="0" strokeColor="1E62A8" strokeW="1" alpha="1"/>
+    <TextPoint name="txtFromDetails" x="77" y="5" align="left" font="AeroMaticsRegular" size="20" text="Uplink Public Access Server" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtDateDetails" x="77" y="27" align="left" font="AeroMaticsLightRegular" size="20" text="02:17, 24-03-2027" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtSubjectDetails" x="77" y="50" align="left" font="AeroMaticsRegular" size="20" text="Welcome to Uplink" fillColor="2BAAFF" alpha="1"/>
+    <Line name="separator02 copy" x="2" y="555" w="474" h="1" x1="0" y1="0" x2="474" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <ButtonStandard name="btnAttachment" x="0" y="558" w="240" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="240" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.50196078431373"/>
+      <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="240" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <TextPoint name="txtCaption" x="39" y="0" align="left" font="AeroMaticsLightRegular" size="24" text="File Attachment" fillColor="2BAAFF" alpha="1"/>
+      <Image name="icon" file="winIcon_attach.png" x="13" y="3" alpha="1"/>
+    </ButtonStandard>
+    <ButtonStandard name="btnReply" x="359" y="558" w="119" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="119" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.50196078431373"/>
+      <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="119" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <TextPoint name="txtCaption" x="60" y="0" align="center" font="AeroMaticsLightRegular" size="24" text="Reply" fillColor="2BAAFF" alpha="1"/>
+    </ButtonStandard>
+    <ButtonStandard name="btnDelete" x="240" y="558" w="119" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="119" h="30" fillColor="D31A1A" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.50196078431373"/>
+      <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="119" h="30" fillColor="D31A1A" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <TextPoint name="txtCaption" x="60" y="0" align="center" font="AeroMaticsLightRegular" size="24" text="Delete" fillColor="D31F1F" alpha="1"/>
+    </ButtonStandard>
+  </Container>
+  <Container name="composeMessage" x="1" y="75" w="478" h="588" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Line name="separator02" x="2" y="555" w="474" h="1" x1="0" y1="0" x2="474" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <ButtonTextFieldBox name="btnContents" x="5" y="80" w="468" h="469" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="468" h="469" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.25098039215686"/>
+      <TextParagraph name="txtCaption" x="7" y="1" w="455.333312988281" h="468" align="left" font="AeroMaticsLightRegular" size="20" leading="0" text="Type in your message..." fillColor="2BAAFF" alpha="1"/>
+    </ButtonTextFieldBox>
+    <ButtonTextField name="btnTo" x="2" y="4" w="474" h="34" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Line name="gfxStandard" x="0" y="33" w="474" h="1" x1="0" y1="0" x2="474" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Container name="gfxHover" x="0" y="0" w="474" h="34" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+        <Line name="line" x="0" y="33" w="474" h="1" x1="0" y1="0" x2="474" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+        <Rectangle name="base" subtype="filled" x="0" y="0" w="474" h="34" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.25098039215686"/>
+      </Container>
+      <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="474" h="34" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <TextPoint name="txtCaption" x="5" y="3" align="left" font="AeroMaticsLightRegular" size="24" text="E-Mail Address" fillColor="2BAAFF" alpha="1"/>
+    </ButtonTextField>
+    <ButtonTextField name="btnSubject" x="2" y="40" w="474" h="34" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Line name="gfxStandard" x="0" y="33" w="474" h="1" x1="0" y1="0" x2="474" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Container name="gfxHover" x="0" y="0" w="474" h="34" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+        <Line name="line" x="0" y="33" w="474" h="1" x1="0" y1="0" x2="474" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+        <Rectangle name="base" subtype="filled" x="0" y="0" w="474" h="34" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.25098039215686"/>
+      </Container>
+      <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="474" h="34" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <TextPoint name="txtCaption" x="5" y="3" align="left" font="AeroMaticsLightRegular" size="24" text="Subject" fillColor="2BAAFF" alpha="1"/>
+    </ButtonTextField>
+    <ButtonStandard name="btnAttach" x="0" y="558" w="240" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="240" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.50196078431373"/>
+      <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="240" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <TextPoint name="txtCaption" x="39" y="0" align="left" font="AeroMaticsLightRegular" size="24" text="File Attachment" fillColor="2BAAFF" alpha="1"/>
+      <Image name="icon" file="winIcon_attach.png" x="13" y="3" alpha="1"/>
+    </ButtonStandard>
+    <ButtonStandard name="btnSend" x="359" y="558" w="119" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="119" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.50196078431373"/>
+      <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="119" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <TextPoint name="txtCaption" x="60" y="0" align="center" font="AeroMaticsLightRegular" size="24" text="Send" fillColor="2BAAFF" alpha="1"/>
+    </ButtonStandard>
+    <ButtonStandard name="btnCancel" x="240" y="558" w="119" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="119" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.50196078431373"/>
+      <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="119" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <TextPoint name="txtCaption" x="60" y="0" align="center" font="AeroMaticsLightRegular" size="24" text="Cancel" fillColor="2BAAFF" alpha="1"/>
+    </ButtonStandard>
+  </Container>
+  <Rectangle name="tabsBg" subtype="filled" x="1" y="45" w="478" h="30" fillColor="1E62A8" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  <ButtonStandard name="btnTab0" x="1" y="45" w="120" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="120" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.50196078431373"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="120" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <TextPoint name="txtCaption" x="29" y="1" align="left" font="AeroMaticsLightRegular" size="24" text="E-Mails" fillColor="FFFFFF" alpha="1"/>
+    <Image name="icon" file="winIcon_tab_email.png" x="5" y="8" alpha="1"/>
+    <Rectangle name="notif" subtype="filled" x="2" y="18" w="8" h="8" fillColor="D31F1F" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnTab1" x="131" y="45" w="120" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="120" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.50196078431373"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="120" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <TextPoint name="txtCaption" x="29" y="1" align="left" font="AeroMaticsLightRegular" size="24" text="Missions" fillColor="FFFFFF" alpha="1"/>
+    <Image name="icon" file="winIcon_tab_mission.png" x="8" y="5" alpha="1"/>
+    <Rectangle name="notif" subtype="filled" x="2" y="18" w="8" h="8" fillColor="D31F1F" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnTab2" x="251" y="45" w="120" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="120" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.50196078431373"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="120" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <TextPoint name="txtCaption" x="29" y="1" align="left" font="AeroMaticsLightRegular" size="24" text="Compose" fillColor="FFFFFF" alpha="1"/>
+    <Image name="icon" file="winIcon_tab_compose.png" x="6" y="6" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnNextMessage" x="449" y="45" w="30" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="30" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.50196078431373"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="30" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.50196078431373"/>
+    <Poly name="icon" subtype="filled" x="11" y="6" w="9" h="18" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" alpha="1">
+      <Vertex x="0" y="0"/>
+      <Vertex x="9" y="9"/>
+      <Vertex x="0" y="18"/>
+    </Poly>
+  </ButtonStandard>
+  <ButtonStandard name="btnPrevMessage" x="419" y="45" w="30" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="30" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.50196078431373"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="30" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.50196078431373"/>
+    <Poly name="icon" subtype="filled" x="10" y="6" w="9" h="18" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" alpha="1">
+      <Vertex x="9" y="0"/>
+      <Vertex x="0" y="9"/>
+      <Vertex x="9" y="18"/>
+    </Poly>
+  </ButtonStandard>
+  <Line name="tabSelection" x="1" y="73" w="120" h="2" x1="0" y1="0" x2="120" y2="0" strokeColor="FFFFFF" strokeW="2" alpha="1"/>
+  <ButtonStandard name="btnClose" x="435" y="0" w="45" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="btnCloseWin_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnCloseWin_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="btnCloseWin_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+</layout>

@@ -1,0 +1,185 @@
+<layout name="IntroScreens" w="1920" h="1080">
+  <Gradient name="background" subtype="gradVertical" x="0" y="0" w="1920" h="1080" alpha="1">
+    <GradStop location="0" fillColor="0B0B0B"/>
+    <GradStop location="0.5" fillColor="0B0B0B"/>
+    <GradStop location="1" fillColor="112B3C"/>
+  </Gradient>
+  <Container name="step0" x="720" y="489" w="480" h="558" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <ButtonTextField name="btnInput" x="0" y="0" w="431" h="50" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Line name="gfxStandard" x="0" y="49" w="431" h="1" x1="0" y1="0" x2="431" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Container name="gfxHover" x="0" y="0" w="431" h="50" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+        <Line name="line" x="0" y="49" w="431" h="1" x1="0" y1="0" x2="431" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+        <Rectangle name="base" subtype="filled" x="0" y="0" w="431" h="50" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.25098039215686"/>
+      </Container>
+      <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="431" h="50" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <TextPoint name="txtCaption" x="9" y="4" align="left" font="AeroMaticsLightRegular" size="36" text="Uplink Public Access Server" fillColor="2BAAFF" alpha="1"/>
+    </ButtonTextField>
+    <ButtonStandard name="btnSubmit" x="431" y="0" w="49" h="50" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Image name="gfxStandard" file="btnSubmitTextField_s.png" x="0" y="0" alpha="1"/>
+      <Image name="gfxHover" file="btnSubmitTextField_h.png" x="0" y="0" alpha="1"/>
+      <Image name="gfxClick" file="btnSubmitTextField_c.png" x="0" y="0" alpha="1"/>
+    </ButtonStandard>
+    <TextPoint name="TRUST IS A WEAKNESS" x="240" y="524" align="center" font="AeroMaticsLightRegular" size="36" text="TRUST IS A WEAKNESS" fillColor="2BAAFF" alpha="0.01960784313725"/>
+  </Container>
+  <Container name="step1" x="490" y="147" w="783" h="603" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <ButtonStandard name="btnOK" x="390" y="573" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="1" align="center" font="AeroMaticsLightRegular" size="24" text="OK" fillColor="2BAAFF" alpha="1"/>
+    </ButtonStandard>
+    <TextParagraph name="txtDesc" x="150" y="161" w="640.953369140625" h="355.361694335938" align="left" font="AeroMaticsLightRegular" size="24" leading="0" text="Welcome to the Uplink Public Access Server.&#xD;&#xD;Uplink Corporation maintains the largest list of freelance agents in the world, we have operated for the last decade with a flawless record of satisfied customers and successful security experts. Our company acts as an anonymous job centre, bringing corporations together with agents who can work for them. We also provide rental of essential Gateway computers to all agents, which allow unparalleled security in a high risk environment.&#xD;&#xD;You are here because you wish to join this company." fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtSubtitle" x="1" y="45" align="left" font="AeroMaticsLightRegular" size="30" text="About us" fillColor="1E62A8" alpha="1"/>
+    <TextPoint name="txtTitle" x="1" y="-13" align="left" font="AeroMaticsLightRegular" size="48" text="Uplink Public Access Server" fillColor="2BAAFF" alpha="1"/>
+  </Container>
+  <Container name="step2" x="491" y="147" w="790" h="346" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <ButtonStandard name="btnRegister" x="147" y="301" w="643" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="643" h="45" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="643" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <Image name="icon" file="icon_menuOption.png" x="1" y="10" alpha="1"/>
+      <TextPoint name="txtCaption" x="29" y="-4" align="left" font="AeroMaticsLightRegular" size="42" text="Register as an Agent" fillColor="2BAAFF" alpha="1"/>
+    </ButtonStandard>
+    <ButtonStandard name="btnAbout" x="147" y="211" w="643" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="643" h="45" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="643" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <Image name="icon" file="icon_menuOption.png" x="1" y="10" alpha="1"/>
+      <TextPoint name="txtCaption" x="29" y="-4" align="left" font="AeroMaticsLightRegular" size="42" text="About Us" fillColor="2BAAFF" alpha="1"/>
+    </ButtonStandard>
+    <TextPoint name="txtSubtitle" x="0" y="45" align="left" font="AeroMaticsLightRegular" size="30" text="Main Menu" fillColor="1E62A8" alpha="1"/>
+    <TextPoint name="txtTitle" x="0" y="-13" align="left" font="AeroMaticsLightRegular" size="48" text="Uplink Public Access Server" fillColor="2BAAFF" alpha="1"/>
+  </Container>
+  <Container name="step3" x="491" y="147" w="789" h="693" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <ButtonStandard name="btnContinue" x="629" y="663" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="1" align="center" font="AeroMaticsLightRegular" size="24" text="Continue" fillColor="2BAAFF" alpha="1"/>
+    </ButtonStandard>
+    <ButtonStandard name="btnCancel" x="149" y="663" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="1" align="center" font="AeroMaticsLightRegular" size="24" text="Cancel" fillColor="2BAAFF" alpha="1"/>
+    </ButtonStandard>
+    <TextPoint name="txtDesc0" x="149" y="158" align="left" font="AeroMaticsLightRegular" size="24" text="Your Uplink membership package includes:" fillColor="2BAAFF" alpha="1"/>
+    <TextParagraph name="txtDesc1" x="189" y="212" w="600.953369140625" h="121.586700439453" align="left" font="AeroMaticsLightRegular" size="24" leading="0" text="A Gateway computer at a secure location. You will connect to this machine from your home computer when you are working for Uplink. You can have it upgraded at a later stage if necessary." fillColor="2BAAFF" alpha="1"/>
+    <Rectangle name="iconDesc0" subtype="filled" x="170" y="218" w="8" h="8" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <TextParagraph name="txtDesc2" x="189" y="353" w="600.953369140625" h="64.5867004394531" align="left" font="AeroMaticsLightRegular" size="24" leading="0" text="A low interest loan of 3000 credits with Uplink International Bank, to get you started." fillColor="2BAAFF" alpha="1"/>
+    <Rectangle name="iconDesc1" subtype="filled" x="170" y="359" w="8" h="8" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <TextParagraph name="txtDesc3" x="189" y="433" w="600.953369140625" h="64.5867004394531" align="left" font="AeroMaticsLightRegular" size="24" leading="0" text="Access to our Bulletin Board system - the usual place for Uplink Agents to find work." fillColor="2BAAFF" alpha="1"/>
+    <Rectangle name="iconDesc2" subtype="filled" x="170" y="439" w="8" h="8" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <TextParagraph name="txtDesc4" x="189" y="513" w="600.953369140625" h="90.361701965332" align="left" font="AeroMaticsLightRegular" size="24" leading="0" text="You will be officially rated as an Uplink Agent and we will monitor your progress. As your rating increases you will find new avenues of work become available." fillColor="2BAAFF" alpha="1"/>
+    <Rectangle name="iconDesc3" subtype="filled" x="170" y="519" w="8" h="8" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <TextPoint name="txtSubtitle" x="0" y="45" align="left" font="AeroMaticsLightRegular" size="30" text="Registration" fillColor="1E62A8" alpha="1"/>
+    <TextPoint name="txtTitle" x="0" y="-13" align="left" font="AeroMaticsLightRegular" size="48" text="Uplink Public Access Server" fillColor="2BAAFF" alpha="1"/>
+  </Container>
+  <Container name="step4" x="491" y="147" w="782" h="693" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <ButtonStandard name="btnDone" x="389" y="663" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="1" align="center" font="AeroMaticsLightRegular" size="24" text="Done" fillColor="2BAAFF" alpha="1"/>
+    </ButtonStandard>
+    <TextParagraph name="txtDesc" x="149" y="482" w="640.953369140625" h="178.766708374023" align="left" font="AeroMaticsLightRegular" size="24" leading="0" text="Uplink Corporation will not ask for any more personal details. In the event of you being charged with illegal operations, our corporation will be forced to disavow all knowledge of your actions, however you will be safe from arrest as your real world address will never be stored." fillColor="2BAAFF" alpha="1"/>
+    <ButtonTextField name="btnUser" x="309" y="163" w="320" h="50" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Line name="gfxStandard" x="0" y="49" w="320" h="1" x1="0" y1="0" x2="320" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Container name="gfxHover" x="0" y="0" w="320" h="50" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+        <Line name="line" x="0" y="49" w="320" h="1" x1="0" y1="0" x2="320" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+        <Rectangle name="base" subtype="filled" x="0" y="0" w="320" h="50" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.25098039215686"/>
+      </Container>
+      <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="320" h="50" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <TextPoint name="txtCaption" x="9" y="4" align="left" font="AeroMaticsLightRegular" size="36" text="Username" fillColor="2BAAFF" alpha="1"/>
+    </ButtonTextField>
+    <ButtonTextField name="btnPass" x="309" y="253" w="320" h="50" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Line name="gfxStandard" x="0" y="49" w="320" h="1" x1="0" y1="0" x2="320" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Container name="gfxHover" x="0" y="0" w="320" h="50" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+        <Line name="line" x="0" y="49" w="320" h="1" x1="0" y1="0" x2="320" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+        <Rectangle name="base" subtype="filled" x="0" y="0" w="320" h="50" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.25098039215686"/>
+      </Container>
+      <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="320" h="50" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <TextPoint name="txtCaption" x="9" y="4" align="left" font="AeroMaticsLightRegular" size="36" text="Password" fillColor="2BAAFF" alpha="1"/>
+    </ButtonTextField>
+    <ButtonTextField name="btnPass2" x="309" y="343" w="320" h="50" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Line name="gfxStandard" x="0" y="49" w="320" h="1" x1="0" y1="0" x2="320" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Container name="gfxHover" x="0" y="0" w="320" h="50" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+        <Line name="line" x="0" y="49" w="320" h="1" x1="0" y1="0" x2="320" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+        <Rectangle name="base" subtype="filled" x="0" y="0" w="320" h="50" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.25098039215686"/>
+      </Container>
+      <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="320" h="50" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <TextPoint name="txtCaption" x="9" y="4" align="left" font="AeroMaticsLightRegular" size="36" text="Retype Password" fillColor="2BAAFF" alpha="1"/>
+    </ButtonTextField>
+    <TextPoint name="txtSubtitle" x="0" y="45" align="left" font="AeroMaticsLightRegular" size="30" text="Create User" fillColor="1E62A8" alpha="1"/>
+    <TextPoint name="txtTitle" x="0" y="-13" align="left" font="AeroMaticsLightRegular" size="48" text="Uplink Public Access Server" fillColor="2BAAFF" alpha="1"/>
+  </Container>
+  <Container name="step5" x="491" y="147" w="790" h="683" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <TextPoint name="txtDesc0" x="149" y="158" align="left" font="AeroMaticsLightRegular" size="24" text="Please choose a location close to you:" fillColor="2BAAFF" alpha="1"/>
+    <TextParagraph name="txtDesc1" x="149" y="601" w="643.359375" h="97.7667083740234" align="left" font="AeroMaticsLightRegular" size="24" leading="0" text="Uplink Corporation has offices all around the world. Please select a nearby location for your Gateway. You will dial into this location when you use Uplink." fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtSubtitle" x="0" y="45" align="left" font="AeroMaticsLightRegular" size="30" text="Gateway location" fillColor="1E62A8" alpha="1"/>
+    <TextPoint name="txtTitle" x="0" y="-13" align="left" font="AeroMaticsLightRegular" size="48" text="Uplink Public Access Server" fillColor="2BAAFF" alpha="1"/>
+    <Image name="map" file="earthMap_s.png" x="149" y="213" alpha="1"/>
+    <ButtonStandard name="btnLA" x="236" y="308" w="16" h="16" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="base" subtype="filled" x="3" y="3" w="10" h="10" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <Rectangle name="gfxHover" subtype="stroked" x="0" y="0" w="16" h="16" fillColor="FF00FF" fillA="1" strokeColor="FFFFFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxClick" subtype="filled" x="1" y="1" w="14" h="14" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    </ButtonStandard>
+    <ButtonStandard name="btnCH" x="288" y="294" w="16" h="16" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="base" subtype="filled" x="3" y="3" w="10" h="10" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <Rectangle name="gfxHover" subtype="stroked" x="0" y="0" w="16" h="16" fillColor="FF00FF" fillA="1" strokeColor="FFFFFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxClick" subtype="filled" x="1" y="1" w="14" h="14" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    </ButtonStandard>
+    <ButtonStandard name="btnNY" x="313" y="297" w="16" h="16" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="base" subtype="filled" x="3" y="3" w="10" h="10" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <Rectangle name="gfxHover" subtype="stroked" x="0" y="0" w="16" h="16" fillColor="FF00FF" fillA="1" strokeColor="FFFFFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxClick" subtype="filled" x="1" y="1" w="14" h="14" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    </ButtonStandard>
+    <ButtonStandard name="btnLN" x="441" y="272" w="16" h="16" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="base" subtype="filled" x="3" y="3" w="10" h="10" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <Rectangle name="gfxHover" subtype="stroked" x="0" y="0" w="16" h="16" fillColor="FF00FF" fillA="1" strokeColor="FFFFFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxClick" subtype="filled" x="1" y="1" w="14" h="14" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    </ButtonStandard>
+    <ButtonStandard name="btnMW" x="510" y="267" w="16" h="16" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="base" subtype="filled" x="3" y="3" w="10" h="10" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <Rectangle name="gfxHover" subtype="stroked" x="0" y="0" w="16" h="16" fillColor="FF00FF" fillA="1" strokeColor="FFFFFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxClick" subtype="filled" x="1" y="1" w="14" h="14" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    </ButtonStandard>
+    <ButtonStandard name="btnHK" x="643" y="335" w="16" h="16" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="base" subtype="filled" x="3" y="3" w="10" h="10" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <Rectangle name="gfxHover" subtype="stroked" x="0" y="0" w="16" h="16" fillColor="FF00FF" fillA="1" strokeColor="FFFFFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxClick" subtype="filled" x="1" y="1" w="14" h="14" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    </ButtonStandard>
+    <ButtonStandard name="btnTK" x="689" y="308" w="16" h="16" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="base" subtype="filled" x="3" y="3" w="10" h="10" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <Rectangle name="gfxHover" subtype="stroked" x="0" y="0" w="16" h="16" fillColor="FF00FF" fillA="1" strokeColor="FFFFFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxClick" subtype="filled" x="1" y="1" w="14" h="14" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    </ButtonStandard>
+    <ButtonStandard name="btnSY" x="709" y="456" w="16" h="16" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="base" subtype="filled" x="3" y="3" w="10" h="10" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <Rectangle name="gfxHover" subtype="stroked" x="0" y="0" w="16" h="16" fillColor="FF00FF" fillA="1" strokeColor="FFFFFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxClick" subtype="filled" x="1" y="1" w="14" h="14" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    </ButtonStandard>
+  </Container>
+  <Container name="step6" x="490" y="147" w="785" h="663" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <ButtonStandard name="btnOK" x="390" y="633" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="1" align="center" font="AeroMaticsLightRegular" size="24" text="OK" fillColor="2BAAFF" alpha="1"/>
+    </ButtonStandard>
+    <TextParagraph name="txtDesc" x="150" y="161" w="640.953369140625" h="412.361694335938" align="left" font="AeroMaticsLightRegular" size="24" leading="0" text="Registration is now taking place.&#xD;&#xD;As part of your membership, we will assign you a Gateway computer system in your chosen server room. This will act as your jumping off point to the rest of the Net. When you next log in you will connect directly from your home computer to this Gateway machine, and from there to the rest of the world.&#xD;&#xD;Should any of your actions be traced back to your Gateway, Uplink Corporation will disavow any knowledge of your actions and will destroy your account. Your Gateway machine will also be destroyed.&#xD;&#xD;Rental of your Gateway computer will cost 300 credits a month." fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtSubtitle" x="1" y="45" align="left" font="AeroMaticsLightRegular" size="30" text="Your Gateway computer" fillColor="1E62A8" alpha="1"/>
+    <TextPoint name="txtTitle" x="1" y="-13" align="left" font="AeroMaticsLightRegular" size="48" text="Uplink Public Access Server" fillColor="2BAAFF" alpha="1"/>
+  </Container>
+  <Container name="step7" x="640" y="271" w="641" h="629" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="logo" file="logo.png" x="50" y="0" alpha="1"/>
+    <TextParagraph name="txtHelp" x="54" y="580" w="534" h="76.44580078125" align="center" font="AeroMaticsLightRegular" size="24" leading="0" text="We are just finishing setting up your personal Gateway.&#xD;This will not take more than a few minutes." fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtLoadProgress" x="320" y="403" align="center" font="AeroMaticsLightRegular" size="72" text="100%" fillColor="2BAAFF" alpha="1"/>
+    <Line name="loadStroke" x="0" y="287" w="641" h="2" x1="0" y1="0" x2="641" y2="0" strokeColor="2BAAFF" strokeW="2" alpha="1"/>
+    <Rectangle name="loadFill" subtype="filled" x="0" y="248" w="640" h="40" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <TextPoint name="txtTitle" x="320" y="150" align="center" font="AeroMaticsLightRegular" size="30" text="Welcome to the new UplinkOS." fillColor="2BAAFF" alpha="1"/>
+  </Container>
+  <Container name="connectTo" x="879" y="489" w="163" h="150" scalingType="scaleByHeight" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="loadingCircle" file="loadingCircle.png" x="30" y="0" alpha="1"/>
+    <Image name="logoCube" file="logoCubeS.png" x="65" y="36" alpha="1"/>
+    <TextPoint name="txtCaption" x="82" y="116" align="center" font="AeroMaticsLightRegular" size="30" text="Connecting to" fillColor="2BAAFF" alpha="1"/>
+  </Container>
+</layout>

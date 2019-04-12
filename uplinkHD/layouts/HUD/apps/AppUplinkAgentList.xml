@@ -1,0 +1,14 @@
+<layout name="AppUplinkAgentList" w="326" h="668">
+  <Rectangle name="base" subtype="filled" x="0" y="0" w="326" h="668" fillColor="112B3C" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.90196078431373"/>
+  <ScrollableList name="scrollArea" x="4" y="45" w="318" h="622" scalingType="scaleByWidth" arrangeType="arrangeVertical" arrangePadding="0.0" alpha="1"/>
+  <Line name="separator" x="0" y="44" w="326" h="1" x1="0" y1="1" x2="326" y2="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+  <Line name="separator copy" x="0" y="666" w="326" h="4" x1="0" y1="0" x2="326" y2="0" strokeColor="2BAAFF" strokeW="4" alpha="1"/>
+  <TextParagraph name="txtBox" x="13" y="52" w="295" h="217.40625" align="left" font="AeroMaticsLightRegular" size="24" leading="0" text="Agent 1; agent 2; agent 3" fillColor="2BAAFF" alpha="1"/>
+  <ButtonStandard name="btnClose" x="294" y="1" w="28" h="28" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="tm_appClose_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="tm_appClose_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="tm_appClose_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+  <TextPoint name="txtTitle" x="54" y="12" align="left" font="AeroMaticsRegular" size="24" text="UPLINK AGENT LIST" fillColor="2BAAFF" alpha="1"/>
+  <Image name="icon" file="logoCubeS.png" x="13" y="11" alpha="1"/>
+</layout>

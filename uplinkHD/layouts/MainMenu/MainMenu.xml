@@ -1,0 +1,38 @@
+<layout name="MainMenu" w="1920" h="1080">
+  <Gradient name="background" subtype="gradVertical" x="0" y="0" w="1920" h="1080" alpha="1">
+    <GradStop location="0" fillColor="0B0B0B"/>
+    <GradStop location="0.5" fillColor="0B0B0B"/>
+    <GradStop location="1" fillColor="112B3C"/>
+  </Gradient>
+  <ButtonStandard name="btnShutdown" x="48" y="58" w="64" h="64" scalingType="scaleByHeight" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxClick" file="btnShutdown_c.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnShutdown_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxStandard" file="btnShutdown_s.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnOptions" x="1808" y="58" w="64" h="64" scalingType="scaleByHeight" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxClick" file="btnOptions_c.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnOptions_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxStandard" file="btnOptions_s.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+  <Container name="signIn" x="712" y="452" w="568" h="213" scalingType="scaleByHeight" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="" file="userPhoto_big.png" x="0" y="0" alpha="1"/>
+    <TextPoint name="txtVersion" x="0" y="183" align="left" font="AeroMaticsLightRegular" size="18" text="BETA v0.00" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtNotice" x="249" y="191" align="left" font="AeroMaticsLightRegular" size="24" text="Incorrect Username or Password" fillColor="D31A1A" alpha="1"/>
+    <TextPoint name="txtUsername" x="246" y="-3" align="left" font="AeroMaticsLightRegular" size="48" text="Cpt.McBacon" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtLastSignIn" x="248" y="58" align="left" font="AeroMaticsLightRegular" size="18" text="Last Sign In: 01.12.2027" fillColor="1E62A8" alpha="1"/>
+    <ButtonTextField name="btnPassword" x="248" y="116" w="271" h="50" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Line name="gfxStandard" x="0" y="49" w="271" h="1" x1="0" y1="0" x2="271" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Container name="gfxHover" x="0" y="0" w="271" h="50" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+        <Line name="line" x="0" y="49" w="271" h="1" x1="0" y1="0" x2="271" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+        <Rectangle name="base" subtype="filled" x="0" y="0" w="271" h="50" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.25098039215686"/>
+      </Container>
+      <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="271" h="50" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <TextPoint name="txtCaption" x="9" y="4" align="left" font="AeroMaticsLightRegular" size="36" text="Password" fillColor="2BAAFF" alpha="1"/>
+    </ButtonTextField>
+    <ButtonStandard name="btnSubmit" x="519" y="116" w="49" h="50" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Image name="gfxStandard" file="btnSubmitTextField_s.png" x="0" y="0" alpha="1"/>
+      <Image name="gfxHover" file="btnSubmitTextField_h.png" x="0" y="0" alpha="1"/>
+      <Image name="gfxClick" file="btnSubmitTextField_c.png" x="0" y="0" alpha="1"/>
+    </ButtonStandard>
+  </Container>
+</layout>

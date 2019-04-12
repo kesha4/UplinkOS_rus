@@ -1,0 +1,65 @@
+<layout name="WinCheats" w="480" h="419">
+  <Rectangle name="baseBG" subtype="strokedFill" x="0" y="0" w="479" h="416" fillColor="112B3C" fillA="0.94901960784314" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+  <Rectangle name="baseTitle" subtype="filled" x="0" y="0" w="480" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  <Line name="baseLine" x="0" y="414" w="480" h="4" x1="0" y1="2" x2="480" y2="2" strokeColor="2BAAFF" strokeW="4" alpha="1"/>
+  <ButtonStandard name="btnLinks" x="11" y="55" w="458" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="458" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="458" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="458" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <TextPoint name="txtCaption" x="230" y="-1" align="center" font="AeroMaticsLightRegular" size="24" text="All the Links" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnSoftware" x="11" y="95" w="458" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="458" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="458" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="458" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <TextPoint name="txtCaption" x="230" y="-1" align="center" font="AeroMaticsLightRegular" size="24" text="All the Software" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnHardware" x="11" y="135" w="458" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="458" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="458" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="458" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <TextPoint name="txtCaption" x="230" y="-1" align="center" font="AeroMaticsLightRegular" size="24" text="All the Hardware" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnMoney" x="11" y="175" w="458" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="458" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="458" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="458" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <TextPoint name="txtCaption" x="230" y="-1" align="center" font="AeroMaticsLightRegular" size="24" text="All the Money" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnNRating" x="11" y="215" w="458" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="458" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="458" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="458" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <TextPoint name="txtCaption" x="230" y="-1" align="center" font="AeroMaticsLightRegular" size="24" text="Next Rating" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnARating" x="11" y="255" w="458" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="458" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="458" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="458" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <TextPoint name="txtCaption" x="230" y="-1" align="center" font="AeroMaticsLightRegular" size="24" text="All the Ratings" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnTrace" x="11" y="295" w="458" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="458" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="458" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="458" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <TextPoint name="txtCaption" x="230" y="-1" align="center" font="AeroMaticsLightRegular" size="24" text="Cancel Trace" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnGame" x="11" y="335" w="458" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="458" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="458" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="458" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <TextPoint name="txtCaption" x="230" y="-1" align="center" font="AeroMaticsLightRegular" size="24" text="End the Game :(" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnRevelation" x="11" y="375" w="458" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="458" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="458" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="458" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <TextPoint name="txtCaption" x="230" y="-1" align="center" font="AeroMaticsLightRegular" size="24" text="Run Revelation" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <TextPoint name="txtTitle" x="240" y="5" align="center" font="AeroMaticsRegular" size="30" text="m\_/-|-&lt;CHEATS>-|-\_/m" fillColor="0B0B0B" alpha="1"/>
+  <ButtonStandard name="btnClose" x="435" y="0" w="45" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="btnCloseWin_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnCloseWin_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="btnCloseWin_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+</layout>

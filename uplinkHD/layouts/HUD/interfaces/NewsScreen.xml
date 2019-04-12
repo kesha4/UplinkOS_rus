@@ -1,0 +1,18 @@
+<layout name="NewsScreen" w="962" h="1082">
+  <ScrollableList name="newsList" x="13" y="90" w="936" h="902" scalingType="scaleByWidth" arrangeType="arrangeTableVertical" arrangePadding="54.0" alpha="1"/>
+  <Container name="newsOpened" x="12" y="180" w="938" h="812" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="iconBase" subtype="filled" x="0" y="0" w="938" h="180" fillColor="083E76" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Image name="icon" file="iconNews_hacked.png" x="398" y="41" alpha="1"/>
+    <ScrollableList name="articleScroll" x="148" y="307" w="654" h="505" scalingType="scaleByWidth" arrangeType="arrangeTableVertical" arrangePadding="0.0" alpha="1"/>
+    <TextParagraph name="txtDesc" x="148" y="304" w="641.653991699219" h="503.333343505859" align="left" font="AeroMaticsLightRegular" size="24" leading="0" text="Selective Solutions discovered this morning that a massive quantity of computer data had been stolen from one of their Central Mainframes.&#xD;&#xD;It is believed around 60 GigaQuads of confidential data was stolen by this hacker, and it was probably copied to a temporary fileserver somewhere on the web.&#xD;&#xD;Selective Solutions have said that they are considering all options to catch this hacker, and the corporation that paid him." fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtDate" x="470" y="268" align="center" font="AeroMaticsLightRegular" size="18" text="Posted on 24-3-2010 @ 18:42 by Uplink" fillColor="1E62A8" alpha="1"/>
+    <TextParagraph name="txtTitle" x="148" y="191" w="641.653991699219" h="78.5078125" align="center" font="AeroMaticsRegular" size="30" leading="0" text="Center Solutions loses GigaQuads of customer data due to ‘malicious hackers’" fillColor="2BAAFF" alpha="1"/>
+  </Container>
+  <ButtonStandard name="btnBack" x="12" y="37" w="40" h="40" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="btnBack_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnBack_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="btnBack_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+  <TextPoint name="txtSubtitle" x="184" y="45" align="left" font="AeroMaticsLightRegular" size="30" text="Latest News" fillColor="1E62A8" alpha="1"/>
+  <TextPoint name="txtTitle" x="60" y="27" align="left" font="AeroMaticsLightRegular" size="48" text="Uplink" fillColor="2BAAFF" alpha="1"/>
+</layout>

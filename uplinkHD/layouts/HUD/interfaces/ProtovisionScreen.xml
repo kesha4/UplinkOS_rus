@@ -1,0 +1,14 @@
+<layout name="ProtovisionScreen" w="962" h="1082">
+  <ButtonStandard name="btnNuclear" x="241" y="736" w="480" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="480" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="480" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  </ButtonStandard>
+  <TextParagraph name="txtDesc" x="239" y="312" w="482.860748291016" h="408.40625" align="center" font="AeroMaticsLightRegular" size="24" leading="0" text="Falken’s maze&#xD;Black jack&#xD;Gin rummy&#xD;hearts&#xD;bridge&#xD;checkers&#xD;chess&#xD;poker&#xD;fighter combat&#xD;guerilla engagement&#xD;desert warefare&#xD;air-to-ground actions&#xD;theatrewide tactical warefare&#xD;theaterwide biotoxic and chemical warefare" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtSubtitle" x="12" y="182" align="left" font="AeroMaticsLightRegular" size="30" text="Subtitle Long Name" fillColor="1E62A8" alpha="1"/>
+  <TextPoint name="txtTitle" x="61" y="131" align="left" font="AeroMaticsLightRegular" size="48" text="Main Title" fillColor="2BAAFF" alpha="1"/>
+  <ButtonStandard name="btnBack" x="13" y="141" w="40" h="40" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="btnBack_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnBack_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="btnBack_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+</layout>

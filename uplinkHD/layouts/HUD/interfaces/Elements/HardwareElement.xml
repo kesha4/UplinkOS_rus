@@ -1,0 +1,19 @@
+<layout name="HardwareElement" w="228" h="225">
+  <ButtonStandard name="btnBase" x="0" y="0" w="228" h="225" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="228" h="225" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.30196078431373"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="228" h="225" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  </ButtonStandard>
+  <TextPoint name="txtName" x="114" y="137" align="center" font="AeroMaticsRegular" size="24" text="CPU ( 120 GHz )" fillColor="2BAAFF" alpha="1"/>
+  <Image name="hwIcon" file="icon_hw_unknown.png" x="54" y="10" alpha="1"/>
+  <Container name="info" x="0" y="0" w="228" h="225" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="base" subtype="filled" x="0" y="0" w="228" h="225" fillColor="112B3C" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <TextParagraph name="txtDesc" x="11" y="39" w="207.499969482422" h="141.5" align="left" font="AeroMaticsLightRegular" size="18" leading="0" text="A faster processor with onboard MPU instruction handling for faster instruction execution." fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtName" x="10" y="7" align="left" font="AeroMaticsRegular" size="24" text="CPU ( 120 GHz )" fillColor="2BAAFF" alpha="1"/>
+  </Container>
+  <TextPoint name="txtPrice" x="74" y="183" align="center" font="AeroMaticsRegular" size="30" text="25000c" fillColor="2BAAFF" alpha="1"/>
+  <ButtonStandard name="btnBuy" x="148" y="180" w="80" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="btnBuy_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnBuy_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="btnBuy_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+</layout>

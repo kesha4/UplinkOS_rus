@@ -1,0 +1,8 @@
+<layout name="Background" w="1920" h="1080">
+  <Gradient name="background" subtype="gradVertical" x="0" y="0" w="1920" h="1080" alpha="1">
+    <GradStop location="0" fillColor="0B0B0B"/>
+    <GradStop location="0.5" fillColor="0B0B0B"/>
+    <GradStop location="1" fillColor="112B3C"/>
+  </Gradient>
+  <Image name="logo" file="logo.png" x="690" y="270" alpha="1"/>
+</layout>

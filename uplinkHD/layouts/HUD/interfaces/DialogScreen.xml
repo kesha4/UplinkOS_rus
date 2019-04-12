@@ -1,0 +1,409 @@
+<layout name="DialogScreen" w="962" h="1082">
+  <Container name="gatewayScreen3" x="218" y="405" w="524" h="166" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <TextParagraph name="text2" x="-58" y="-2" w="641.653991699219" h="93.2117462158203" align="center" font="AeroMaticsLightRegular" size="42" leading="0" text="Welcome back to your Gateway." fillColor="2BAAFF" alpha="1"/>
+    <ButtonStandard name="okbutton" x="184" y="136" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="1" align="center" font="AeroMaticsLightRegular" size="24" text="OK" fillColor="2BAAFF" alpha="1"/>
+    </ButtonStandard>
+  </Container>
+  <Container name="gatewayScreen6" x="0" y="405" w="962" h="256" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <TextParagraph name="text2" x="79" y="-2" w="802.067504882813" h="93.2117462158203" align="center" font="AeroMaticsLightRegular" size="42" leading="0" text="UPLINK OS successfully started on Gateway." fillColor="2BAAFF" alpha="1"/>
+    <Image name="logoCube" file="logoCubeS.png" x="465" y="121" alpha="1"/>
+    <Line name="separator" x="0" y="135" w="401" h="2" x1="0" y1="0" x2="401" y2="0" strokeColor="2BAAFF" strokeW="2" alpha="1"/>
+    <Line name="separator2" x="561" y="135" w="401" h="2" x1="0" y1="0" x2="401" y2="0" strokeColor="2BAAFF" strokeW="2" alpha="1"/>
+    <ButtonStandard name="okbutton" x="401" y="226" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="1" align="center" font="AeroMaticsLightRegular" size="24" text="OK" fillColor="2BAAFF" alpha="1"/>
+    </ButtonStandard>
+  </Container>
+  <Container name="gatewayScreen7" x="80" y="329" w="791" h="391" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <TextParagraph name="caption" x="0" y="-2" w="802.067504882813" h="454.058776855469" align="left" font="AeroMaticsLightRegular" size="24" leading="0" text="Your Gateway computer has been successfully set up and will accept only your username and password in the future. When you next start Uplink on your home computer, you will be connected automatically to this Gateway.&#xD;&#xD;In your email you will find a message from Uplink Corporation, with some useful IP addresses.&#xD;You will also find the Uplink Test Mission, which will allow you to practice hacking.&#xD;&#xD;WOULD YOU LIKE TO RUN THE TUTORIAL?&#xD;(Recommended for first time users)" fillColor="2BAAFF" alpha="1"/>
+    <Line name="separator" x="80" y="322" w="642" h="2" x1="0" y1="0" x2="642" y2="0" strokeColor="2BAAFF" strokeW="2" alpha="1"/>
+    <ButtonStandard name="runtutorial" x="160" y="361" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="1" align="center" font="AeroMaticsLightRegular" size="24" text="NO" fillColor="2BAAFF" alpha="1"/>
+    </ButtonStandard>
+    <ButtonStandard name="dontruntutorial" x="481" y="361" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="1" align="center" font="AeroMaticsLightRegular" size="24" text="YES" fillColor="2BAAFF" alpha="1"/>
+    </ButtonStandard>
+  </Container>
+  <Container name="uplinkScreen2" x="0" y="329" w="882" h="482" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <TextParagraph name="caption1" x="80" y="-2" w="806.25" h="454.058776855469" align="left" font="AeroMaticsLightRegular" size="24" leading="0" text="Your Uplink membership package includes:&#xD;&#xD;- A Gateway computer at a secure location. You will connect to this machine from your home computer when you are working for Uplink. You can have it upgraded at a later stage if necessary.&#xD;&#xD;- A low interest loan of &quot; &lt;&lt; PLAYER_START_BALANCE &lt;&lt; &quot; credits with Uplink International Bank, to get you started.&#xD;&#xD;- Access to our Bulletin Board system - the usual place for Uplink Agents to find work.&#xD;&#xD;- You will be officially rated as an Uplink Agent, and we will monitor your progress. As your rating increases you will find new avenues of work become available." fillColor="2BAAFF" alpha="1"/>
+    <Line name="separator" x="160" y="412" w="642" h="2" x1="0" y1="0" x2="642" y2="0" strokeColor="2BAAFF" strokeW="2" alpha="1"/>
+    <Line name="separator2" x="0" y="28" w="481" h="2" x1="0" y1="0" x2="481" y2="0" strokeColor="2BAAFF" strokeW="2" alpha="1"/>
+    <ButtonStandard name="cancel" x="240" y="452" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="1" align="center" font="AeroMaticsLightRegular" size="24" text="Cancel" fillColor="2BAAFF" alpha="1"/>
+    </ButtonStandard>
+    <ButtonStandard name="continue" x="561" y="452" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="1" align="center" font="AeroMaticsLightRegular" size="24" text="Continue" fillColor="2BAAFF" alpha="1"/>
+    </ButtonStandard>
+  </Container>
+  <Container name="uplinkScreen3" x="81" y="316" w="791" h="670" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <TextPoint name="name" x="390" y="50" align="right" font="AeroMaticsLightRegular" size="30" text="Enter your name" fillColor="2BAAFF" alpha="0"/>
+    <TextPoint name="password" x="390" y="118" align="right" font="AeroMaticsLightRegular" size="30" text="Enter your password" fillColor="2BAAFF" alpha="0"/>
+    <TextPoint name="password2" x="390" y="185" align="right" font="AeroMaticsLightRegular" size="30" text="Retype your password" fillColor="2BAAFF" alpha="0"/>
+    <TextParagraph name="moretext" x="-1" y="607" w="802.067504882813" h="93" align="left" font="AeroMaticsLightRegular" size="18" leading="0" text="Uplink Corporation will not ask for any more personal details. In the event of you being charged with illegal operations, our corporation will be forced to disavow all knowledge of your actions, however you will be safe from arrest as your real world address will never be stored." fillColor="2BAAFF" alpha="1"/>
+    <Line name="separator" x="79" y="584" w="642" h="2" x1="0" y1="0" x2="642" y2="0" strokeColor="2BAAFF" strokeW="2" alpha="1"/>
+    <ButtonStandard name="continue" x="320" y="315" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="1" align="center" font="AeroMaticsLightRegular" size="24" text="Continue" fillColor="2BAAFF" alpha="1"/>
+    </ButtonStandard>
+    <ButtonTextField name="nametext" x="240" y="0" w="320" h="50" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Line name="gfxStandard" x="0" y="49" w="320" h="1" x1="0" y1="0" x2="320" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Container name="gfxHover" x="0" y="0" w="320" h="50" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+        <Line name="line" x="0" y="49" w="320" h="1" x1="0" y1="0" x2="320" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+        <Rectangle name="base" subtype="filled" x="0" y="0" w="320" h="50" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.25098039215686"/>
+      </Container>
+      <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="320" h="50" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <TextPoint name="txtCaption" x="9" y="4" align="left" font="AeroMaticsLightRegular" size="36" text="Username" fillColor="2BAAFF" alpha="1"/>
+    </ButtonTextField>
+    <ButtonTextField name="passwordtext" x="240" y="90" w="320" h="50" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Line name="gfxStandard" x="0" y="49" w="320" h="1" x1="0" y1="0" x2="320" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Container name="gfxHover" x="0" y="0" w="320" h="50" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+        <Line name="line" x="0" y="49" w="320" h="1" x1="0" y1="0" x2="320" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+        <Rectangle name="base" subtype="filled" x="0" y="0" w="320" h="50" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.25098039215686"/>
+      </Container>
+      <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="320" h="50" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <TextPoint name="txtCaption" x="9" y="4" align="left" font="AeroMaticsLightRegular" size="36" text="Password" fillColor="2BAAFF" alpha="1"/>
+    </ButtonTextField>
+    <ButtonTextField name="passwordtext2" x="240" y="180" w="320" h="50" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Line name="gfxStandard" x="0" y="49" w="320" h="1" x1="0" y1="0" x2="320" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Container name="gfxHover" x="0" y="0" w="320" h="50" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+        <Line name="line" x="0" y="49" w="320" h="1" x1="0" y1="0" x2="320" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+        <Rectangle name="base" subtype="filled" x="0" y="0" w="320" h="50" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.25098039215686"/>
+      </Container>
+      <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="320" h="50" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <TextPoint name="txtCaption" x="9" y="4" align="left" font="AeroMaticsLightRegular" size="36" text="Retype Password" fillColor="2BAAFF" alpha="1"/>
+    </ButtonTextField>
+  </Container>
+  <Container name="uplinkScreen5" x="0" y="329" w="872" h="432" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <TextParagraph name="caption1" x="80" y="-2" w="802.067504882813" h="454.058776855469" align="left" font="AeroMaticsLightRegular" size="24" leading="0" text="Registration is now taking place.&#xD;&#xD;As part of your membership, we will assign you a Gateway computer system in your chosen server room.  This will act as your jumping off point to the rest of the Net. When you next log in you will connect directly from your home computer to this gateway machine, and from there to the rest of the world.&#xD;&#xD;Should any of your actions be traced back to your Gateway, Uplink Corporation will disavow any knowledge of your actions and will destroy your account. Your Gateway machine will also be destroyed.&#xD;&#xD;Rental of your Gateway computer will cost 1.000 credits a month." fillColor="2BAAFF" alpha="1"/>
+    <Line name="separator" x="160" y="372" w="642" h="2" x1="0" y1="0" x2="642" y2="0" strokeColor="2BAAFF" strokeW="2" alpha="1"/>
+    <Line name="separator2" x="0" y="28" w="481" h="2" x1="0" y1="0" x2="481" y2="0" strokeColor="2BAAFF" strokeW="2" alpha="1"/>
+    <ButtonStandard name="continue" x="561" y="402" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="1" align="center" font="AeroMaticsLightRegular" size="24" text="Done" fillColor="2BAAFF" alpha="1"/>
+    </ButtonStandard>
+  </Container>
+  <Container name="uplinkScreen10" x="0" y="329" w="879" h="442" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <TextParagraph name="caption1" x="80" y="-2" w="803.90625" h="454.058776855469" align="left" font="AeroMaticsLightRegular" size="24" leading="0" text="We have been unable to connect you to your Gateway computer.&#xD;&#xD;This may be due to a fault in out communications lines, and if this is the case then we apologise and ask you to try again later.&#xD;&#xD;We are aware that Uplink Agents occasionally suffer 'difficulties' with their Gateway systems and sometimes require a new one as a result.  If this is the case, click YES below and we will assign you a new gateway.  (There will be an administrative charge of 1000 credits if you take this action.) Otherwise, click NO to log off and try again later.&#xD;&#xD;Rent a new Gateway computer?" fillColor="2BAAFF" alpha="1"/>
+    <Line name="separator" x="160" y="372" w="642" h="2" x1="0" y1="0" x2="642" y2="0" strokeColor="2BAAFF" strokeW="2" alpha="1"/>
+    <Line name="separator2" x="0" y="28" w="481" h="2" x1="0" y1="0" x2="481" y2="0" strokeColor="2BAAFF" strokeW="2" alpha="1"/>
+    <ButtonStandard name="no" x="240" y="412" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="1" align="center" font="AeroMaticsLightRegular" size="24" text="NO" fillColor="2BAAFF" alpha="1"/>
+    </ButtonStandard>
+    <ButtonStandard name="yes" x="561" y="412" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="1" align="center" font="AeroMaticsLightRegular" size="24" text="YES" fillColor="2BAAFF" alpha="1"/>
+    </ButtonStandard>
+  </Container>
+  <Container name="criminalScreen7" x="192" y="360" w="578" h="271" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="logo" file="icon_mission_criminal.png" x="244" y="0" alpha="1"/>
+    <ButtonTextField name="name" x="49" y="131" w="480" h="50" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Line name="gfxStandard" x="0" y="49" w="480" h="1" x1="0" y1="0" x2="480" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Container name="gfxHover" x="0" y="0" w="480" h="50" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+        <Line name="line" x="0" y="49" w="480" h="1" x1="0" y1="0" x2="480" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+        <Rectangle name="base" subtype="filled" x="0" y="0" w="480" h="50" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.25098039215686"/>
+      </Container>
+      <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="480" h="50" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <TextPoint name="txtCaption" x="9" y="4" align="left" font="AeroMaticsLightRegular" size="36" text="Name" fillColor="2BAAFF" alpha="1"/>
+    </ButtonTextField>
+    <Image name="icon" file="findIcon.png" x="0" y="139" alpha="1"/>
+    <ButtonStandard name="Cancel" x="209" y="241" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="1" align="center" font="AeroMaticsLightRegular" size="24" text="Cancel" fillColor="2BAAFF" alpha="1"/>
+    </ButtonStandard>
+    <ButtonStandard name="OK" x="529" y="131" w="49" h="50" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Image name="gfxStandard" file="btnSubmitTextField_s.png" x="0" y="0" alpha="1"/>
+      <Image name="gfxHover" file="btnSubmitTextField_h.png" x="0" y="0" alpha="1"/>
+      <Image name="gfxClick" file="btnSubmitTextField_c.png" x="0" y="0" alpha="1"/>
+    </ButtonStandard>
+  </Container>
+  <Container name="socialScreen5" x="192" y="360" w="578" h="271" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="logo" file="icon_mission_social.png" x="244" y="0" alpha="1"/>
+    <ButtonTextField name="name" x="49" y="131" w="480" h="50" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Line name="gfxStandard" x="0" y="49" w="480" h="1" x1="0" y1="0" x2="480" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Container name="gfxHover" x="0" y="0" w="480" h="50" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+        <Line name="line" x="0" y="49" w="480" h="1" x1="0" y1="0" x2="480" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+        <Rectangle name="base" subtype="filled" x="0" y="0" w="480" h="50" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.25098039215686"/>
+      </Container>
+      <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="480" h="50" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <TextPoint name="txtCaption" x="9" y="4" align="left" font="AeroMaticsLightRegular" size="36" text="Name" fillColor="2BAAFF" alpha="1"/>
+    </ButtonTextField>
+    <Image name="icon" file="findIcon.png" x="0" y="139" alpha="1"/>
+    <ButtonStandard name="Cancel" x="209" y="241" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="1" align="center" font="AeroMaticsLightRegular" size="24" text="Cancel" fillColor="2BAAFF" alpha="1"/>
+    </ButtonStandard>
+    <ButtonStandard name="OK" x="529" y="131" w="49" h="50" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Image name="gfxStandard" file="btnSubmitTextField_s.png" x="0" y="0" alpha="1"/>
+      <Image name="gfxHover" file="btnSubmitTextField_h.png" x="0" y="0" alpha="1"/>
+      <Image name="gfxClick" file="btnSubmitTextField_c.png" x="0" y="0" alpha="1"/>
+    </ButtonStandard>
+  </Container>
+  <Container name="academicScreen5" x="192" y="360" w="578" h="271" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="logo" file="icon_mission_academic.png" x="244" y="0" alpha="1"/>
+    <ButtonTextField name="name" x="49" y="131" w="480" h="50" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Line name="gfxStandard" x="0" y="49" w="480" h="1" x1="0" y1="0" x2="480" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Container name="gfxHover" x="0" y="0" w="480" h="50" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+        <Line name="line" x="0" y="49" w="480" h="1" x1="0" y1="0" x2="480" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+        <Rectangle name="base" subtype="filled" x="0" y="0" w="480" h="50" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.25098039215686"/>
+      </Container>
+      <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="480" h="50" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <TextPoint name="txtCaption" x="9" y="4" align="left" font="AeroMaticsLightRegular" size="36" text="Name" fillColor="2BAAFF" alpha="1"/>
+    </ButtonTextField>
+    <Image name="icon" file="findIcon.png" x="0" y="139" alpha="1"/>
+    <ButtonStandard name="Cancel" x="209" y="241" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="1" align="center" font="AeroMaticsLightRegular" size="24" text="Cancel" fillColor="2BAAFF" alpha="1"/>
+    </ButtonStandard>
+    <ButtonStandard name="OK" x="529" y="131" w="49" h="50" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Image name="gfxStandard" file="btnSubmitTextField_s.png" x="0" y="0" alpha="1"/>
+      <Image name="gfxHover" file="btnSubmitTextField_h.png" x="0" y="0" alpha="1"/>
+      <Image name="gfxClick" file="btnSubmitTextField_c.png" x="0" y="0" alpha="1"/>
+    </ButtonStandard>
+  </Container>
+  <Container name="stockScreen2" x="207" y="361" w="555" h="300" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <TextPoint name="name" x="264" y="5" align="right" font="AeroMaticsLightRegular" size="30" text="Enter your name" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="password" x="264" y="73" align="right" font="AeroMaticsLightRegular" size="30" text="Enter your password" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="password2" x="264" y="140" align="right" font="AeroMaticsLightRegular" size="30" text="Retype your password" fillColor="2BAAFF" alpha="1"/>
+    <ButtonTextField name="nametext" x="284" y="0" w="271" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Line name="gfxStandard" x="0" y="44" w="271" h="1" x1="0" y1="0" x2="271" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Container name="gfxHover" x="0" y="0" w="271" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+        <Line name="line" x="0" y="44" w="271" h="1" x1="0" y1="0" x2="271" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+        <Rectangle name="base" subtype="filled" x="0" y="0" w="271" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.25098039215686"/>
+      </Container>
+      <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="271" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <TextPoint name="txtCaption" x="9" y="6" align="left" font="AeroMaticsLightRegular" size="30" text="Username" fillColor="2BAAFF" alpha="1"/>
+    </ButtonTextField>
+    <ButtonTextField name="passwordtext" x="284" y="67" w="271" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Line name="gfxStandard" x="0" y="44" w="271" h="1" x1="0" y1="0" x2="271" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Container name="gfxHover" x="0" y="0" w="271" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+        <Line name="line" x="0" y="44" w="271" h="1" x1="0" y1="0" x2="271" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+        <Rectangle name="base" subtype="filled" x="0" y="0" w="271" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.25098039215686"/>
+      </Container>
+      <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="271" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <TextPoint name="txtCaption" x="9" y="6" align="left" font="AeroMaticsLightRegular" size="30" text="Password" fillColor="2BAAFF" alpha="1"/>
+    </ButtonTextField>
+    <ButtonTextField name="passwordtext2" x="284" y="135" w="271" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Line name="gfxStandard" x="0" y="44" w="271" h="1" x1="0" y1="0" x2="271" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Container name="gfxHover" x="0" y="0" w="271" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+        <Line name="line" x="0" y="44" w="271" h="1" x1="0" y1="0" x2="271" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+        <Rectangle name="base" subtype="filled" x="0" y="0" w="271" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.25098039215686"/>
+      </Container>
+      <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="271" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <TextPoint name="txtCaption" x="9" y="6" align="left" font="AeroMaticsLightRegular" size="30" text="Retype Password" fillColor="2BAAFF" alpha="1"/>
+    </ButtonTextField>
+    <ButtonStandard name="cancel" x="34" y="270" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="1" align="center" font="AeroMaticsLightRegular" size="24" text="Cancel" fillColor="2BAAFF" alpha="1"/>
+    </ButtonStandard>
+    <ButtonStandard name="create" x="354" y="270" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="1" align="center" font="AeroMaticsLightRegular" size="24" text="Create" fillColor="2BAAFF" alpha="1"/>
+    </ButtonStandard>
+  </Container>
+  <Container name="bankScreen4" x="207" y="361" w="555" h="300" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <TextPoint name="name" x="264" y="5" align="right" font="AeroMaticsLightRegular" size="30" text="Enter your name" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="password" x="264" y="73" align="right" font="AeroMaticsLightRegular" size="30" text="Enter your password" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="password2" x="264" y="140" align="right" font="AeroMaticsLightRegular" size="30" text="Retype your password" fillColor="2BAAFF" alpha="1"/>
+    <ButtonTextField name="nametext" x="284" y="0" w="271" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Line name="gfxStandard" x="0" y="44" w="271" h="1" x1="0" y1="0" x2="271" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Container name="gfxHover" x="0" y="0" w="271" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+        <Line name="line" x="0" y="44" w="271" h="1" x1="0" y1="0" x2="271" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+        <Rectangle name="base" subtype="filled" x="0" y="0" w="271" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.25098039215686"/>
+      </Container>
+      <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="271" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <TextPoint name="txtCaption" x="9" y="6" align="left" font="AeroMaticsLightRegular" size="30" text="Username" fillColor="2BAAFF" alpha="1"/>
+    </ButtonTextField>
+    <ButtonTextField name="passwordtext" x="284" y="67" w="271" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Line name="gfxStandard" x="0" y="44" w="271" h="1" x1="0" y1="0" x2="271" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Container name="gfxHover" x="0" y="0" w="271" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+        <Line name="line" x="0" y="44" w="271" h="1" x1="0" y1="0" x2="271" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+        <Rectangle name="base" subtype="filled" x="0" y="0" w="271" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.25098039215686"/>
+      </Container>
+      <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="271" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <TextPoint name="txtCaption" x="9" y="6" align="left" font="AeroMaticsLightRegular" size="30" text="Password" fillColor="2BAAFF" alpha="1"/>
+    </ButtonTextField>
+    <ButtonTextField name="passwordtext2" x="284" y="135" w="271" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Line name="gfxStandard" x="0" y="44" w="271" h="1" x1="0" y1="0" x2="271" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Container name="gfxHover" x="0" y="0" w="271" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+        <Line name="line" x="0" y="44" w="271" h="1" x1="0" y1="0" x2="271" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+        <Rectangle name="base" subtype="filled" x="0" y="0" w="271" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.25098039215686"/>
+      </Container>
+      <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="271" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <TextPoint name="txtCaption" x="9" y="6" align="left" font="AeroMaticsLightRegular" size="30" text="Retype Password" fillColor="2BAAFF" alpha="1"/>
+    </ButtonTextField>
+    <ButtonStandard name="cancel" x="34" y="270" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="1" align="center" font="AeroMaticsLightRegular" size="24" text="Cancel" fillColor="2BAAFF" alpha="1"/>
+    </ButtonStandard>
+    <ButtonStandard name="create" x="354" y="270" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="1" align="center" font="AeroMaticsLightRegular" size="24" text="Create" fillColor="2BAAFF" alpha="1"/>
+    </ButtonStandard>
+  </Container>
+  <Container name="bankScreen7" x="241" y="361" w="521" h="359" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <TextPoint name="s_accno" x="0" y="5" align="left" font="AeroMaticsLightRegular" size="30" text="Acc No. (From)" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="t_ip" x="0" y="73" align="left" font="AeroMaticsLightRegular" size="30" text="Bank IP (To)" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="t_accno" x="0" y="140" align="left" font="AeroMaticsLightRegular" size="30" text="Acc No. (To)" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="amount" x="0" y="207" align="left" font="AeroMaticsLightRegular" size="30" text="Amount" fillColor="2BAAFF" alpha="1"/>
+    <ButtonTextField name="s_accno_value" x="250" y="0" w="271" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Line name="gfxStandard" x="0" y="44" w="271" h="1" x1="0" y1="0" x2="271" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Container name="gfxHover" x="0" y="0" w="271" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+        <Line name="line" x="0" y="44" w="271" h="1" x1="0" y1="0" x2="271" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+        <Rectangle name="base" subtype="filled" x="0" y="0" w="271" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.25098039215686"/>
+      </Container>
+      <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="271" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <TextPoint name="txtCaption" x="9" y="6" align="left" font="AeroMaticsLightRegular" size="30" text="Acc No. (From)" fillColor="2BAAFF" alpha="1"/>
+    </ButtonTextField>
+    <ButtonTextField name="t_ip_value" x="250" y="67" w="271" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Line name="gfxStandard" x="0" y="44" w="271" h="1" x1="0" y1="0" x2="271" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Container name="gfxHover" x="0" y="0" w="271" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+        <Line name="line" x="0" y="44" w="271" h="1" x1="0" y1="0" x2="271" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+        <Rectangle name="base" subtype="filled" x="0" y="0" w="271" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.25098039215686"/>
+      </Container>
+      <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="271" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <TextPoint name="txtCaption" x="9" y="6" align="left" font="AeroMaticsLightRegular" size="30" text="Bank IP (To)" fillColor="2BAAFF" alpha="1"/>
+    </ButtonTextField>
+    <ButtonTextField name="t_accno_value" x="250" y="135" w="271" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Line name="gfxStandard" x="0" y="44" w="271" h="1" x1="0" y1="0" x2="271" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Container name="gfxHover" x="0" y="0" w="271" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+        <Line name="line" x="0" y="44" w="271" h="1" x1="0" y1="0" x2="271" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+        <Rectangle name="base" subtype="filled" x="0" y="0" w="271" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.25098039215686"/>
+      </Container>
+      <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="271" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <TextPoint name="txtCaption" x="9" y="6" align="left" font="AeroMaticsLightRegular" size="30" text="Acc No. (To)" fillColor="2BAAFF" alpha="1"/>
+    </ButtonTextField>
+    <ButtonTextField name="amount_value" x="250" y="202" w="271" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Line name="gfxStandard" x="0" y="44" w="271" h="1" x1="0" y1="0" x2="271" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Container name="gfxHover" x="0" y="0" w="271" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+        <Line name="line" x="0" y="44" w="271" h="1" x1="0" y1="0" x2="271" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+        <Rectangle name="base" subtype="filled" x="0" y="0" w="271" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.25098039215686"/>
+      </Container>
+      <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="271" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <TextPoint name="txtCaption" x="9" y="6" align="left" font="AeroMaticsLightRegular" size="30" text="Amount" fillColor="2BAAFF" alpha="1"/>
+    </ButtonTextField>
+    <ButtonStandard name="cancel" x="0" y="329" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="1" align="center" font="AeroMaticsLightRegular" size="24" text="Cancel" fillColor="2BAAFF" alpha="1"/>
+    </ButtonStandard>
+    <ButtonStandard name="transfer" x="320" y="329" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="1" align="center" font="AeroMaticsLightRegular" size="24" text="Transfer" fillColor="2BAAFF" alpha="1"/>
+    </ButtonStandard>
+  </Container>
+  <Container name="bankScreen19" x="110" y="405" w="739" h="166" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <TextParagraph name="text" x="-31" y="-2" w="802.067504882813" h="93.2117462158203" align="center" font="AeroMaticsLightRegular" size="42" leading="0" text="Are you sure you wish to close your account?" fillColor="2BAAFF" alpha="1"/>
+    <ButtonStandard name="cancel" x="130" y="136" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="1" align="center" font="AeroMaticsLightRegular" size="24" text="Cancel" fillColor="2BAAFF" alpha="1"/>
+    </ButtonStandard>
+    <ButtonStandard name="close" x="451" y="136" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="1" align="center" font="AeroMaticsLightRegular" size="24" text="Close" fillColor="2BAAFF" alpha="1"/>
+    </ButtonStandard>
+  </Container>
+  <Container name="lanScreen" x="0" y="405" w="962" h="266" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <TextParagraph name="text" x="79" y="-2" w="802.067504882813" h="93.2117462158203" align="center" font="AeroMaticsLightRegular" size="42" leading="0" text="Disable Isolation Bridge." fillColor="2BAAFF" alpha="1"/>
+    <Image name="iconAuth" file="lanEl_icon_authenticationServer.png" x="451" y="121" alpha="1"/>
+    <Image name="iconBridge" file="lanEl_icon_isolationBridge.png" x="451" y="106" alpha="1"/>
+    <Line name="separator" x="0" y="135" w="401" h="2" x1="0" y1="0" x2="401" y2="0" strokeColor="2BAAFF" strokeW="2" alpha="1"/>
+    <Line name="separator2" x="561" y="135" w="401" h="2" x1="0" y1="0" x2="401" y2="0" strokeColor="2BAAFF" strokeW="2" alpha="1"/>
+    <ButtonStandard name="enable" x="161" y="226" w="240" h="40" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="240" h="40" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="240" h="40" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="240" h="40" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <TextPoint name="txtCaption" x="120" y="6" align="center" font="AeroMaticsLightRegular" size="24" text="Enable" fillColor="2BAAFF" alpha="1"/>
+    </ButtonStandard>
+    <ButtonStandard name="disable" x="561" y="226" w="240" h="40" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="240" h="40" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="240" h="40" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="240" h="40" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <TextPoint name="txtCaption" x="121" y="5" align="center" font="AeroMaticsLightRegular" size="24" text="Disable" fillColor="2BAAFF" alpha="1"/>
+    </ButtonStandard>
+  </Container>
+  <Container name="deadAgentEmail3" x="13" y="261" w="868" h="641" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <TextParagraph name="scheduletitle" x="66" y="6" w="319" h="36" align="left" font="AeroMaticsLightRegular" size="30" leading="0" text="Scheduled E-Mails" fillColor="2BAAFF" alpha="1"/>
+    <TextParagraph name="email1" x="67" y="73" w="318" h="80" align="left" font="AeroMaticsLightRegular" size="24" leading="0" text="TO: subscriptions@hackers.com&#xD;SUBJECT: Continuation of order" fillColor="2BAAFF" alpha="1"/>
+    <ButtonStandard name="view1" x="67" y="141" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="-1" align="center" font="AeroMaticsLightRegular" size="24" text="View" fillColor="2BAAFF" alpha="1"/>
+    </ButtonStandard>
+    <ButtonStandard name="cancel1" x="67" y="181" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="-1" align="center" font="AeroMaticsLightRegular" size="24" text="Cancel" fillColor="2BAAFF" alpha="1"/>
+    </ButtonStandard>
+    <TextParagraph name="email2" x="547" y="73" w="318" h="80" align="left" font="AeroMaticsLightRegular" size="24" leading="0" text="TO: all-agents@uplink.com&#xD;SUBJECT: Warning about ARC" fillColor="2BAAFF" alpha="1"/>
+    <ButtonStandard name="view2" x="547" y="141" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="-1" align="center" font="AeroMaticsLightRegular" size="24" text="View" fillColor="2BAAFF" alpha="1"/>
+    </ButtonStandard>
+    <ButtonStandard name="close" x="0" y="0" w="40" h="40" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Image name="gfxStandard" file="btnBack_s.png" x="0" y="0" alpha="1"/>
+      <Image name="gfxHover" file="btnBack_h.png" x="0" y="0" alpha="1"/>
+      <Image name="gfxClick" file="btnBack_c.png" x="0" y="0" alpha="1"/>
+    </ButtonStandard>
+    <ButtonStandard name="cancel2" x="547" y="181" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="-1" align="center" font="AeroMaticsLightRegular" size="24" text="Cancel" fillColor="2BAAFF" alpha="1"/>
+    </ButtonStandard>
+    <TextParagraph name="mailtext" x="67" y="299" w="806.8359375" h="430.517730712891" align="left" font="AeroMaticsLightRegular" size="24" leading="0" text="Agents,&#xD;If you are reading this email then it means I am dead. I have been working for Andromeda for the past month on a top secret project and until yesterday I did not even know what exactly I was coding.&#xD;This story hit the news and I decided that I should try to find out what was happening with project Revelation - and yesterday I managed to gain access to their stand-alone server room and copy the files that we were working on.&#xD;Unfortunately they saw what I was doing and I had to leave quick, and I haven’t had time to analyse the project files yet. If you read this then they have already caught me.&#xD;ARC cannot be trusted. We must come together as a group and find out what they are up to before something terrible happens. I don’t know if it’s already too late." fillColor="2BAAFF" alpha="1"/>
+  </Container>
+  <TextPoint name="txtSubtitle" x="12" y="182" align="left" font="AeroMaticsLightRegular" size="30" text="Subtitle Long Name" fillColor="1E62A8" alpha="1"/>
+  <TextPoint name="txtTitle" x="12" y="134" align="left" font="AeroMaticsLightRegular" size="48" text="Main Title" fillColor="2BAAFF" alpha="1"/>
+</layout>

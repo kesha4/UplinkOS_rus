@@ -1,0 +1,15 @@
+<layout name="WorldMapElement" w="148" h="20">
+  <Rectangle name="cNorm_ref" subtype="filled" x="0" y="0" w="10" h="10" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  <Rectangle name="cTarget_ref" subtype="filled" x="10" y="0" w="10" h="10" fillColor="FFA41C" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  <Rectangle name="cFav_ref" subtype="filled" x="20" y="0" w="10" h="10" fillColor="2BFFD1" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  <Rectangle name="cFavTarget_ref" subtype="filled" x="15" y="10" w="10" h="10" fillColor="7DE836" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  <Rectangle name="cTrace_ref" subtype="filled" x="30" y="0" w="10" h="10" fillColor="D31A1A" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  <Rectangle name="gfxLink" subtype="filled" x="5" y="5" w="10" h="10" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  <Rectangle name="gfxHasAccess" subtype="filled" x="7" y="7" w="6" h="6" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  <ButtonStandard name="btnLink" x="1" y="1" w="18" h="18" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="stroked" x="2" y="2" w="14" h="14" fillColor="FF00FF" fillA="1" strokeColor="FFFFFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxClick" subtype="stroked" x="0" y="0" w="18" h="18" fillColor="FF00FF" fillA="1" strokeColor="FFFFFF" strokeW="2" alpha="1"/>
+  </ButtonStandard>
+  <Rectangle name="txtBg" subtype="filled" x="24" y="0" w="106" h="20" fillColor="112B3C" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.6"/>
+  <TextPoint name="txtLink" x="28" y="-1" align="left" font="AeroMaticsRegular" size="18" text="txtLinkNorm_Ref" fillColor="FFFFFF" alpha="1"/>
+</layout>

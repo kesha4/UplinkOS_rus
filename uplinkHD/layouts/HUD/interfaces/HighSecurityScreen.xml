@@ -1,0 +1,43 @@
+<layout name="HighSecurityScreen" w="962" h="1082">
+  <Line name="topSeparator" x="13" y="314" w="936" h="2" x1="0" y1="0" x2="936" y2="0" strokeColor="2BAAFF" strokeW="2" alpha="1"/>
+  <Line name="bottomSeparator" x="13" y="767" w="298" h="2" x1="0" y1="0" x2="298" y2="0" strokeColor="2BAAFF" strokeW="2" alpha="1"/>
+  <Line name="bottomSeparator2" x="651" y="767" w="298" h="2" x1="0" y1="0" x2="298" y2="0" strokeColor="2BAAFF" strokeW="2" alpha="1"/>
+  <TextParagraph name="txtPass" x="71" y="636" w="180" h="62" align="center" font="AeroMaticsLightRegular" size="24" leading="0" text="Admin Credentials" fillColor="2BAAFF" alpha="1"/>
+  <ButtonStandard name="btnPass" x="71" y="451" w="180" h="180" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="btnPassword_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnPassword_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="btnPassword_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+  <Image name="iconPassOn" file="icon_doneFill40x.png" x="231" y="431" alpha="1"/>
+  <Image name="iconPassOff" file="icon_notDoneFill40x.png" x="231" y="431" alpha="1"/>
+  <TextParagraph name="txtCypher" x="391" y="636" w="180" h="62" align="center" font="AeroMaticsLightRegular" size="24" leading="0" text="Elliptic-Curve Encryption Cypher" fillColor="2BAAFF" alpha="1"/>
+  <ButtonStandard name="btnCypher" x="391" y="451" w="180" h="180" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="btnCypher_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnCypher_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="btnCypher_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+  <Image name="iconCypherOn" file="icon_doneFill40x.png" x="551" y="431" alpha="1"/>
+  <Image name="iconCypherOff" file="icon_notDoneFill40x.png" x="551" y="431" alpha="1"/>
+  <TextParagraph name="txtVoice" x="711" y="636" w="180" h="62" align="center" font="AeroMaticsLightRegular" size="24" leading="0" text="Voice print Identification" fillColor="2BAAFF" alpha="1"/>
+  <ButtonStandard name="btnVoice" x="711" y="451" w="180" h="180" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="btnVoice_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnVoice_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="btnVoice_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+  <Image name="iconVoiceOn" file="icon_doneFill40x.png" x="871" y="431" alpha="1"/>
+  <Image name="iconVoiceOff" file="icon_notDoneFill40x.png" x="871" y="431" alpha="1"/>
+  <ButtonStandard name="btnAccess" x="321" y="746" w="320" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="320" h="45" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="320" h="45" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="320" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <TextPoint name="txtCaption" x="161" y="5" align="center" font="AeroMaticsLightRegular" size="30" text="ACCESS DENIED" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnBypass" x="720" y="810" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <TextPoint name="txtCaption" x="80" y="-1" align="center" font="AeroMaticsLightRegular" size="24" text="Bypass" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <TextPoint name="txtSubtitle" x="12" y="182" align="left" font="AeroMaticsLightRegular" size="30" text="Subtitle Long Name" fillColor="1E62A8" alpha="1"/>
+  <TextPoint name="txtTitle" x="12" y="134" align="left" font="AeroMaticsLightRegular" size="48" text="Main Title" fillColor="2BAAFF" alpha="1"/>
+</layout>

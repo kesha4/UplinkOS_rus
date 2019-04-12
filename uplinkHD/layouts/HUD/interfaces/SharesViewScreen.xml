@@ -1,0 +1,44 @@
+<layout name="SharesViewScreen" w="962" h="1082">
+  <TextPoint name="txtProfit" x="562" y="873" align="left" font="AeroMaticsLightRegular" size="24" text="Profit:" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtProfitAmount" x="564" y="901" align="left" font="AeroMaticsRegular" size="36" text="400c" fillColor="2BAAFF" alpha="1"/>
+  <Line name="separator2" x="561" y="861" w="321" h="2" x1="0" y1="2" x2="321" y2="2" strokeColor="2BAAFF" strokeW="2" alpha="1"/>
+  <TextPoint name="txtDiff" x="562" y="821" align="left" font="AeroMaticsLightRegular" size="24" text="Paid: 2240c Value: 2640c" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtOwned" x="562" y="781" align="left" font="AeroMaticsLightRegular" size="24" text="You own 20 shares" fillColor="2BAAFF" alpha="1"/>
+  <ButtonStandard name="btnBuy" x="321" y="780" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <TextPoint name="txtCaption" x="80" y="-1" align="center" font="AeroMaticsLightRegular" size="24" text="Buy" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnSell" x="321" y="820" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <TextPoint name="txtCaption" x="80" y="1" align="center" font="AeroMaticsLightRegular" size="24" text="Sell" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <TextPoint name="txtValTitle" x="562" y="326" align="left" font="AeroMaticsRegular" size="24" text="Share Values" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtValTitle copy" x="121" y="326" align="left" font="AeroMaticsRegular" size="24" text="Share Value Graph" fillColor="2BAAFF" alpha="1"/>
+  <Line name="separator" x="561" y="359" w="321" h="2" x1="0" y1="2" x2="321" y2="2" strokeColor="2BAAFF" strokeW="2" alpha="1"/>
+  <TextParagraph name="txtValMonths" x="560" y="369" w="242.274261474609" h="342.40625" align="left" font="AeroMaticsLightRegular" size="24" leading="0" text="June, 2027&#xD;September, 2027&#xD;June, 2027&#xD;September, 2027&#xD;June, 2027&#xD;September, 2027&#xD;June, 2027&#xD;September, 2027&#xD;June, 2027&#xD;September, 2027&#xD;June, 2027&#xD;September, 2027" fillColor="2BAAFF" alpha="1"/>
+  <TextParagraph name="txtValPrices" x="802" y="369" w="80.2742462158203" h="342.40625" align="right" font="AeroMaticsLightRegular" size="24" leading="0" text="12 c&#xD;150 c&#xD;1500 c&#xD;12 c&#xD;150 c&#xD;1500 c&#xD;12 c&#xD;150 c&#xD;1500 c&#xD;12 c&#xD;150 c&#xD;1500 c" fillColor="2BAAFF" alpha="1"/>
+  <Rectangle name="graphRect" subtype="stroked" x="120" y="360" w="362" h="362" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+  <Poly name="graphPoly" subtype="stroked" x="120" y="525" w="362" h="197" fillColor="FF00FF" fillA="1" strokeColor="FFFFFF" alpha="1">
+    <Vertex x="1" y="197"/>
+    <Vertex x="122" y="76"/>
+    <Vertex x="166" y="120"/>
+    <Vertex x="256" y="30"/>
+    <Vertex x="287" y="61"/>
+    <Vertex x="346" y="2"/>
+    <Vertex x="361" y="17"/>
+  </Poly>
+  <TextPoint name="txtValMax" x="111" y="355" align="right" font="AeroMaticsLightRegular" size="24" text="150" fillColor="1E62A8" alpha="1"/>
+  <TextPoint name="txtValMin" x="111" y="699" align="right" font="AeroMaticsLightRegular" size="24" text="0" fillColor="1E62A8" alpha="1"/>
+  <TextPoint name="txtGraphTime" x="120" y="726" align="left" font="AeroMaticsLightRegular" size="24" text="Time" fillColor="1E62A8" alpha="1"/>
+  <TextPoint name="txtSubtitle" x="12" y="182" align="left" font="AeroMaticsLightRegular" size="30" text="Subtitle Long Name" fillColor="1E62A8" alpha="1"/>
+  <TextPoint name="txtTitle" x="61" y="131" align="left" font="AeroMaticsLightRegular" size="48" text="Main Title" fillColor="2BAAFF" alpha="1"/>
+  <ButtonStandard name="btnBack" x="13" y="141" w="40" h="40" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="btnBack_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnBack_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="btnBack_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+</layout>

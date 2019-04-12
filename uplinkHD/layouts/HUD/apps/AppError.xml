@@ -1,0 +1,7 @@
+<layout name="AppError" w="210" h="31">
+  <Image name="baseL" file="appErrorMsg_base_L.png" x="0" y="5" alpha="1"/>
+  <Image name="baseR" file="appErrorMsg_base_R.png" x="184" y="5" alpha="1"/>
+  <Rectangle name="baseM" subtype="filled" x="26" y="5" w="26" h="26" fillColor="D31A1A" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  <Image name="anchor" file="appErrorMsg_anchor.png" x="100" y="0" alpha="1"/>
+  <TextPoint name="txtCaption" x="105" y="8" align="center" font="AeroMaticsRegular" size="18" text="Test text on a line." fillColor="FFFFFF" alpha="1"/>
+</layout>

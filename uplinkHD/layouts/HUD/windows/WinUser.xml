@@ -1,0 +1,81 @@
+<layout name="WinUser" w="480" h="400">
+  <Rectangle name="baseBG" subtype="strokedFill" x="0" y="0" w="479" h="397" fillColor="112B3C" fillA="0.94901960784314" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+  <Rectangle name="baseTitle" subtype="filled" x="0" y="0" w="480" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  <Line name="baseLine" x="0" y="395" w="480" h="4" x1="0" y1="2" x2="480" y2="2" strokeColor="2BAAFF" strokeW="4" alpha="1"/>
+  <Container name="status" x="10" y="85" w="460" h="298" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <TextPoint name="txtRatings" x="9" y="-5" align="left" font="AeroMaticsRegular" size="24" text="RATINGS" fillColor="2BAAFF" alpha="1"/>
+    <Line name="separator" x="0" y="22" w="460" h="2" x1="0" y1="1" x2="460" y2="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <TextPoint name="txtGrade" x="10" y="31" align="left" font="AeroMaticsLightRegular" size="18" text="GRADE 15 UPLINK AGENT" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtRating" x="10" y="51" align="left" font="AeroMaticsLightRegular" size="18" text="Beginner" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtNeuromancer" x="10" y="71" align="left" font="AeroMaticsLightRegular" size="18" text="NEUROMANCER: Neutral" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtCriminal" x="9" y="115" align="left" font="AeroMaticsRegular" size="24" text="CRIMINAL" fillColor="2BAAFF" alpha="1"/>
+    <Line name="separator2" x="0" y="142" w="460" h="2" x1="0" y1="1" x2="460" y2="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <TextPoint name="txtCriminalRec" x="10" y="151" align="left" font="AeroMaticsLightRegular" size="18" text="None" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtAwards" x="9" y="195" align="left" font="AeroMaticsRegular" size="24" text="AWARDS" fillColor="2BAAFF" alpha="1"/>
+    <Line name="separator3" x="0" y="222" w="460" h="2" x1="0" y1="1" x2="460" y2="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <ButtonStandard name="iconAw0" x="10" y="234" w="24" h="24" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Image name="iconAw0" file="iconAwNone_24px.png" x="0" y="0" alpha="1"/>
+    </ButtonStandard>
+    <ButtonStandard name="iconAw1" x="50" y="234" w="24" h="24" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Image name="iconAw1" file="iconAwNone_24px.png" x="0" y="0" alpha="1"/>
+    </ButtonStandard>
+    <ButtonStandard name="iconAw2" x="90" y="234" w="24" h="24" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Image name="iconAw2" file="iconAwNone_24px.png" x="0" y="0" alpha="1"/>
+    </ButtonStandard>
+    <ButtonStandard name="iconAw3" x="130" y="234" w="24" h="24" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Image name="iconAw3" file="iconAwNone_24px.png" x="0" y="0" alpha="1"/>
+    </ButtonStandard>
+    <ButtonStandard name="iconAw4" x="170" y="234" w="24" h="24" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Image name="iconAw4" file="iconAwNone_24px.png" x="0" y="0" alpha="1"/>
+    </ButtonStandard>
+    <ButtonStandard name="iconAw5" x="210" y="234" w="24" h="24" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Image name="iconAw5" file="iconAwNone_24px.png" x="0" y="0" alpha="1"/>
+    </ButtonStandard>
+    <ButtonStandard name="iconAw6" x="10" y="274" w="24" h="24" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Image name="iconAw6" file="iconAwNone_24px.png" x="0" y="0" alpha="1"/>
+    </ButtonStandard>
+    <ButtonStandard name="iconAw7" x="50" y="274" w="24" h="24" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Image name="iconAw7" file="iconAwNone_24px.png" x="0" y="0" alpha="1"/>
+    </ButtonStandard>
+    <ButtonStandard name="iconAw8" x="90" y="274" w="24" h="24" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Image name="iconAw8" file="iconAwNone_24px.png" x="0" y="0" alpha="1"/>
+    </ButtonStandard>
+    <ButtonStandard name="iconAw9" x="130" y="274" w="24" h="24" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Image name="iconAw9" file="iconAwNone_24px.png" x="0" y="0" alpha="1"/>
+    </ButtonStandard>
+    <ButtonStandard name="iconAw10" x="170" y="274" w="24" h="24" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Image name="iconAw10" file="iconAwNone_24px.png" x="0" y="0" alpha="1"/>
+    </ButtonStandard>
+    <ButtonStandard name="iconAw11" x="210" y="274" w="24" h="24" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Image name="iconAw11" file="iconAwNone_24px.png" x="0" y="0" alpha="1"/>
+    </ButtonStandard>
+  </Container>
+  <Container name="finance" x="10" y="84" w="469" h="302" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <TextPoint name="txtAcc" x="1" y="-5" align="left" font="AeroMaticsLightRegular" size="24" text="AccNo" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtBank" x="150" y="-5" align="left" font="AeroMaticsLightRegular" size="24" text="Bank IP" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtBalance" x="451" y="-5" align="right" font="AeroMaticsLightRegular" size="24" text="Balance" fillColor="2BAAFF" alpha="1"/>
+    <Line name="separator" x="0" y="22" w="460" h="2" x1="0" y1="1" x2="460" y2="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <ScrollableList name="list" x="0" y="24" w="469" h="254" scalingType="scaleByWidth" arrangeType="arrangeVertical" arrangePadding="0.0" alpha="1"/>
+    <Line name="separator2" x="0" y="277" w="460" h="2" x1="0" y1="1" x2="460" y2="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <TextPoint name="txtTotal" x="1" y="280" align="left" font="AeroMaticsRegular" size="24" text="TOTAL" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtTotalAmount" x="459" y="280" align="right" font="AeroMaticsRegular" size="24" text="100 Credits" fillColor="2BAAFF" alpha="1"/>
+  </Container>
+  <TextPoint name="txtTitle" x="240" y="5" align="center" font="AeroMaticsRegular" size="30" text="USERNAME" fillColor="0B0B0B" alpha="1"/>
+  <Rectangle name="tabsBg" subtype="filled" x="1" y="45" w="478" h="30" fillColor="1E62A8" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  <ButtonStandard name="btnTab0" x="1" y="45" w="235" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="235" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.50196078431373"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="235" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <TextPoint name="txtCaption" x="118" y="0" align="center" font="AeroMaticsLightRegular" size="24" text="Status" fillColor="FFFFFF" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnTab1" x="246" y="45" w="233" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="233" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.50196078431373"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="233" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <TextPoint name="txtCaption" x="116" y="1" align="center" font="AeroMaticsLightRegular" size="24" text="Finance" fillColor="FFFFFF" alpha="1"/>
+  </ButtonStandard>
+  <Line name="tabSelection" x="1" y="73" w="235" h="2" x1="0" y1="0" x2="235" y2="0" strokeColor="FFFFFF" strokeW="2" alpha="1"/>
+  <ButtonStandard name="btnClose" x="435" y="0" w="45" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="btnCloseWin_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnCloseWin_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="btnCloseWin_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+</layout>

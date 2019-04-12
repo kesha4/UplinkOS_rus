@@ -1,0 +1,10 @@
+<layout name="BBSScreen" w="962" h="1082">
+  <ScrollableList name="missionsList" x="13" y="90" w="936" h="902" scalingType="scaleByWidth" arrangeType="arrangeTableVertical" arrangePadding="2.0" alpha="1"/>
+  <ButtonStandard name="btnBack" x="12" y="37" w="40" h="40" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="btnBack_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnBack_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="btnBack_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+  <TextPoint name="txtSubtitle" x="244" y="45" align="left" font="AeroMaticsLightRegular" size="30" text="Subtitle Long Name" fillColor="1E62A8" alpha="1"/>
+  <TextPoint name="txtTitle" x="60" y="27" align="left" font="AeroMaticsLightRegular" size="48" text="Main Title" fillColor="2BAAFF" alpha="1"/>
+</layout>

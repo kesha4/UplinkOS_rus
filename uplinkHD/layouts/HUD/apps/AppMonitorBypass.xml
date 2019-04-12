@@ -1,0 +1,15 @@
+<layout name="AppMonitorBypass" w="90" h="90">
+  <Image name="base" file="appBase_01.png" x="0" y="0" alpha="1"/>
+  <ButtonStandard name="btnStart" x="4" y="4" w="82" h="82" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxHover" file="appBtn_01_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="appBtn_01_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+  <Image name="iconBypass" file="appIcon_bypass.png" x="8" y="8" alpha="1"/>
+  <Image name="icon" file="appIcon_monitorBypass.png" x="14" y="27" alpha="1"/>
+  <Image name="iconError" file="appIcon_error_01.png" x="22" y="22" alpha="1"/>
+  <ButtonStandard name="btnClose" x="72" y="0" w="18" h="18" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="appBtn_close_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="appBtn_close_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="appBtn_close_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+</layout>

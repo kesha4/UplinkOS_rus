@@ -1,0 +1,5 @@
+<layout name="WinTaskManager" w="481" h="156">
+  <Rectangle name="baseBG" subtype="strokedFill" x="0" y="0" w="481" h="156" fillColor="112B3C" fillA="0.94901960784314" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+  <ScrollableList name="list" x="10" y="2" w="471" h="152" scalingType="scaleByWidth" arrangeType="arrangeVertical" arrangePadding="2.0" alpha="1"/>
+  <TextPoint name="txtError" x="11" y="6" align="left" font="AeroMaticsLightRegular" size="24" text="No applications opened." fillColor="2BAAFF" alpha="1"/>
+</layout>

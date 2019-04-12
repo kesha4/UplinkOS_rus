@@ -1,0 +1,9 @@
+<layout name="ButtonsMenuReference" w="122" h="89">
+  <Rectangle name="baseGFX" subtype="filled" x="0" y="4" w="122" h="81" fillColor="112B3C" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.90196078431373"/>
+  <Line name="anchorTop" x="0" y="0" w="122" h="4" x1="0" y1="0" x2="122" y2="0" strokeColor="2BAAFF" strokeW="4" alpha="1"/>
+  <Line name="anchorBottom" x="0" y="85" w="122" h="4" x1="0" y1="0" x2="122" y2="0" strokeColor="2BAAFF" strokeW="4" alpha="1"/>
+  <Line name="separatorRef" x="10" y="46" w="102" h="1" x1="0" y1="0" x2="102" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+  <Rectangle name="btnBaseHoverRef" subtype="filled" x="7" y="15" w="20" h="20" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.25098039215686"/>
+  <Rectangle name="btnBaseClickRef" subtype="filled" x="37" y="15" w="20" h="20" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  <TextPoint name="btnCaptionRef" x="8" y="49" align="left" font="AeroMaticsLightRegular" size="24" text="Btn Caption" fillColor="2BAAFF" alpha="1"/>
+</layout>

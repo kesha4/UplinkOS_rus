@@ -1,0 +1,14 @@
+<layout name="AppMenu" w="480" h="995">
+  <Gradient name="base" subtype="gradVertical" x="0" y="0" w="480" h="995" alpha="1">
+    <GradStop location="0" fillColor="0B0B0B"/>
+    <GradStop location="1" fillColor="112B3C"/>
+  </Gradient>
+  <Line name="line" x="0" y="991" w="480" h="4" x1="0" y1="2" x2="480" y2="2" strokeColor="2BAAFF" strokeW="4" alpha="1"/>
+  <Container name="noApps" x="91" y="203" w="298" h="210" scalingType="scaleByWidth" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="icon" file="icon_app_unknown.png" x="104" y="0" alpha="1"/>
+    <TextParagraph name="txtDesc" x="-11" y="128" w="320.160003662109" h="166.5" align="center" font="AeroMaticsLightRegular" size="24" leading="0" text="No Apps found.&#xD;Visit Uplink Internal Services System to buy or upgrade Apps." fillColor="2BAAFF" alpha="1"/>
+  </Container>
+  <ScrollableList name="appList" x="0" y="0" w="480" h="991" scalingType="scaleNormal" arrangeType="arrangeVertical" arrangePadding="10.0" alpha="1"/>
+  <TextPoint name="txtCategTitleRef" x="37" y="507" align="left" font="AeroMaticsRegular" size="24" text="txtCategTitleRef" fillColor="FFFFFF" alpha="1"/>
+  <Line name="categTitleSepRef" x="40" y="541" w="201" h="2" x1="0" y1="0" x2="200" y2="0" strokeColor="1E62A8" strokeW="2" alpha="1"/>
+</layout>

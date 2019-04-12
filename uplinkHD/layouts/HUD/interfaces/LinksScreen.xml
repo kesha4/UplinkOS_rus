@@ -1,0 +1,29 @@
+<layout name="LinksScreen" w="962" h="1082">
+  <ScrollableList name="linksList" x="13" y="271" w="936" h="749" scalingType="scaleByWidth" arrangeType="arrangeVertical" arrangePadding="2.0" alpha="1"/>
+  <Line name="topSeparator" x="13" y="268" w="936" h="2" x1="0" y1="0" x2="936" y2="0" strokeColor="2BAAFF" strokeW="2" alpha="1"/>
+  <TextPoint name="txtNoLinks" x="481" y="507" align="center" font="AeroMaticsLightRegular" size="36" text="NO LINKS FOUND" fillColor="2BAAFF" alpha="1"/>
+  <ButtonTextField name="btnFilter" x="679" y="156" w="271" h="50" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Line name="gfxStandard" x="0" y="49" w="271" h="1" x1="0" y1="0" x2="271" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Container name="gfxHover" x="0" y="0" w="271" h="50" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Line name="line" x="0" y="49" w="271" h="1" x1="0" y1="0" x2="271" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="base" subtype="filled" x="0" y="0" w="271" h="50" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.25098039215686"/>
+    </Container>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="271" h="50" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <TextPoint name="txtCaption" x="9" y="4" align="left" font="AeroMaticsLightRegular" size="36" text="Filter" fillColor="2BAAFF" alpha="1"/>
+  </ButtonTextField>
+  <Image name="icon" file="findIcon.png" x="630" y="161" alpha="1"/>
+  <TextPoint name="txtSubtitle" x="12" y="182" align="left" font="AeroMaticsLightRegular" size="30" text="Subtitle Long Name" fillColor="1E62A8" alpha="1"/>
+  <TextPoint name="txtTitle" x="62" y="134" align="left" font="AeroMaticsLightRegular" size="48" text="Main Title" fillColor="2BAAFF" alpha="1"/>
+  <ButtonStandard name="btnFavs" x="679" y="217" w="270" h="40" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="270" h="40" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.25098039215686"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="270" h="40" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <TextPoint name="txtCap" x="60" y="2" align="left" font="AeroMaticsLightRegular" size="30" text="Only Favourites" fillColor="2BAAFF" alpha="1"/>
+    <Image name="iconOff" file="icon_link_favourite_off.png" x="31" y="10" alpha="1"/>
+    <Image name="iconOn" file="icon_link_favourite_on.png" x="31" y="10" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnBack" x="13" y="141" w="40" h="40" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="btnBack_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnBack_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="btnBack_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+</layout>

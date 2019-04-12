@@ -1,0 +1,16 @@
+<layout name="VoicePhoneScreen" w="962" h="1082">
+  <TextPoint name="txtName" x="481" y="354" align="center" font="AeroMaticsRegular" size="48" text="Tom Nash" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtNumber" x="481" y="418" align="center" font="AeroMaticsLightRegular" size="24" text="(04496) 251537" fillColor="1E62A8" alpha="1"/>
+  <TextPoint name="txtStatus" x="481" y="512" align="center" font="AeroMaticsLightRegular" size="30" text="Calling..." fillColor="2BAAFF" alpha="1"/>
+  <Line name="separator" x="403" y="629" w="156" h="1" x1="0" y1="0" x2="156" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+  <ButtonStandard name="btnRecord" x="356" y="721" w="90" h="90" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="btnRecord_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnRecord_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="btnRecord_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnHangUp" x="516" y="721" w="90" h="90" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="btnHangUp_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnHangUp_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="btnHangUp_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+</layout>

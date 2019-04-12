@@ -1,0 +1,25 @@
+<layout name="GatewayElement" w="308" h="225">
+  <ButtonStandard name="btnBase" x="0" y="0" w="308" h="225" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="308" h="225" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.30196078431373"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="308" h="225" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  </ButtonStandard>
+  <TextParagraph name="txtName" x="164" y="3" w="137.77392578125" h="138.464996337891" align="right" font="AeroMaticsRegular" size="24" leading="0" text="Gateway ALPHA IMEMORY" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtPrice" x="298" y="147" align="right" font="AeroMaticsRegular" size="30" text="25000c" fillColor="2BAAFF" alpha="1"/>
+  <Image name="icon" file="iconGateway_01.png" x="10" y="10" alpha="1"/>
+  <Container name="info" x="0" y="0" w="308" h="225" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="base" subtype="filled" x="0" y="0" w="308" h="225" fillColor="112B3C" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <TextParagraph name="txtDesc" x="11" y="97" w="286.499969482422" h="83.5" align="left" font="AeroMaticsLightRegular" size="18" leading="0" text="Increased CPU and memory capacity. This gateway also has a room for one security system (such as a camera)." fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtName" x="10" y="7" align="left" font="AeroMaticsRegular" size="24" text="Gateway ALPHA IMEMORY" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtPrice" x="11" y="185" align="left" font="AeroMaticsRegular" size="30" text="25000c" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtCPU" x="10" y="40" align="left" font="AeroMaticsRegular" size="18" text="Max CPUs: 2" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtMemory" x="10" y="62" align="left" font="AeroMaticsRegular" size="18" text="Max Memory: 64 GQ" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtSecurity" x="299" y="40" align="right" font="AeroMaticsRegular" size="18" text="Max Security: 1" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtBandwidth" x="299" y="62" align="right" font="AeroMaticsRegular" size="18" text="Bandwidth: 4 GQ" fillColor="2BAAFF" alpha="1"/>
+    <Line name="separator" x="10" y="90" w="288" h="1" x1="0" y1="0" x2="288" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+  </Container>
+  <ButtonStandard name="btnBuy" x="228" y="180" w="80" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="btnBuy_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnBuy_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="btnBuy_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+</layout>

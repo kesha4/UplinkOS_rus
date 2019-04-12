@@ -1,0 +1,41 @@
+<layout name="SoftwareScreen" w="962" h="1082">
+  <Container name="elementsContainer" x="19" y="361" w="924" h="451" scalingType="scaleByWidth" arrangeType="arrangeTableVertical" arrangePadding="0.0" alpha="1"/>
+  <Line name="selectionMarker" x="121" y="316" w="120" h="2" x1="0" y1="0" x2="120" y2="0" strokeColor="2BAAFF" strokeW="2" alpha="1"/>
+  <ButtonStandard name="btnCrackers" x="121" y="271" w="120" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="120" h="45" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="120" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <TextPoint name="txtCaption" x="60" y="9" align="center" font="AeroMaticsLightRegular" size="24" text="Crackers" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnHUD" x="241" y="271" w="120" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="120" h="45" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="120" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <TextPoint name="txtCaption" x="60" y="9" align="center" font="AeroMaticsLightRegular" size="24" text="HUD Tools" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnBypassers" x="361" y="271" w="120" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="120" h="45" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="120" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <TextPoint name="txtCaption" x="60" y="9" align="center" font="AeroMaticsLightRegular" size="24" text="Bypassers" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnSecurity" x="481" y="271" w="120" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="120" h="45" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="120" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <TextPoint name="txtCaption" x="60" y="9" align="center" font="AeroMaticsLightRegular" size="24" text="Security" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnLAN" x="601" y="271" w="120" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="120" h="45" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="120" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <TextPoint name="txtCaption" x="60" y="9" align="center" font="AeroMaticsLightRegular" size="24" text="LAN Tools" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnOther" x="721" y="271" w="120" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="120" h="45" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="120" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <TextPoint name="txtCaption" x="60" y="9" align="center" font="AeroMaticsLightRegular" size="24" text="Other" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnBack" x="12" y="37" w="40" h="40" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="btnBack_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnBack_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="btnBack_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+  <TextPoint name="txtSubtitle" x="244" y="45" align="left" font="AeroMaticsLightRegular" size="30" text="Subtitle Long Name" fillColor="1E62A8" alpha="1"/>
+  <TextPoint name="txtTitle" x="60" y="27" align="left" font="AeroMaticsLightRegular" size="48" text="Main Title" fillColor="2BAAFF" alpha="1"/>
+</layout>

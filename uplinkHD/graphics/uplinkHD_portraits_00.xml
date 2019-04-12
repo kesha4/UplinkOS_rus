@@ -1,0 +1,22 @@
+<TextureAtlas imagePath="uplinkHD_portraits_00.png">
+	<SubTexture name="person_portrait_10f.png" x="644" y="0" width="320" height="361"/>
+	<SubTexture name="person_portrait_11f.png" x="966" y="1452" width="320" height="361"/>
+	<SubTexture name="person_portrait_12f.png" x="322" y="1089" width="320" height="361"/>
+	<SubTexture name="person_portrait_13f.png" x="322" y="726" width="320" height="361"/>
+	<SubTexture name="person_portrait_14f.png" x="322" y="363" width="320" height="361"/>
+	<SubTexture name="person_portrait_15f.png" x="322" y="0" width="320" height="361"/>
+	<SubTexture name="person_portrait_16f.png" x="0" y="1452" width="320" height="361"/>
+	<SubTexture name="person_portrait_17f.png" x="0" y="1089" width="320" height="361"/>
+	<SubTexture name="person_portrait_18f.png" x="0" y="726" width="320" height="361"/>
+	<SubTexture name="person_portrait_19f.png" x="0" y="363" width="320" height="361"/>
+	<SubTexture name="person_portrait_1f.png" x="322" y="1452" width="320" height="361"/>
+	<SubTexture name="person_portrait_20f.png" x="0" y="0" width="320" height="361"/>
+	<SubTexture name="person_portrait_2f.png" x="966" y="1089" width="320" height="361"/>
+	<SubTexture name="person_portrait_3f.png" x="966" y="726" width="320" height="361"/>
+	<SubTexture name="person_portrait_4f.png" x="966" y="363" width="320" height="361"/>
+	<SubTexture name="person_portrait_5f.png" x="966" y="0" width="320" height="361"/>
+	<SubTexture name="person_portrait_6f.png" x="644" y="1452" width="320" height="361"/>
+	<SubTexture name="person_portrait_7f.png" x="644" y="1089" width="320" height="361"/>
+	<SubTexture name="person_portrait_8f.png" x="644" y="726" width="320" height="361"/>
+	<SubTexture name="person_portrait_9f.png" x="644" y="363" width="320" height="361"/>
+</TextureAtlas>

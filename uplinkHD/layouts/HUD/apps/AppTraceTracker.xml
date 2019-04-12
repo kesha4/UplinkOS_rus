@@ -1,0 +1,13 @@
+<layout name="AppTraceTracker" w="90" h="90">
+  <Image name="base" file="appBase_01.png" x="0" y="0" alpha="1"/>
+  <Circle name="traceGFX" subtype="filled" x="4" y="4" w="82" h="82" fillColor="FFA41C" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  <Image name="icon1" file="appIcon_traceTracker_01.png" x="8" y="17" alpha="1"/>
+  <Image name="icon2" file="appIcon_traceTracker_02.png" x="8" y="17" alpha="1"/>
+  <Image name="icon3" file="appIcon_traceTracker_03.png" x="8" y="17" alpha="1"/>
+  <TextPoint name="txtCaption" x="45" y="28" align="center" font="AeroMaticsRegular" size="30" text="0" fillColor="FFFFFF" alpha="1"/>
+  <ButtonStandard name="btnClose" x="72" y="0" w="18" h="18" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="appBtn_close_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="appBtn_close_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="appBtn_close_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+</layout>

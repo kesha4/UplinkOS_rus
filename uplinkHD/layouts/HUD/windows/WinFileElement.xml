@@ -1,0 +1,12 @@
+<layout name="WinFileElement" w="451" h="32">
+  <ButtonStandard name="btnBase" x="0" y="0" w="451" h="32" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="451" h="32" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.30196078431373"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="451" h="32" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  </ButtonStandard>
+  <Line name="separator" x="0" y="31" w="451" h="1" x1="0" y1="0" x2="451" y2="0" strokeColor="1E62A8" strokeW="1" alpha="1"/>
+  <Rectangle name="progressBar" subtype="filled" x="0" y="0" w="451" h="32" fillColor="1E62A8" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  <TextPoint name="txtName" x="29" y="3" align="left" font="AeroMaticsRegular" size="24" text="Password Breaker" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtSize" x="446" y="3" align="right" font="AeroMaticsLightRegular" size="24" text="2 GQs" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtEncr" x="212" y="3" align="left" font="AeroMaticsLightRegular" size="24" text="[Level 0]" fillColor="2BAAFF" alpha="1"/>
+  <Image name="icon" file="winIcon_app.png" x="5" y="7" alpha="1"/>
+</layout>

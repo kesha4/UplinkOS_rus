@@ -1,0 +1,36 @@
+<layout name="AccountScreen" w="962" h="1082">
+  <Rectangle name="rect1" subtype="filled" x="14" y="315" w="935" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.2"/>
+  <Rectangle name="rect3" subtype="filled" x="14" y="405" w="935" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.2"/>
+  <TextPoint name="txtName" x="240" y="321" align="left" font="AeroMaticsLightRegular" size="30" text="Account Name" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtNumber" x="240" y="365" align="left" font="AeroMaticsLightRegular" size="30" text="Account Number" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtBalance" x="240" y="410" align="left" font="AeroMaticsLightRegular" size="30" text="Balance" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtLoan" x="240" y="455" align="left" font="AeroMaticsLightRegular" size="30" text="Loan" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtNameVal" x="560" y="321" align="left" font="AeroMaticsLightRegular" size="30" text="CheatingAgent" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtNumberVal" x="560" y="365" align="left" font="AeroMaticsLightRegular" size="30" text="399455" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtBalanceVal" x="560" y="410" align="left" font="AeroMaticsLightRegular" size="30" text="46500" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtLoanVal" x="560" y="455" align="left" font="AeroMaticsLightRegular" size="30" text="3000 (20% apr)" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtLoanMax" x="560" y="497" align="left" font="AeroMaticsLightRegular" size="18" text="*Max loan: 4000c" fillColor="2BAAFF" alpha="1"/>
+  <ButtonStandard name="btnOK" x="401" y="601" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <TextPoint name="txtCaption" x="80" y="1" align="center" font="AeroMaticsLightRegular" size="24" text="Close" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnLoanUp" x="904" y="450" w="45" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="btnLoanUp_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnLoanUp_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="btnLoanUp_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnLoanDown" x="857" y="450" w="45" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="btnLoanDown_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnLoanDown_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="btnLoanDown_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+  <TextPoint name="txtSubtitle" x="12" y="182" align="left" font="AeroMaticsLightRegular" size="30" text="Subtitle Long Name" fillColor="1E62A8" alpha="1"/>
+  <TextPoint name="txtTitle" x="61" y="131" align="left" font="AeroMaticsLightRegular" size="48" text="Main Title" fillColor="2BAAFF" alpha="1"/>
+  <ButtonStandard name="btnBack" x="13" y="141" w="40" h="40" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="btnBack_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnBack_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="btnBack_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+</layout>

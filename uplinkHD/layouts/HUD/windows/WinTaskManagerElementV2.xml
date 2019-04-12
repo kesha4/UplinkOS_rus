@@ -1,0 +1,29 @@
+<layout name="WinTaskManagerElementV2" w="455" h="56">
+  <TextPoint name="txtName" x="-1" y="-6" align="left" font="AeroMaticsLightRegular" size="24" text="Password_Breaker v1.0" fillColor="2BAAFF" alpha="1"/>
+  <ButtonStandard name="btnClose" x="427" y="-5" w="28" h="28" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="tm_appClose_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="tm_appClose_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="tm_appClose_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+  <Rectangle name="cPrioLow" subtype="filled" x="236" y="2" w="7" h="7" fillColor="083E76" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  <Rectangle name="cPrioHigh" subtype="filled" x="243" y="2" w="7" h="7" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  <Rectangle name="priority" subtype="filled" x="58" y="31" w="369" h="12" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  <TextPoint name="txtPrio" x="389" y="23" align="right" font="AeroMaticsRegular" size="24" text="100%" fillColor="FFFFFF" alpha="1"/>
+  <ButtonStandard name="btnIncrease" x="427" y="23" w="28" h="28" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="28" h="28" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="28" h="28" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Image name="icon" file="scrollbarArrowHR_s.png" x="8" y="8" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnDecrease" x="30" y="23" w="28" h="28" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="28" h="28" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="27" h="28" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Image name="icon" file="scrollbarArrowHL_s.png" x="7" y="8" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnPinPrio" x="0" y="23" w="28" h="28" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="28" h="28" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="27" h="28" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Image name="icon2" file="icon_pin_02.png" x="6" y="7" alpha="1"/>
+    <Image name="icon" file="icon_pin_01.png" x="8" y="4" alpha="1"/>
+  </ButtonStandard>
+  <Line name="separator" x="0" y="55" w="455" h="1" x1="0" y1="0" x2="455" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+</layout>

@@ -1,0 +1,13 @@
+<layout name="DisconnectedScreen" w="962" h="1082">
+  <Line name="topSeparator" x="13" y="314" w="936" h="2" x1="0" y1="0" x2="936" y2="0" strokeColor="2BAAFF" strokeW="2" alpha="1"/>
+  <Line name="bottomSeparator" x="13" y="640" w="936" h="2" x1="0" y1="0" x2="936" y2="0" strokeColor="2BAAFF" strokeW="2" alpha="1"/>
+  <Image name="icon" file="icon_disconnected.png" x="396" y="430" alpha="1"/>
+  <ButtonStandard name="btnOK" x="641" y="687" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <TextPoint name="txtCaption" x="80" y="1" align="center" font="AeroMaticsLightRegular" size="24" text="OK" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <TextParagraph name="txtLoginsLost" x="80" y="498" w="802.067504882813" h="454.058746337891" align="left" font="AeroMaticsLightRegular" size="30" leading="0" text="Your username and password was revoked on these systems:&#xD;&#xD;127.0.0.1    - Personal Gateway" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtMessage" x="481" y="349" align="center" font="AeroMaticsLightRegular" size="42" text="Connection terminated by remote host" fillColor="2BAAFF" alpha="1"/>
+</layout>

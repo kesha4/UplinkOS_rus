@@ -1,0 +1,43 @@
+<layout name="CriminalScreen" w="962" h="1082">
+  <Image name="portrait" file="person_portrait_unknown.png" x="80" y="270" alpha="1"/>
+  <ScrollableList name="recordList" x="482" y="315" w="400" h="406" scalingType="scaleByWidth" arrangeType="arrangeTableVertical" arrangePadding="2.0" alpha="1"/>
+  <ButtonTextField name="btnRecord" x="481" y="731" w="352" h="50" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Line name="gfxStandard" x="0" y="49" w="352" h="1" x1="0" y1="0" x2="352" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Container name="gfxHover" x="0" y="0" w="352" h="50" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Line name="line" x="0" y="49" w="352" h="1" x1="0" y1="0" x2="352" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="base" subtype="filled" x="0" y="0" w="352" h="50" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.25098039215686"/>
+    </Container>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="352" h="50" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <TextPoint name="txtCaption" x="9" y="4" align="left" font="AeroMaticsLightRegular" size="36" text="Add Conviction" fillColor="2BAAFF" alpha="1"/>
+  </ButtonTextField>
+  <ButtonStandard name="btnAdd" x="833" y="731" w="49" h="50" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="btnSubmitTextField_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnSubmitTextField_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="btnSubmitTextField_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnClear" x="80" y="641" w="320" h="40" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="320" h="40" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="320" h="40" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="320" h="40" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <TextPoint name="txtCaption" x="160" y="4" align="center" font="AeroMaticsLightRegular" size="24" text="Clear History" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnArrest" x="80" y="691" w="320" h="40" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="320" h="40" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="320" h="40" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="320" h="40" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <TextPoint name="txtCaption" x="160" y="6" align="center" font="AeroMaticsLightRegular" size="24" text="Authorize Arrest" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnDone" x="80" y="741" w="320" h="40" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="320" h="40" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="320" h="40" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="320" h="40" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <TextPoint name="txtCaption" x="160" y="6" align="center" font="AeroMaticsLightRegular" size="24" text="Done" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <Rectangle name="nameBase" subtype="filled" x="80" y="586" w="320" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  <TextPoint name="txtName" x="90" y="588" align="left" font="AeroMaticsRegular" size="30" text="Tom Woogllven" fillColor="FFFFFF" alpha="1"/>
+  <Rectangle name="crimBase" subtype="filled" x="482" y="270" w="400" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  <TextPoint name="txtCrim" x="682" y="272" align="center" font="AeroMaticsRegular" size="30" text="Criminal History" fillColor="FFFFFF" alpha="1"/>
+  <TextParagraph name="txtRecord" x="482" y="320" w="399.999969482422" h="401.000030517578" align="left" font="AeroMaticsLightRegular" size="30" leading="0" text="txtRecordRef" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtSubtitle" x="12" y="182" align="left" font="AeroMaticsLightRegular" size="30" text="Subtitle Long Name" fillColor="1E62A8" alpha="1"/>
+  <TextPoint name="txtTitle" x="12" y="134" align="left" font="AeroMaticsLightRegular" size="48" text="Main Title" fillColor="2BAAFF" alpha="1"/>
+</layout>

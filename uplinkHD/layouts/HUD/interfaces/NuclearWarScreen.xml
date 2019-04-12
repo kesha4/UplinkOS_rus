@@ -1,0 +1,60 @@
+<layout name="NuclearWarScreen" w="962" h="1082">
+  <ButtonStandard name="btnClose" x="785" y="811" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <TextPoint name="txtCaption" x="80" y="1" align="center" font="AeroMaticsLightRegular" size="24" text="Close" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <TextPoint name="txt02" x="17" y="830" align="left" font="AeroMaticsLightRegular" size="20" text="Would you like to play a game?" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txt01" x="16" y="807" align="left" font="AeroMaticsLightRegular" size="20" text="Good evening, Dr. Falken." fillColor="2BAAFF" alpha="1"/>
+  <Image name="map" file="earthMap_s.png" x="16" y="280" alpha="1"/>
+  <ButtonStandard name="btnLoc0" x="176" y="460" w="18" h="18" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="base" subtype="filled" x="4" y="4" w="10" h="10" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="stroked" x="2" y="2" w="14" h="14" fillColor="FF00FF" fillA="1" strokeColor="FFFFFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxClick" subtype="stroked" x="0" y="0" w="18" h="18" fillColor="FF00FF" fillA="1" strokeColor="FFFFFF" strokeW="2" alpha="1"/>
+  </ButtonStandard>
+  <TextPoint name="txtLoc0" x="169" y="478" align="left" font="AeroMaticsLightRegular" size="18" text="Los Angeles" fillColor="FFFFFF" alpha="1"/>
+  <ButtonStandard name="btnLoc1" x="196" y="377" w="18" h="18" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="base" subtype="filled" x="4" y="4" w="10" h="10" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="stroked" x="2" y="2" w="14" h="14" fillColor="FF00FF" fillA="1" strokeColor="FFFFFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxClick" subtype="stroked" x="0" y="0" w="18" h="18" fillColor="FF00FF" fillA="1" strokeColor="FFFFFF" strokeW="2" alpha="1"/>
+  </ButtonStandard>
+  <TextPoint name="txtLoc1" x="189" y="395" align="left" font="AeroMaticsLightRegular" size="18" text="Chicago" fillColor="FFFFFF" alpha="1"/>
+  <ButtonStandard name="btnLoc2" x="261" y="399" w="18" h="18" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="base" subtype="filled" x="4" y="4" w="10" h="10" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="stroked" x="2" y="2" w="14" h="14" fillColor="FF00FF" fillA="1" strokeColor="FFFFFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxClick" subtype="stroked" x="0" y="0" w="18" h="18" fillColor="FF00FF" fillA="1" strokeColor="FFFFFF" strokeW="2" alpha="1"/>
+  </ButtonStandard>
+  <TextPoint name="txtLoc2" x="254" y="417" align="left" font="AeroMaticsLightRegular" size="18" text="New York" fillColor="FFFFFF" alpha="1"/>
+  <ButtonStandard name="btnLoc3" x="441" y="369" w="18" h="18" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="base" subtype="filled" x="4" y="4" w="10" h="10" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="stroked" x="2" y="2" w="14" h="14" fillColor="FF00FF" fillA="1" strokeColor="FFFFFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxClick" subtype="stroked" x="0" y="0" w="18" h="18" fillColor="FF00FF" fillA="1" strokeColor="FFFFFF" strokeW="2" alpha="1"/>
+  </ButtonStandard>
+  <TextPoint name="txtLoc3" x="434" y="387" align="left" font="AeroMaticsLightRegular" size="18" text="London" fillColor="FFFFFF" alpha="1"/>
+  <ButtonStandard name="btnLoc4" x="530" y="373" w="18" h="18" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="base" subtype="filled" x="4" y="4" w="10" h="10" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="stroked" x="2" y="2" w="14" h="14" fillColor="FF00FF" fillA="1" strokeColor="FFFFFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxClick" subtype="stroked" x="0" y="0" w="18" h="18" fillColor="FF00FF" fillA="1" strokeColor="FFFFFF" strokeW="2" alpha="1"/>
+  </ButtonStandard>
+  <TextPoint name="txtLoc4" x="523" y="391" align="left" font="AeroMaticsLightRegular" size="18" text="Moscow" fillColor="FFFFFF" alpha="1"/>
+  <ButtonStandard name="btnLoc5" x="795" y="419" w="18" h="18" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="base" subtype="filled" x="4" y="4" w="10" h="10" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="stroked" x="2" y="2" w="14" h="14" fillColor="FF00FF" fillA="1" strokeColor="FFFFFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxClick" subtype="stroked" x="0" y="0" w="18" h="18" fillColor="FF00FF" fillA="1" strokeColor="FFFFFF" strokeW="2" alpha="1"/>
+  </ButtonStandard>
+  <TextPoint name="txtLoc5" x="788" y="437" align="left" font="AeroMaticsLightRegular" size="18" text="Tokyo" fillColor="FFFFFF" alpha="1"/>
+  <ButtonStandard name="btnLoc6" x="732" y="463" w="18" h="18" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="base" subtype="filled" x="4" y="4" w="10" h="10" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="stroked" x="2" y="2" w="14" h="14" fillColor="FF00FF" fillA="1" strokeColor="FFFFFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxClick" subtype="stroked" x="0" y="0" w="18" h="18" fillColor="FF00FF" fillA="1" strokeColor="FFFFFF" strokeW="2" alpha="1"/>
+  </ButtonStandard>
+  <TextPoint name="txtLoc6" x="725" y="481" align="left" font="AeroMaticsLightRegular" size="18" text="Hong Kong" fillColor="FFFFFF" alpha="1"/>
+  <ButtonStandard name="btnLoc7" x="830" y="628" w="18" h="18" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="base" subtype="filled" x="4" y="4" w="10" h="10" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="stroked" x="2" y="2" w="14" h="14" fillColor="FF00FF" fillA="1" strokeColor="FFFFFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxClick" subtype="stroked" x="0" y="0" w="18" h="18" fillColor="FF00FF" fillA="1" strokeColor="FFFFFF" strokeW="2" alpha="1"/>
+  </ButtonStandard>
+  <TextPoint name="txtLoc7" x="823" y="646" align="left" font="AeroMaticsLightRegular" size="18" text="Sydney" fillColor="FFFFFF" alpha="1"/>
+  <Container name="explosions" x="0" y="0" w="962" h="1082" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1"/>
+</layout>

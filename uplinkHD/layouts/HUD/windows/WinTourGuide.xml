@@ -1,0 +1,27 @@
+<layout name="WinTourGuide" w="482" h="382">
+  <Rectangle name="base" subtype="filled" x="0" y="0" w="482" h="382" fillColor="112B3C" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.94901960784314"/>
+  <Line name="bottomLine" x="0" y="379" w="481" h="4" x1="0" y1="4" x2="481" y2="4" strokeColor="2BAAFF" strokeW="4" alpha="1"/>
+  <ButtonStandard name="btnNext" x="321" y="350" w="161" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="161" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="161" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <TextPoint name="txtCaption" x="80" y="1" align="center" font="AeroMaticsLightRegular" size="24" text="Next" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnPrev" x="0" y="350" w="161" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="161" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="161" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <TextPoint name="txtCaption" x="81" y="1" align="center" font="AeroMaticsLightRegular" size="24" text="Previous" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <TextParagraph name="txtContents" x="11" y="37" w="461.333404541016" h="280" align="left" font="AeroMaticsLightRegular" size="24" leading="0" text="This is a User ID screen. In this case, and most of the time as well, we don't have a valid username and password, so we'll have to hack our way through.&#xD;&#xD;For this, you'll need to purchase security software. Disconnect from this server using the &quot;Disconnect&quot; button from the top of the screen, next to the server's name." fillColor="2BAAFF" alpha="1"/>
+  <Rectangle name="top" subtype="filled" x="0" y="0" w="482" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  <ButtonStandard name="btnMin" x="444" y="0" w="18" h="18" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="btnMinNote_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnMinNote_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="btnMinNote_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnClose" x="464" y="0" w="18" h="18" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="appBtn_close_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="appBtn_close_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="appBtn_close_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+  <TextPoint name="txtTitle" x="9" y="1" align="left" font="AeroMaticsRegular" size="24" text="TOUR GUIDE 15/31" fillColor="0B0B0B" alpha="1"/>
+</layout>

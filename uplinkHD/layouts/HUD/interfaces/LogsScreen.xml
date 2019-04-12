@@ -1,0 +1,14 @@
+<layout name="LogsScreen" w="962" h="1082">
+  <ScrollableList name="logsList" x="13" y="316" w="936" h="704" scalingType="scaleByWidth" arrangeType="arrangeVertical" arrangePadding="2.0" alpha="1"/>
+  <Line name="topSeparator" x="13" y="314" w="936" h="2" x1="0" y1="0" x2="936" y2="0" strokeColor="2BAAFF" strokeW="2" alpha="1"/>
+  <TextPoint name="txtDate" x="12" y="279" align="left" font="AeroMaticsLightRegular" size="24" text="Date" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtDesc" x="252" y="279" align="left" font="AeroMaticsLightRegular" size="24" text="Description" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtNoLogs" x="481" y="507" align="center" font="AeroMaticsLightRegular" size="36" text="NO LOGS FOUND" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtSubtitle" x="12" y="182" align="left" font="AeroMaticsLightRegular" size="30" text="Subtitle Long Name" fillColor="1E62A8" alpha="1"/>
+  <TextPoint name="txtTitle" x="61" y="131" align="left" font="AeroMaticsLightRegular" size="48" text="Main Title" fillColor="2BAAFF" alpha="1"/>
+  <ButtonStandard name="btnBack" x="13" y="141" w="40" h="40" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="btnBack_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnBack_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="btnBack_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+</layout>

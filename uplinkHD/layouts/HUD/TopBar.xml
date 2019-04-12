@@ -1,0 +1,61 @@
+<layout name="TopBar" w="1922" h="26">
+  <Rectangle name="base" subtype="strokedFill" x="0" y="0" w="1922" h="26" fillColor="112B3C" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+  <ButtonStandard name="btnDate" x="1763" y="1" w="158" h="24" scalingType="scaleByHeight" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="size" subtype="filled" x="0" y="0" w="158" h="24" fillColor="000000" fillA="0.01176470588235" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  </ButtonStandard>
+  <TextPoint name="txtTime" x="1869" y="3" align="left" font="AeroMaticsRegular" size="18" text="26:04" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtDay" x="1856" y="3" align="right" font="AeroMaticsLightRegular" size="18" text="20-4-2026" fillColor="2BAAFF" alpha="1"/>
+  <ButtonStandard name="btnSpeed3" x="1737" y="1" w="24" h="24" scalingType="scaleByHeight" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="btnSpeed3_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnSpeed3_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="btnSpeed3_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnSpeed2" x="1713" y="1" w="24" h="24" scalingType="scaleByHeight" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="btnSpeed2_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnSpeed2_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="btnSpeed2_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnSpeed1" x="1689" y="1" w="24" h="24" scalingType="scaleByHeight" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="btnSpeed1_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnSpeed1_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="btnSpeed1_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnSpeed0" x="1665" y="1" w="24" h="24" scalingType="scaleByHeight" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="btnSpeed0_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnSpeed0_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="btnSpeed0_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnAccount" x="1442" y="1" w="223" h="24" scalingType="scaleByHeight" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="223" h="24" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.4"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="223" h="24" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="noticeRed" subtype="filled" x="0" y="0" w="223" h="24" fillColor="D31A1A" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="noticeGreen" subtype="filled" x="0" y="0" w="223" h="24" fillColor="2BFFD1" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <TextPoint name="txtCaption" x="112" y="2" align="center" font="AeroMaticsRegular" size="18" text="Acc no. 123456: 1000000c" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <Line name="speedMarker" x="1737" y="22" w="24" h="4" x1="0" y1="0" x2="24" y2="0" strokeColor="FFFFFF" strokeW="4" alpha="1"/>
+  <ButtonStandard name="btnDisconnect" x="1281" y="0" w="162" h="26" scalingType="scaleByHeight" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="162" h="26" fillColor="D31A1A" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.50196078431373"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="162" h="26" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Image name="icon" file="icon_x.png" x="27" y="6" alpha="1"/>
+    <TextPoint name="txt" x="45" y="3" align="left" font="AeroMaticsRegular" size="18" text="DISCONNECT" fillColor="D31A1A" alpha="1"/>
+  </ButtonStandard>
+  <TextPoint name="txtLocName" x="929" y="3" align="left" font="AeroMaticsRegular" size="18" text="Personal Gateway" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtLocIP" x="920" y="3" align="right" font="AeroMaticsLightRegular" size="18" text="127.0.0.1" fillColor="2BAAFF" alpha="1"/>
+  <ButtonStandard name="btnCPU" x="187" y="1" w="292" h="24" scalingType="scaleByHeight" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="292" h="24" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.50196078431373"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="292" h="24" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <TextPoint name="CPU" x="9" y="2" align="left" font="AeroMaticsRegular" size="18" text="CPU" fillColor="2BAAFF" alpha="1"/>
+    <Rectangle name="fillBase" subtype="filled" x="47" y="6" w="237" h="12" fillColor="083E76" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="fill" subtype="filled" x="47" y="6" w="237" h="12" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnUser" x="73" y="0" w="114" h="26" scalingType="scaleByHeight" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="114" h="26" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.50196078431373"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="114" h="26" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <TextPoint name="txtCaption" x="10" y="2" align="left" font="AeroMaticsRegular" size="18" text="Cpt.McBacon" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnSystem" x="1" y="1" w="72" h="24" scalingType="scaleByHeight" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="btnSystem_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnSystem_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="btnSystem_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+</layout>

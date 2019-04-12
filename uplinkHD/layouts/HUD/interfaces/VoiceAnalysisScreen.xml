@@ -1,0 +1,29 @@
+<layout name="VoiceAnalysisScreen" w="962" h="1082">
+  <ButtonStandard name="btnAccess" x="361" y="780" w="240" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="240" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="240" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="240" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <TextPoint name="txtCaption" x="120" y="1" align="center" font="AeroMaticsLightRegular" size="24" text="Access Granted" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <Container name="soundSynths" x="366" y="676" w="230" h="94" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="synth0" subtype="filled" x="0" y="0" w="10" h="94" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="synth1" subtype="filled" x="20" y="0" w="10" h="94" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="synth2" subtype="filled" x="40" y="0" w="10" h="94" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="synth3" subtype="filled" x="60" y="0" w="10" h="94" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="synth4" subtype="filled" x="80" y="0" w="10" h="94" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="synth5" subtype="filled" x="100" y="0" w="10" h="94" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="synth6" subtype="filled" x="120" y="0" w="10" h="94" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="synth7" subtype="filled" x="140" y="0" w="10" h="94" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="synth8" subtype="filled" x="160" y="0" w="10" h="94" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="synth9" subtype="filled" x="180" y="0" w="10" h="94" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="synth10" subtype="filled" x="200" y="0" w="10" h="94" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="synth11" subtype="filled" x="220" y="0" w="10" h="94" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  </Container>
+  <Image name="iconAnalyse" file="loadingCircle.png" x="430" y="668" alpha="1"/>
+  <TextParagraph name="txtSentence" x="160" y="520" w="641.653991699219" h="149.888488769531" align="center" font="AeroMaticsRegular" size="30" leading="0" text="Hello.&#xD;I am the system administrator.&#xD;My voice is my password.&#xD;Verify me." fillColor="2BAAFF" alpha="1"/>
+  <Line name="separator" x="163" y="502" w="636" h="1" x1="0" y1="0" x2="636" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+  <TextPoint name="txtHelp" x="481" y="455" align="center" font="AeroMaticsLightRegular" size="24" text="Please read the following sentence into your microphone." fillColor="2BAAFF" alpha="1"/>
+  <Image name="icon" file="btnVoice_s.png" x="392" y="271" alpha="1"/>
+  <TextPoint name="txtSubtitle" x="12" y="182" align="left" font="AeroMaticsLightRegular" size="30" text="Subtitle Long Name" fillColor="1E62A8" alpha="1"/>
+  <TextPoint name="txtTitle" x="12" y="134" align="left" font="AeroMaticsLightRegular" size="48" text="Main Title" fillColor="2BAAFF" alpha="1"/>
+</layout>

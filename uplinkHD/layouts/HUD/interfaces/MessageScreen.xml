@@ -1,0 +1,19 @@
+<layout name="MessageScreen" w="962" h="1082">
+  <Line name="topSeparator" x="13" y="314" w="936" h="2" x1="0" y1="0" x2="936" y2="0" strokeColor="2BAAFF" strokeW="2" alpha="1"/>
+  <Line name="bottomSeparator" x="13" y="855" w="936" h="2" x1="0" y1="0" x2="936" y2="0" strokeColor="2BAAFF" strokeW="2" alpha="1"/>
+  <ButtonStandard name="btnOK" x="631" y="902" w="180" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="180" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="180" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="180" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <TextPoint name="txtCaption" x="90" y="1" align="center" font="AeroMaticsLightRegular" size="24" text="OK" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnMail" x="159" y="902" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <TextPoint name="txtCaption" x="80" y="1" align="center" font="AeroMaticsLightRegular" size="24" text="Mail this to Me" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <TextParagraph name="txtMessage" x="80" y="358" w="802.067504882813" h="544.152954101563" align="left" font="AeroMaticsLightRegular" size="24" leading="0" text="The aim of this site is to serve as a repository for all ideas and documents relating to the design of the next Uplink product, to be released by Introversion Software.&#xD;&#xD;Currently nothing is finalised, other than the sequel to Uplink must be a hacking tool of a similar nature to Uplink itself.&#xD;If any employees have any good ideas, please email them to the company designer.  Please use his real-world address, as his&#xD;Uplink email address is under almost constant surveillance from federal agents and hackers, and any good ideas will no doubt be stolen.&#xD;&#xD;Contact Chris at chris@introversion.co.uk" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtSubtitle" x="12" y="182" align="left" font="AeroMaticsLightRegular" size="30" text="Subtitle Long Name" fillColor="1E62A8" alpha="1"/>
+  <TextPoint name="txtTitle" x="12" y="134" align="left" font="AeroMaticsLightRegular" size="48" text="Main Title" fillColor="2BAAFF" alpha="1"/>
+</layout>

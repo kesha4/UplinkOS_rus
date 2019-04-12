@@ -1,0 +1,59 @@
+<layout name="SocialSecurityScreen" w="962" h="1082">
+  <Image name="portrait" file="person_portrait_unknown.png" x="120" y="310" alpha="1"/>
+  <ButtonStandard name="btnDone" x="120" y="731" w="320" h="40" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="320" h="40" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="320" h="40" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="320" h="40" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <TextPoint name="txtCaption" x="160" y="6" align="center" font="AeroMaticsLightRegular" size="24" text="Done" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnCommit" x="120" y="681" w="320" h="40" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="320" h="40" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="320" h="40" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="320" h="40" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <TextPoint name="txtCaption" x="160" y="6" align="center" font="AeroMaticsLightRegular" size="24" text="Commit" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <Rectangle name="nameBase" subtype="filled" x="120" y="626" w="320" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  <TextPoint name="txtName" x="130" y="628" align="left" font="AeroMaticsRegular" size="30" text="Tom Woollven" fillColor="FFFFFF" alpha="1"/>
+  <TextPoint name="txtSSN" x="481" y="301" align="left" font="AeroMaticsLightRegular" size="36" text="Social Security Number" fillColor="1E62A8" alpha="1"/>
+  <ButtonTextField name="btnSSN" x="481" y="350" w="321" h="43" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Line name="gfxStandard" x="0" y="42" w="321" h="1" x1="0" y1="0" x2="321" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Container name="gfxHover" x="0" y="0" w="321" h="43" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Line name="line" x="0" y="42" w="321" h="1" x1="0" y1="0" x2="321" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="base" subtype="filled" x="0" y="0" w="321" h="43" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.25098039215686"/>
+    </Container>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="321" h="43" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <TextPoint name="txtCaption" x="9" y="3" align="left" font="AeroMaticsLightRegular" size="30" text="Invalid SSN" fillColor="2BAAFF" alpha="1"/>
+  </ButtonTextField>
+  <TextPoint name="txtDOB" x="481" y="427" align="left" font="AeroMaticsLightRegular" size="36" text="Date of Birth" fillColor="1E62A8" alpha="1"/>
+  <ButtonTextField name="btnDOB" x="481" y="476" w="321" h="43" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Line name="gfxStandard" x="0" y="42" w="321" h="1" x1="0" y1="0" x2="321" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Container name="gfxHover" x="0" y="0" w="321" h="43" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Line name="line" x="0" y="42" w="321" h="1" x1="0" y1="0" x2="321" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="base" subtype="filled" x="0" y="0" w="321" h="43" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.25098039215686"/>
+    </Container>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="321" h="43" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <TextPoint name="txtCaption" x="9" y="3" align="left" font="AeroMaticsLightRegular" size="30" text="Invalid DoB" fillColor="2BAAFF" alpha="1"/>
+  </ButtonTextField>
+  <TextPoint name="txtMar" x="481" y="553" align="left" font="AeroMaticsLightRegular" size="36" text="Marital Status" fillColor="1E62A8" alpha="1"/>
+  <ButtonTextField name="btnMar" x="481" y="602" w="321" h="43" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Line name="gfxStandard" x="0" y="42" w="321" h="1" x1="0" y1="0" x2="321" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Container name="gfxHover" x="0" y="0" w="321" h="43" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Line name="line" x="0" y="42" w="321" h="1" x1="0" y1="0" x2="321" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="base" subtype="filled" x="0" y="0" w="321" h="43" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.25098039215686"/>
+    </Container>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="321" h="43" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <TextPoint name="txtCaption" x="9" y="3" align="left" font="AeroMaticsLightRegular" size="30" text="Invalid MARSTA" fillColor="2BAAFF" alpha="1"/>
+  </ButtonTextField>
+  <TextPoint name="txtPer" x="481" y="679" align="left" font="AeroMaticsLightRegular" size="36" text="Personal Status" fillColor="1E62A8" alpha="1"/>
+  <ButtonTextField name="btnPer" x="481" y="728" w="321" h="43" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Line name="gfxStandard" x="0" y="42" w="321" h="1" x1="0" y1="0" x2="321" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Container name="gfxHover" x="0" y="0" w="321" h="43" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Line name="line" x="0" y="42" w="321" h="1" x1="0" y1="0" x2="321" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="base" subtype="filled" x="0" y="0" w="321" h="43" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.25098039215686"/>
+    </Container>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="321" h="43" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <TextPoint name="txtCaption" x="9" y="3" align="left" font="AeroMaticsLightRegular" size="30" text="Invalid PERSTA" fillColor="2BAAFF" alpha="1"/>
+  </ButtonTextField>
+  <TextPoint name="txtSubtitle" x="12" y="182" align="left" font="AeroMaticsLightRegular" size="30" text="Subtitle Long Name" fillColor="1E62A8" alpha="1"/>
+  <TextPoint name="txtTitle" x="12" y="134" align="left" font="AeroMaticsLightRegular" size="48" text="Main Title" fillColor="2BAAFF" alpha="1"/>
+</layout>

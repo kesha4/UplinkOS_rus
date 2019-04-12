@@ -1,0 +1,46 @@
+<layout name="CompanyInfoScreen" w="962" h="1082">
+  <Line name="bottomSeparator" x="243" y="540" w="476" h="1" x1="0" y1="0" x2="476" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+  <Image name="icon1" file="userPhoto_big.png" x="160" y="318" alpha="1"/>
+  <TextPoint name="txtManagerTitle" x="345" y="309" align="left" font="AeroMaticsLightRegular" size="36" text="MANAGING DIRECTOR" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtManagerName" x="345" y="360" align="left" font="AeroMaticsLightRegular" size="30" text="Ed Mundy" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtManagerMail" x="345" y="412" align="left" font="AeroMaticsLightRegular" size="30" text="Ed_Mundy@Cybernet_Developments.net" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtManagerPhone" x="345" y="466" align="left" font="AeroMaticsLightRegular" size="30" text="tel. (09006)486882" fillColor="2BAAFF" alpha="1"/>
+  <Image name="icon2" file="userPhoto_big.png" x="160" y="588" alpha="1"/>
+  <TextPoint name="txtAdminTitle" x="346" y="579" align="left" font="AeroMaticsLightRegular" size="36" text="ADMINISTRATOR" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtAdminName" x="346" y="630" align="left" font="AeroMaticsLightRegular" size="30" text="Tom Nash" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtAdminMail" x="346" y="682" align="left" font="AeroMaticsLightRegular" size="30" text="Tom_Nash@Cybernet_Developments.net" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtAdminPhone" x="346" y="736" align="left" font="AeroMaticsLightRegular" size="30" text="tel. (04496)251537" fillColor="2BAAFF" alpha="1"/>
+  <ButtonStandard name="btnClose" x="401" y="844" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <TextPoint name="txtCaption" x="80" y="1" align="center" font="AeroMaticsLightRegular" size="24" text="Close" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnAdd1" x="592" y="462" w="44" h="44" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="btnAddToLinks_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnAddToLinks_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="btnAddToLinks_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnAdd2" x="592" y="732" w="44" h="44" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="btnAddToLinks_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnAddToLinks_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="btnAddToLinks_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnCall1" x="646" y="462" w="44" h="44" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="btnCall_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnCall_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="btnCall_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnCall2" x="646" y="732" w="44" h="44" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="btnCall_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnCall_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="btnCall_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+  <TextPoint name="txtSubtitle" x="12" y="182" align="left" font="AeroMaticsLightRegular" size="30" text="Subtitle Long Name" fillColor="1E62A8" alpha="1"/>
+  <TextPoint name="txtTitle" x="61" y="131" align="left" font="AeroMaticsLightRegular" size="48" text="Main Title" fillColor="2BAAFF" alpha="1"/>
+  <ButtonStandard name="btnBack" x="13" y="141" w="40" h="40" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="btnBack_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnBack_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="btnBack_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+</layout>

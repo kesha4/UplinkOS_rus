@@ -1,0 +1,11 @@
+<layout name="WinAccountElement" w="456" h="40">
+  <Rectangle name="gfxActive" subtype="filled" x="0" y="0" w="456" h="40" fillColor="1E62A8" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.2"/>
+  <ButtonStandard name="btnBase" x="-1" y="0" w="457" h="40" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="457" h="40" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.30196078431373"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="457" h="40" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  </ButtonStandard>
+  <Line name="separator" x="0" y="39" w="456" h="1" x1="0" y1="0" x2="456" y2="0" strokeColor="1E62A8" strokeW="1" alpha="1"/>
+  <TextPoint name="txtAcc" x="2" y="6" align="left" font="AeroMaticsLightRegular" size="24" text="1229039" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtBank" x="153" y="6" align="left" font="AeroMaticsLightRegular" size="24" text="698.9.807.451" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtBalance" x="453" y="6" align="right" font="AeroMaticsLightRegular" size="24" text="99.999.999c" fillColor="2BAAFF" alpha="1"/>
+</layout>

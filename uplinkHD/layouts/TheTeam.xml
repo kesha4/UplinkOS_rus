@@ -1,0 +1,29 @@
+<layout name="TheTeam" w="1920" h="1080">
+  <Gradient name="background" subtype="gradVertical" x="0" y="0" w="1920" h="1080" alpha="1">
+    <GradStop location="0" fillColor="0B0B0B"/>
+    <GradStop location="0.5" fillColor="0B0B0B"/>
+    <GradStop location="1" fillColor="112B3C"/>
+  </Gradient>
+  <Container name="contents" x="81" y="270" w="1743" h="729" scalingType="scaleByHeight" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <TextPoint name="txtName1" x="158" y="108" align="center" font="Dungeon-Regular" size="30" text="Chris Delay" fillColor="2BAAFF" alpha="1"/>
+    <TextParagraph name="txtCaption1" x="-1" y="155" w="317.839996337891" h="227" align="center" font="AeroMaticsLightRegular" size="24" leading="0" text="The last of the bedroom programmers&#xD;The first of the children&#xD;and when wizards stay up late,&#xD;new worlds are born" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtName2" x="639" y="108" align="center" font="Dungeon-Regular" size="30" text="Tom Arundel" fillColor="2BAAFF" alpha="1"/>
+    <TextParagraph name="txtCaption2" x="480" y="155" w="317.839996337891" h="331.009765625" align="center" font="AeroMaticsLightRegular" size="24" leading="0" text="Carpe diemLIVE in that moment&#xD;But dont hesitate to forget it later&#xD;Impulsive doesnotdoyou justice&#xD;Throw it away&#xD;Corner of the room&#xD;Bottom of the shelf&#xD;Behind last weeks wonder&#xD;It was good while it lasted&#xD;Was it worth it" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtName3" x="1118" y="108" align="center" font="Dungeon-Regular" size="30" text="Mark Morris" fillColor="2BAAFF" alpha="1"/>
+    <TextParagraph name="txtCaption3" x="960" y="155" w="317.839996337891" h="331.009765625" align="center" font="AeroMaticsLightRegular" size="24" leading="0" text="The bird at the front of the flock&#xD;The pitch black tunnel with no light at the end&#xD;What do you say to these people&#xD;What do you say to yourself&#xD;Oh God when will it ever end" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtName4" x="1599" y="108" align="center" font="Dungeon-Regular" size="30" text="John Knottenbelt" fillColor="2BAAFF" alpha="1"/>
+    <TextParagraph name="txtCaption4" x="1440" y="155" w="317.839996337891" h="331.009765625" align="center" font="AeroMaticsLightRegular" size="24" leading="0" text="You are the source&#xD;It comes from within&#xD;Dont worry about us" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtName5" x="879" y="638" align="center" font="AeroMaticsRegular" size="30" text="Tudor C. Stamate" fillColor="D5185A" alpha="1"/>
+    <TextParagraph name="txtCaption5" x="719" y="679" w="317.839996337891" h="93.0097732543945" align="center" font="AeroMaticsLightRegular" size="24" leading="0" text="Poetry shmoetry&#xD;I`m here to learn how to code" fillColor="D5185A" alpha="1"/>
+    <Image name="icon1" file="team1.png" x="59" y="0" alpha="1"/>
+    <Image name="icon2" file="team2.png" x="539" y="0" alpha="1"/>
+    <Image name="icon3" file="team3.png" x="1019" y="0" alpha="1"/>
+    <Image name="icon4" file="team4.png" x="1499" y="0" alpha="1"/>
+    <Image name="icon5" file="team5.png" x="779" y="530" alpha="1"/>
+  </Container>
+  <ButtonStandard name="btnBack" x="60" y="70" w="40" h="40" scalingType="scaleByHeight" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="btnBack_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnBack_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="btnBack_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+</layout>

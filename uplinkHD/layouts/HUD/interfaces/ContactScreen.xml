@@ -1,0 +1,60 @@
+<layout name="ContactScreen" w="962" h="1082">
+  <Line name="separator" x="10" y="847" w="942" h="2" x1="0" y1="0" x2="942" y2="0" strokeColor="2BAAFF" strokeW="2" alpha="1"/>
+  <ButtonStandard name="btn0" x="92" y="859" w="378" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="378" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="378" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <TextPoint name="txtCaption" x="190" y="0" align="center" font="AeroMaticsLightRegular" size="24" text="Why so much money?" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btn1" x="92" y="899" w="378" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="378" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="378" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <TextPoint name="txtCaption" x="189" y="0" align="center" font="AeroMaticsLightRegular" size="24" text="Who is the target?" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btn2" x="92" y="939" w="378" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="378" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="378" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <TextPoint name="txtCaption" x="189" y="0" align="center" font="AeroMaticsLightRegular" size="24" text="How secure is the target?" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btn3" x="92" y="979" w="378" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="378" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="378" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <TextPoint name="txtCaption" x="189" y="0" align="center" font="AeroMaticsLightRegular" size="24" text="I want more money." fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btn4" x="492" y="859" w="378" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="378" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="378" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <TextPoint name="txtCaption" x="189" y="0" align="center" font="AeroMaticsLightRegular" size="24" text="I want half the money now." fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btn5" x="492" y="899" w="378" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="378" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="378" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <TextPoint name="txtCaption" x="189" y="0" align="center" font="AeroMaticsLightRegular" size="24" text="I want all the money now." fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btn6" x="492" y="939" w="378" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="378" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="378" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <TextPoint name="txtCaption" x="189" y="0" align="center" font="AeroMaticsLightRegular" size="24" text="OK, agreed." fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btn7" x="492" y="979" w="378" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="378" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="378" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <TextPoint name="txtCaption" x="189" y="0" align="center" font="AeroMaticsLightRegular" size="24" text="No thanks." fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <Container name="messages" x="80" y="180" w="802" h="648" scalingType="scaleByWidth" arrangeType=":" arrangePadding="arrangeFree" alpha="1">
+    <ClippingMask name="clipMask" x="0" y="0" w="802" h="648"/>
+  </Container>
+  <TextPoint name="txtSystemRef" x="51" y="307" align="left" font="AeroMaticsLightRegular" size="24" text="System message ref" fillColor="1C5B9B" alpha="1"/>
+  <TextPoint name="txtUserRef" x="51" y="331" align="left" font="AeroMaticsRegular" size="24" text="User message ref" fillColor="FFFFFF" alpha="1"/>
+  <TextPoint name="txtPlayerRef" x="316" y="367" align="right" font="AeroMaticsLightRegular" size="24" text="Player message ref" fillColor="2BAAFF" alpha="1"/>
+  <ButtonStandard name="btnBack" x="12" y="37" w="40" h="40" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="btnBack_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnBack_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="btnBack_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+  <Container name="title" x="10" y="135" w="942" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="titleBase" subtype="filled" x="0" y="0" w="942" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <TextPoint name="txtContactTitle" x="471" y="4" align="center" font="AeroMaticsLightRegular" size="30" text="Secure Communication Channel opened" fillColor="FFFFFF" alpha="1"/>
+    <Image name="icon" file="iconContactTitle.png" x="197" y="8" alpha="1"/>
+  </Container>
+  <TextPoint name="txtTitle" x="60" y="27" align="left" font="AeroMaticsLightRegular" size="48" text="Uplink" fillColor="2BAAFF" alpha="1"/>
+</layout>

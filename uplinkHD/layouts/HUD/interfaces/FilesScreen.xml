@@ -1,0 +1,23 @@
+<layout name="FilesScreen" w="962" h="1082">
+  <ScrollableList name="filesList" x="13" y="316" w="936" h="632" scalingType="scaleByWidth" arrangeType="arrangeVertical" arrangePadding="2.0" alpha="1"/>
+  <Container name="freeSpace" x="13" y="971" w="932" h="27" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="baseRect" subtype="filled" x="141" y="3" w="680" h="20" fillColor="1E62A8" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="fillRect" subtype="filled" x="141" y="3" w="680" h="20" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <TextPoint name="txtFreeSpace" x="-1" y="-7" align="left" font="AeroMaticsLightRegular" size="30" text="Free Space" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtAmount" x="832" y="-1" align="left" font="AeroMaticsLightRegular" size="24" text="6 / 20 GQs" fillColor="2BAAFF" alpha="1"/>
+  </Container>
+  <Line name="topSeparator" x="13" y="314" w="936" h="2" x1="0" y1="0" x2="936" y2="0" strokeColor="2BAAFF" strokeW="2" alpha="1"/>
+  <Line name="bottomSeparator" x="13" y="948" w="936" h="2" x1="0" y1="0" x2="936" y2="0" strokeColor="2BAAFF" strokeW="2" alpha="1"/>
+  <TextPoint name="txtFname" x="12" y="279" align="left" font="AeroMaticsLightRegular" size="24" text="Filename" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtSize" x="400" y="279" align="left" font="AeroMaticsLightRegular" size="24" text="Size" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtEncr" x="560" y="279" align="left" font="AeroMaticsLightRegular" size="24" text="Encryption" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtComp" x="720" y="279" align="left" font="AeroMaticsLightRegular" size="24" text="Compression" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtNoFiles" x="481" y="507" align="center" font="AeroMaticsLightRegular" size="36" text="NO FILES FOUND" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtSubtitle" x="12" y="182" align="left" font="AeroMaticsLightRegular" size="30" text="Subtitle Long Name" fillColor="1E62A8" alpha="1"/>
+  <TextPoint name="txtTitle" x="61" y="131" align="left" font="AeroMaticsLightRegular" size="48" text="Main Title" fillColor="2BAAFF" alpha="1"/>
+  <ButtonStandard name="btnBack" x="13" y="141" w="40" h="40" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="btnBack_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnBack_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="btnBack_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+</layout>

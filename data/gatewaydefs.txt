@@ -1,0 +1,98 @@
+Name,           Cost,   MaxCPU, MaxMem, MaxUpg, MaxSec, Bandwi, Width,  Height, Description
+numgateways     10
+
+Gateway ALPHA       
+                15000   1       4       0       0       1       200     200     The standard starting gateway for all new agents. No room for CPU upgrades and limited memory capacity.
+cpu             86  80  
+mem             33  142     57  142     81  142     105  142
+modem           137 49
+power           15  28
+
+Gateway ALPHA  /CPU       
+                20000   2       4       0       0       1       200     200     Identical to Gateway ALPHA, with an extra slot for CPU upgrades
+cpu             39  85      93  84
+mem             88  141     111 141     134 141     156 141
+modem           139 40
+power           10  31
+
+Gateway ALPHA  /MEMORY 
+                20000   1       8       0       0       2       200     200     Identical to Gateway ALPHA, but with double memory capacity
+cpu             81  84
+mem             54  38      79  38      106 38      131 38
+                54  138     79 138      105 138     130 138
+modem           138 89
+power           11  84
+
+Gateway BETA
+                25000   2       6       0       0       2       350     200     A small step up from the ALPHA, this gateway is a good all rounder for beginner agents.
+cpu             31  28      31  86
+mem             86  24      86  64      110 24      110 64      
+                135 24      135 64
+modem           280 158
+power           8   134
+
+The KRONOS Corp 80-860 Gateway
+                38000   2       8       0       1       4       300     230     Increased CPU and memory capacity. This gateway also has room for one security system (such as a camera).
+cpu             134 52      134 116
+mem             61  86      61  128     230 47      230 93
+                89  86      88  128     202 47      202 93
+sec             89  192
+modem           236 150 
+power           10  25
+
+The ZION-780 series Workstation
+                50000   3       12      0       2       6       350     250     A good all rounder with no major weaknesses, and plenty of room for future expansion.
+cpu             159 65      75  143     236 143
+mem             134 147     156 147     178 147     201 147
+                57  66      79  66      101 66      124 66
+                214 67      236 67      258 67      281 67
+sec             2   2       315 208     
+modem           283 114     
+power           19  107
+
+The UNITY High-Security platform
+                80000   4       8       0       4       6       400     300     A Gateway housed in a dedicated room, designed with maximum possible security in mind. 
+cpu             29  107     29  150     72  107     72  150
+mem             131 71      131 110     131 155     131 203
+                153 71      153 110     153 155     153 203     
+sec             11  256     11  12      356 12      346 247
+modem           41  205
+power           50  62
+
+The AM-CORE File Server
+                100000  3       32      0       2       10      350     200     This gateway has a high-bandwidth connection, and a huge amount of space for memory upgrades.
+cpu             199 80      232 27      232 134
+mem             158 69      158 100     141 69      141 100
+                125 69      125 100     109 69      109 100
+                78  69      78  100     61  69      61  100
+                45  69      45  100     29  69      29  100
+                158 12      141 12      125 12      109 12
+                158 156     141 156     125 156     109 156
+                78  12      61  12      45  12      29  12
+                78  156     61  156     45  156     29  156
+sec             310 7       310 158
+modem           5   44
+power           248 81
+
+The OMEGA Parallel Supercomputer        
+                100000  16      6       0       1       4       300     300     A high speed supercomputer system with 16 parallel processor slots. 
+cpu             51  31      153 31      51  155     153 155
+                92  31      194 31      92  155     194 155
+                51  71      153 71      51  195     153 195
+                92  71      194 71      92  195     194 195
+mem             75  116     99  116     122 116     144 116     166 116     190 116
+sec             263 263
+modem           219 119
+power           16  114
+
+The TRINITY-1686a gateway
+                125000  8       16      0       3       8       400     300     The best all round gateway money can buy
+cpu             130 96      242 100     130 144     242 148
+                62  96      304 100     62  144     304 148      
+mem             155 45      132 45      110 45      88  45
+                239 205     261 205     283 205     306 205
+                237 45      259 45      281 45      304 45
+                157 205     134 205     112 205     90  205
+sec             5   4       366 2       366 244 
+modem           16  228
+power           26  194

@@ -1,0 +1,12 @@
+<layout name="Loading" w="1920" h="1080">
+  <Gradient name="background" subtype="gradVertical" x="0" y="0" w="1920" h="1080" alpha="1">
+    <GradStop location="0" fillColor="0B0B0B"/>
+    <GradStop location="0.5" fillColor="0B0B0B"/>
+    <GradStop location="1" fillColor="112B3C"/>
+  </Gradient>
+  <Container name="loadingElements" x="569" y="489" w="783" h="231" scalingType="scaleByHeight" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="loadingCircle" file="loadingCircle.png" x="340" y="0" alpha="1"/>
+    <Image name="logoCube" file="logoCubeS.png" x="375" y="36" alpha="1"/>
+    <TextParagraph name="txtCaption" x="0" y="120" w="783" h="110.000007629395" align="center" font="AeroMaticsLightRegular" size="30" leading="0" text="Loading text on one line...&#xD;But can be on multiple lines too!" fillColor="2BAAFF" alpha="1"/>
+  </Container>
+</layout>

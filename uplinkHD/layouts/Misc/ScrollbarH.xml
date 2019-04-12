@@ -1,0 +1,19 @@
+<layout name="ScrollbarH" w="838" h="12">
+  <ButtonStandard name="btnBase" x="12" y="0" w="814" h="12" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="814" h="12" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.50196078431373"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="814" h="12" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  </ButtonStandard>
+  <Draggable name="handle" x="374" y="2" w="90" h="8" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfx" subtype="filled" x="0" y="0" w="90" h="8" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  </Draggable>
+  <ButtonStandard name="btnDown" x="0" y="0" w="12" h="12" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="scrollbarArrowHL_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="scrollbarArrowHL_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="scrollbarArrowHL_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnUp" x="826" y="0" w="12" h="12" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="scrollbarArrowHR_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="scrollbarArrowHR_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="scrollbarArrowHR_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+</layout>

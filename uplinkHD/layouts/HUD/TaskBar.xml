@@ -1,0 +1,32 @@
+<layout name="TaskBar" w="1922" h="62">
+  <Rectangle name="hack" subtype="filled" x="1899" y="34" w="10" h="10" fillColor="083E76" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.01176470588235"/>
+  <ButtonStandard name="btnEmail" x="1859" y="1" w="62" h="60" scalingType="scaleByHeight" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="btnEmail_s.png" x="2" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnEmail_h.png" x="2" y="0" alpha="1"/>
+    <Image name="gfxClick" file="btnEmail_c.png" x="2" y="0" alpha="1"/>
+    <Container name="notification" x="0" y="3" w="25" h="25" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Image name="base" file="emailNotif.png" x="0" y="0" alpha="1"/>
+      <TextPoint name="txtNumber" x="13" y="2" align="center" font="AeroMaticsRegular" size="18" text="99" fillColor="FFFFFF" alpha="1"/>
+    </Container>
+  </ButtonStandard>
+  <ButtonStandard name="btnFiles" x="77" y="1" w="60" h="60" scalingType="scaleByHeight" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="btnMemory_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnMemory_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="btnMemory_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnNotes" x="147" y="1" w="60" h="60" scalingType="scaleByHeight" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="btnNotes_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnNotes_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="btnNotes_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnLAN" x="217" y="1" w="60" h="60" scalingType="scaleByHeight" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="btnLAN_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnLAN_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="btnLAN_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnApps" x="1" y="1" w="66" h="60" scalingType="scaleByHeight" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="btnSoftware_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnSoftware_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="btnSoftware_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+</layout>

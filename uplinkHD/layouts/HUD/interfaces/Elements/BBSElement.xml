@@ -1,0 +1,32 @@
+<layout name="BBSElement" w="458" h="136">
+  <ButtonStandard name="btnBase" x="0" y="0" w="458" h="134" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="458" h="134" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.30196078431373"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="458" h="134" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  </ButtonStandard>
+  <Image name="icon" file="icon_mission_unknown.png" x="10" y="21" alpha="1"/>
+  <TextPoint name="txtDate" x="119" y="17" align="left" font="AeroMaticsLightRegular" size="24" text="12:05, 07.06.2027" fillColor="1E62A8" alpha="1"/>
+  <TextParagraph name="txtDesc" x="118" y="53" w="330.5" h="81.5" align="left" font="AeroMaticsLightRegular" size="30" leading="0" text="Break into a rival computer system and sabotage files." fillColor="2BAAFF" alpha="1"/>
+  <Container name="info" x="0" y="0" w="458" h="136" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="base" subtype="filled" x="0" y="0" w="458" h="136" fillColor="112B3C" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <TextPoint name="txtDetails1" x="10" y="4" align="left" font="AeroMaticsLightRegular" size="24" text="You will require 2 GQs of storage space." fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtDetails2" x="10" y="35" align="left" font="AeroMaticsLightRegular" size="24" text="The files are on a LAN server." fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtRankAmount" x="9" y="94" align="left" font="AeroMaticsRegular" size="30" text="Intermediate" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="Ranking" x="10" y="76" align="left" font="AeroMaticsLightRegular" size="18" text="Ranking" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtPayAmount" x="286" y="94" align="left" font="AeroMaticsRegular" size="30" text="200500c" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="Payment" x="287" y="76" align="left" font="AeroMaticsLightRegular" size="18" text="Payment" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtDiffAmount" x="189" y="94" align="left" font="AeroMaticsRegular" size="30" text="5" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="Difficulty" x="190" y="76" align="left" font="AeroMaticsLightRegular" size="18" text="Difficulty" fillColor="2BAAFF" alpha="1"/>
+    <Line name="separator" x="10" y="68" w="438" h="1" x1="0" y1="0" x2="438" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <ButtonStandard name="btnContact" x="413" y="0" w="45" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Image name="gfxStandard" file="btnContact_s.png" x="0" y="0" alpha="1"/>
+      <Image name="gfxHover" file="btnContact_h.png" x="0" y="0" alpha="1"/>
+      <Image name="gfxClick" file="btnContact_c.png" x="0" y="0" alpha="1"/>
+    </ButtonStandard>
+    <ButtonStandard name="btnAccept" x="413" y="87" w="45" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Image name="gfxStandard" file="btnAccept_s.png" x="0" y="0" alpha="1"/>
+      <Image name="gfxHover" file="btnAccept_h.png" x="0" y="0" alpha="1"/>
+      <Image name="gfxClick" file="btnAccept_c.png" x="0" y="0" alpha="1"/>
+    </ButtonStandard>
+  </Container>
+  <Line name="separator" x="0" y="132" w="458" h="4" x1="0" y1="2" x2="458" y2="2" strokeColor="2BAAFF" strokeW="4" alpha="1"/>
+</layout>

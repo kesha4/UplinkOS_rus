@@ -1,0 +1,16 @@
+<layout name="ViewGateway" w="1920" h="1080">
+  <Rectangle name="overlay" subtype="filled" x="0" y="0" w="1920" h="1080" fillColor="0B0B0B" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.74901960784314"/>
+  <Rectangle name="baseRef" subtype="strokedFill" x="609" y="241" w="701" h="600" fillColor="112B3C" fillA="0.8" strokeColor="2BAAFF" strokeW="4" alpha="1"/>
+  <TextPoint name="txtCompRef" x="686" y="449" align="left" font="AeroMaticsRegular" size="18" text="CPU 160 Ghz" fillColor="2BAAFF" alpha="1"/>
+  <Container name="gateway" x="664" y="325" w="502" h="338" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1"/>
+  <Container name="controls" x="491" y="35" w="938" h="125" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <TextPoint name="txtTitle" x="0" y="-5" align="left" font="AeroMaticsRegular" size="24" text="The VIRTUANET R-Access Gateway" fillColor="2BAAFF" alpha="1"/>
+    <Line name="separatorH" x="0" y="23" w="229" h="1" x1="0" y1="0" x2="229" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <TextParagraph name="txtDesc" x="1" y="31" w="307.827026367188" h="201.365234375" align="left" font="AeroMaticsLightRegular" size="20" leading="0" text="An embedded broad-band radio transmitter provides total anonymity for the user - you cannot be caught with this gateway." fillColor="2BAAFF" alpha="1"/>
+    <ButtonStandard name="btnClose" x="893" y="6" w="45" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Image name="gfxStandard" file="btnClose_lan_s.png" x="0" y="0" alpha="1"/>
+      <Image name="gfxHover" file="btnClose_lan_h.png" x="0" y="0" alpha="1"/>
+      <Image name="gfxClick" file="btnClose_lan_c.png" x="0" y="0" alpha="1"/>
+    </ButtonStandard>
+  </Container>
+</layout>

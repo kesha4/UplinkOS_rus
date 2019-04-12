@@ -1,0 +1,12 @@
+<layout name="EmailNotification" w="331" h="126">
+  <Rectangle name="base" subtype="strokedFill" x="0" y="0" w="331" h="122" fillColor="112B3C" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+  <Line name="line" x="0" y="120" w="332" h="4" x1="0" y1="0" x2="332" y2="0" strokeColor="2BAAFF" strokeW="4" alpha="1"/>
+  <ButtonStandard name="btnBase" x="1" y="1" w="329" h="120" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="329" h="120" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="329" h="120" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  </ButtonStandard>
+  <TextParagraph name="txtContents" x="10" y="57" w="310.66015625" h="63.0000038146973" align="left" font="AeroMaticsLightRegular" size="24" leading="0" text="This is the truncated message body. Only the 2 first lines are..." fillColor="2BAAFF" alpha="1"/>
+  <Line name="separator" x="10" y="49" w="311" h="2" x1="0" y1="1" x2="311" y2="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+  <TextParagraph name="txtDate" x="224" y="2" w="98.3857421875" h="43.224609375" align="right" font="AeroMaticsLightRegular" size="18" leading="0" text="10:11,&#xD;01.03.2027" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtSubject" x="9" y="6" align="left" font="AeroMaticsRegular" size="30" text="Subject that get..." fillColor="2BAAFF" alpha="1"/>
+</layout>

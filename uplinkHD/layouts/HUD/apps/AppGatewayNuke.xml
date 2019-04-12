@@ -1,0 +1,20 @@
+<layout name="AppGatewayNuke" w="90" h="90">
+  <Image name="base" file="appBase_03.png" x="0" y="0" alpha="1"/>
+  <Image name="icon" file="appIcon_nuke.png" x="6" y="6" alpha="1"/>
+  <ButtonStandard name="btnStart" x="14" y="31" w="61" h="27" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <TextPoint name="gfxStandard" x="4" y="0" align="left" font="AeroMaticsRegular" size="24" text="NUKE" fillColor="FFFFFF" alpha="1"/>
+    <Container name="gfxHover" x="5" y="5" w="51" h="22" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Line name="line" x="0" y="20" w="51" h="2" x1="0" y1="1" x2="51" y2="1" strokeColor="FFFFFF" strokeW="2" alpha="1"/>
+      <TextPoint name="txt" x="-1" y="-5" align="left" font="AeroMaticsRegular" size="24" text="NUKE" fillColor="FFFFFF" alpha="1"/>
+    </Container>
+    <Container name="gfxClick" x="0" y="0" w="61" h="27" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="Rectangle 1" subtype="filled" x="0" y="0" w="61" h="27" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <TextPoint name="txt" x="4" y="0" align="left" font="AeroMaticsRegular" size="24" text="NUKE" fillColor="D31A1A" alpha="1"/>
+    </Container>
+  </ButtonStandard>
+  <ButtonStandard name="btnClose" x="72" y="0" w="18" h="18" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="appBtn_close_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="appBtn_close_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="appBtn_close_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+</layout>

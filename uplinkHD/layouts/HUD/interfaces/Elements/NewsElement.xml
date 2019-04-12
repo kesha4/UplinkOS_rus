@@ -1,0 +1,13 @@
+<layout name="NewsElement" w="240" h="360">
+  <ButtonStandard name="btnBase" x="0" y="0" w="240" h="360" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxStandard" subtype="filled" x="0" y="0" w="240" h="360" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.14901960784314"/>
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="240" h="360" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.30196078431373"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="240" h="360" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  </ButtonStandard>
+  <TextParagraph name="txtDesc" x="10" y="308" w="221.94140625" h="44.6380233764648" align="left" font="AeroMaticsRegular" size="18" leading="0" text="Selective Solutions discovered this morning that a massive..." fillColor="2BAAFF" alpha="1"/>
+  <Line name="separator" x="10" y="299" w="220" h="1" x1="0" y1="0" x2="220" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+  <TextPoint name="txtDate" x="9" y="274" align="left" font="AeroMaticsLightRegular" size="18" text="18:42, 24-3-2010" fillColor="1E62A8" alpha="1"/>
+  <TextParagraph name="txtTitle" x="9" y="188" w="219.880859375" h="82.2328186035156" align="left" font="AeroMaticsRegular" size="24" leading="0" text="No data is secure - GigaQuads stolen in ‘impossible’ hack" fillColor="2BAAFF" alpha="1"/>
+  <Rectangle name="iconBase" subtype="filled" x="0" y="0" w="240" h="180" fillColor="083E76" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  <Image name="icon" file="iconNews_hacked.png" x="49" y="41" alpha="1"/>
+</layout>

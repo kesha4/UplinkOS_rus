@@ -1,0 +1,40 @@
+<layout name="RecordScreen" w="962" h="1082">
+  <Line name="topSeparator" x="13" y="370" w="936" h="2" x1="0" y1="0" x2="936" y2="0" strokeColor="2BAAFF" strokeW="2" alpha="1"/>
+  <Line name="bottomSeparator" x="13" y="709" w="936" h="2" x1="0" y1="0" x2="936" y2="0" strokeColor="2BAAFF" strokeW="2" alpha="1"/>
+  <Line name="vSeparator" x="480" y="416" w="1" h="248" x1="1" y1="0" x2="1" y2="248" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+  <Rectangle name="rect0" subtype="filled" x="14" y="416" w="935" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.25098039215686"/>
+  <Rectangle name="rect1" subtype="filled" x="80" y="485" w="802" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.25098039215686"/>
+  <Rectangle name="rect2" subtype="filled" x="80" y="552" w="802" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.25098039215686"/>
+  <Rectangle name="rect3" subtype="filled" x="14" y="619" w="935" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.25098039215686"/>
+  <TextPoint name="txtTitle0" x="240" y="422" align="left" font="AeroMaticsLightRegular" size="30" text="Name" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtTitle1" x="240" y="490" align="left" font="AeroMaticsLightRegular" size="30" text="Account Number" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtTitle3" x="240" y="624" align="left" font="AeroMaticsLightRegular" size="30" text="Security" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtTitle2" x="240" y="557" align="left" font="AeroMaticsLightRegular" size="30" text="Password" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtValue0" x="560" y="422" align="left" font="AeroMaticsLightRegular" size="30" text="CheatingAgent" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtValue1" x="560" y="490" align="left" font="AeroMaticsLightRegular" size="30" text="399455" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtValue2" x="560" y="557" align="left" font="AeroMaticsLightRegular" size="30" text="glassing" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtValue3" x="560" y="624" align="left" font="AeroMaticsLightRegular" size="30" text="3" fillColor="2BAAFF" alpha="1"/>
+  <ButtonStandard name="btnOK" x="401" y="780" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <TextPoint name="txtCaption" x="80" y="1" align="center" font="AeroMaticsLightRegular" size="24" text="Close" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnNext" x="893" y="485" w="56" h="112" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="btnNext_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnNext_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="btnNext_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnPrev" x="14" y="485" w="56" h="112" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="btnPrev_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnPrev_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="btnPrev_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+  <TextPoint name="txtSubtitle" x="12" y="182" align="left" font="AeroMaticsLightRegular" size="30" text="Subtitle Long Name" fillColor="1E62A8" alpha="1"/>
+  <TextPoint name="txtTitle" x="61" y="131" align="left" font="AeroMaticsLightRegular" size="48" text="Main Title" fillColor="2BAAFF" alpha="1"/>
+  <ButtonStandard name="btnBack" x="13" y="141" w="40" h="40" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="btnBack_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnBack_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="btnBack_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+</layout>

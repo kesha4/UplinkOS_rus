@@ -1,0 +1,56 @@
+<layout name="AppLogModifier" w="368" h="199">
+  <Rectangle name="base" subtype="filled" x="3" y="14" w="362" h="181" fillColor="112B3C" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.90196078431373"/>
+  <Line name="lineL" x="0" y="14" w="4" h="182" x1="0" y1="182" x2="0" y2="0" strokeColor="2BAAFF" strokeW="4" alpha="1"/>
+  <Line name="lineR" x="364" y="14" w="4" h="182" x1="0" y1="182" x2="0" y2="0" strokeColor="2BAAFF" strokeW="4" alpha="1"/>
+  <Rectangle name="charge" subtype="filled" x="2" y="162" w="362" h="4" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  <Poly name="anchor" subtype="filled" x="0" y="0" w="28" h="14" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" alpha="1">
+    <Vertex x="14" y="0"/>
+    <Vertex x="28" y="14"/>
+    <Vertex x="0" y="14"/>
+  </Poly>
+  <Rectangle name="titleBase" subtype="filled" x="2" y="14" w="363" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  <TextPoint name="txtTitle" x="184" y="14" align="center" font="AeroMaticsRegular" size="24" text="Modifying Log" fillColor="112B3C" alpha="1"/>
+  <ButtonStandard name="btnType" x="3" y="44" w="362" h="40" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Line name="gfxStandard" x="0" y="39" w="362" h="1" x1="0" y1="0" x2="362" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Container name="gfxHover" x="0" y="0" w="362" h="40" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Line name="line" x="0" y="39" w="362" h="1" x1="0" y1="0" x2="362" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="base" subtype="filled" x="0" y="0" w="362" h="40" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.25098039215686"/>
+    </Container>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="362" h="40" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Poly name="icon" subtype="filled" x="107" y="17" w="16" h="8" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" alpha="1">
+      <Vertex x="0" y="0"/>
+      <Vertex x="16" y="0"/>
+      <Vertex x="8" y="8"/>
+    </Poly>
+    <TextPoint name="txtCaption" x="10" y="5" align="left" font="AeroMaticsLightRegular" size="24" text="Log Type" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <ButtonTextField name="btnFrom" x="3" y="84" w="362" h="40" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Line name="gfxStandard" x="0" y="39" w="362" h="1" x1="0" y1="0" x2="362" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Container name="gfxHover" x="0" y="0" w="362" h="40" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Line name="line" x="0" y="39" w="362" h="1" x1="0" y1="0" x2="362" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="base" subtype="filled" x="0" y="0" w="362" h="40" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.25098039215686"/>
+    </Container>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="362" h="40" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <TextPoint name="txtCaption" x="10" y="6" align="left" font="AeroMaticsLightRegular" size="24" text="From" fillColor="2BAAFF" alpha="1"/>
+  </ButtonTextField>
+  <ButtonTextField name="btnTo" x="3" y="123" w="362" h="40" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Line name="gfxStandard" x="0" y="39" w="362" h="1" x1="0" y1="0" x2="362" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Container name="gfxHover" x="0" y="0" w="362" h="40" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Line name="line" x="0" y="39" w="362" h="1" x1="0" y1="0" x2="362" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+      <Rectangle name="base" subtype="filled" x="0" y="0" w="362" h="40" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.25098039215686"/>
+    </Container>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="362" h="40" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <TextPoint name="txtCaption" x="10" y="6" align="left" font="AeroMaticsLightRegular" size="24" text="To" fillColor="2BAAFF" alpha="1"/>
+  </ButtonTextField>
+  <ButtonStandard name="btnCommit" x="3" y="165" w="362" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="362" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="362" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="362" h="30" fillColor="FF00FF" fillA="0.90196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <TextPoint name="txtCaption" x="181" y="1" align="center" font="AeroMaticsLightRegular" size="24" text="Commit" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btnClose" x="336" y="14" w="28" h="28" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="tm_appClose_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="tm_appClose_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="tm_appClose_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+</layout>

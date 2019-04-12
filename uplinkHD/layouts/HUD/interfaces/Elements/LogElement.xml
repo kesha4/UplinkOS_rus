@@ -1,0 +1,11 @@
+<layout name="LogElement" w="922" h="45">
+  <Line name="separator" x="0" y="44" w="922" h="1" x1="0" y1="0" x2="922" y2="0" strokeColor="1E62A8" strokeW="1" alpha="1"/>
+  <ButtonStandard name="btnBase" x="0" y="0" w="922" h="44" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="922" h="44" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.30196078431373"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="922" h="44" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  </ButtonStandard>
+  <Rectangle name="progressBar" subtype="filled" x="0" y="0" w="922" h="44" fillColor="083E76" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  <TextPoint name="txtProgress" x="922" y="4" align="right" font="AeroMaticsRegular" size="30" text="20%" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtDesc" x="229" y="8" align="left" font="AeroMaticsLightRegular" size="24" text="User Admin connected on level 3" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtDate" x="10" y="8" align="left" font="AeroMaticsLightRegular" size="24" text="22:30, 02.03.2027" fillColor="1E62A8" alpha="1"/>
+</layout>

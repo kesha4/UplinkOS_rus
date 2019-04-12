@@ -1,0 +1,11 @@
+<layout name="AppRevelationTracker" w="320" h="168">
+  <Rectangle name="base" subtype="strokedFill" x="0" y="0" w="319" h="163" fillColor="112B3C" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+  <Line name="line" x="0" y="161" w="320" h="4" x1="0" y1="0" x2="320" y2="0" strokeColor="2BAAFF" strokeW="4" alpha="1"/>
+  <TextPoint name="txtTitle" x="9" y="5" align="left" font="AeroMaticsRegular" size="24" text="Infected systems" fillColor="2BAAFF" alpha="1"/>
+  <TextParagraph name="txtIPs" x="9" y="38" w="282" h="110.578132629395" align="left" font="AeroMaticsLightRegular" size="24" leading="0" text="999.999.999.999 @ 15:25" fillColor="2BAAFF" alpha="1"/>
+  <ButtonStandard name="btnClose" x="291" y="1" w="28" h="28" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="tm_appClose_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="tm_appClose_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="tm_appClose_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+</layout>

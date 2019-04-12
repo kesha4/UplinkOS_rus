@@ -1,0 +1,9 @@
+<layout name="GameOver" w="1920" h="1080">
+  <ButtonStandard name="btnScreen" x="0" y="0" w="1920" h="1080" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1"/>
+  <TextParagraph name="txtMessage" x="689" y="267" w="546.59765625" h="481.5" align="center" font="AeroMaticsLightRegular" size="24" leading="0" text="We have recently been informed by a large corporation that you have been caught hacking into one of their primary computer systems.&#xD;&#xD;As such, we have been forced to disavow all knowledge of your actions and strike you off the active agents list.&#xD;&#xD;Your gateway and accounts have already been siezed.&#xD;&#xD;Let this be a warning to be more careful next time." fillColor="2BAAFF" alpha="1"/>
+  <ButtonStandard name="btnBack" x="60" y="70" w="40" h="40" scalingType="scaleByHeight" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="btnBack_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnBack_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="btnBack_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+</layout>

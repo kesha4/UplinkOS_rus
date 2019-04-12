@@ -1,0 +1,64 @@
+<layout name="MenuScreen" w="962" h="1082">
+  <ButtonStandard name="btn0" x="-1" y="316" w="963" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="963" h="45" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="963" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Image name="icon" file="icon_menuOption.png" x="161" y="10" alpha="1"/>
+    <TextPoint name="txtCaption" x="189" y="-4" align="left" font="AeroMaticsLightRegular" size="42" text="News Server" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btn1" x="-1" y="366" w="963" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="963" h="45" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="963" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Image name="icon" file="icon_menuOption.png" x="161" y="10" alpha="1"/>
+    <TextPoint name="txtCaption" x="189" y="-4" align="left" font="AeroMaticsLightRegular" size="42" text="News Server" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btn2" x="-1" y="416" w="963" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="963" h="45" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="963" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Image name="icon" file="icon_menuOption.png" x="161" y="10" alpha="1"/>
+    <TextPoint name="txtCaption" x="189" y="-4" align="left" font="AeroMaticsLightRegular" size="42" text="News Server" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btn3" x="-1" y="466" w="963" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="963" h="45" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="963" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Image name="icon" file="icon_menuOption.png" x="161" y="10" alpha="1"/>
+    <TextPoint name="txtCaption" x="189" y="-4" align="left" font="AeroMaticsLightRegular" size="42" text="News Server" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btn4" x="-1" y="516" w="963" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="963" h="45" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="963" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Image name="icon" file="icon_menuOption.png" x="161" y="10" alpha="1"/>
+    <TextPoint name="txtCaption" x="189" y="-4" align="left" font="AeroMaticsLightRegular" size="42" text="News Server" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btn5" x="-1" y="566" w="963" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="963" h="45" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="963" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Image name="icon" file="icon_menuOption.png" x="161" y="10" alpha="1"/>
+    <TextPoint name="txtCaption" x="189" y="-4" align="left" font="AeroMaticsLightRegular" size="42" text="News Server" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btn6" x="-1" y="616" w="963" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="963" h="45" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="963" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Image name="icon" file="icon_menuOption.png" x="161" y="10" alpha="1"/>
+    <TextPoint name="txtCaption" x="189" y="-4" align="left" font="AeroMaticsLightRegular" size="42" text="News Server" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btn7" x="-1" y="666" w="963" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="963" h="45" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="963" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Image name="icon" file="icon_menuOption.png" x="161" y="10" alpha="1"/>
+    <TextPoint name="txtCaption" x="189" y="-4" align="left" font="AeroMaticsLightRegular" size="42" text="News Server" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btn8" x="-1" y="716" w="963" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="963" h="45" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="963" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Image name="icon" file="icon_menuOption.png" x="161" y="10" alpha="1"/>
+    <TextPoint name="txtCaption" x="189" y="-4" align="left" font="AeroMaticsLightRegular" size="42" text="News Server" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <ButtonStandard name="btn9" x="-1" y="766" w="963" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="963" h="45" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="963" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Image name="icon" file="icon_menuOption.png" x="161" y="10" alpha="1"/>
+    <TextPoint name="txtCaption" x="189" y="-4" align="left" font="AeroMaticsLightRegular" size="42" text="News Server" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <TextPoint name="txtSubtitle" x="12" y="182" align="left" font="AeroMaticsLightRegular" size="30" text="Subtitle Long Name" fillColor="1E62A8" alpha="1"/>
+  <TextPoint name="txtTitle" x="12" y="134" align="left" font="AeroMaticsLightRegular" size="48" text="Main Title" fillColor="2BAAFF" alpha="1"/>
+</layout>

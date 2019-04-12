@@ -1,0 +1,19 @@
+<layout name="WinTaskManagerV2" w="480" h="480">
+  <Rectangle name="baseBG" subtype="strokedFill" x="0" y="5" w="479" h="473" fillColor="112B3C" fillA="0.94901960784314" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+  <Rectangle name="baseTitle" subtype="filled" x="0" y="0" w="480" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  <Line name="baseLine" x="0" y="476" w="479" h="4" x1="0" y1="2" x2="479" y2="2" strokeColor="2BAAFF" strokeW="4" alpha="1"/>
+  <TextPoint name="txtTitle" x="240" y="5" align="center" font="AeroMaticsRegular" size="30" text="TASK MANAGER V2.0" fillColor="0B0B0B" alpha="1"/>
+  <ScrollableList name="list" x="10" y="55" w="469" h="379" scalingType="scaleByWidth" arrangeType="arrangeVertical" arrangePadding="10.0" alpha="1"/>
+  <ButtonStandard name="btnBalanceAll" x="0" y="433" w="479" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Line name="separator" x="40" y="0" w="399" h="1" x1="0" y1="0" x2="399" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="479" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="479" h="45" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <TextPoint name="txtCaption" x="240" y="7" align="center" font="AeroMaticsLightRegular" size="24" text="Balance All" fillColor="2BAAFF" alpha="1"/>
+  </ButtonStandard>
+  <TextPoint name="txtError" x="122" y="223" align="left" font="AeroMaticsLightRegular" size="24" text="No applications opened." fillColor="2BAAFF" alpha="1"/>
+  <ButtonStandard name="btnClose" x="435" y="0" w="45" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Image name="gfxStandard" file="btnCloseWin_s.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxHover" file="btnCloseWin_h.png" x="0" y="0" alpha="1"/>
+    <Image name="gfxClick" file="btnCloseWin_c.png" x="0" y="0" alpha="1"/>
+  </ButtonStandard>
+</layout>
