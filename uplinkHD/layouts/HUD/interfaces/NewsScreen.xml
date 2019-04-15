@@ -13,6 +13,6 @@
     <Image name="gfxHover" file="btnBack_h.png" x="0" y="0" alpha="1"/>
     <Image name="gfxClick" file="btnBack_c.png" x="0" y="0" alpha="1"/>
   </ButtonStandard>
-  <TextPoint name="txtSubtitle" x="184" y="45" align="left" font="Philosopher-Regular" size="30" text="Latest News" fillColor="1E62A8" alpha="1"/>
+  <TextPoint name="txtSubtitle" x="200" y="44" align="left" font="Philosopher-Regular" size="30" text="News" fillColor="1E62A8" alpha="1"/>
   <TextPoint name="txtTitle" x="60" y="27" align="left" font="Philosopher-Regular" size="48" text="Uplink" fillColor="2BAAFF" alpha="1"/>
 </layout>
