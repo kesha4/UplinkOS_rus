@@ -9,7 +9,7 @@
       <Rectangle name="base" subtype="filled" x="0" y="0" w="271" h="50" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.25098039215686"/>
     </Container>
     <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="271" h="50" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
-    <TextPoint name="txtCaption" x="9" y="4" align="left" font="Philosopher-Regular" size="36" text="Filter" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtCaption" x="9" y="6" align="left" font="Philosopher-Regular" size="33" text="Фильтр" fillColor="2BAAFF" alpha="1"/>
   </ButtonTextField>
   <Image name="icon" file="findIcon.png" x="630" y="161" alpha="1"/>
   <TextPoint name="txtSubtitle" x="12" y="182" align="left" font="Philosopher-Regular" size="30" text="Subtitle Long Name" fillColor="1E62A8" alpha="1"/>
