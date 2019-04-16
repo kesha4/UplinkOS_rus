@@ -1,0 +1,305 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Translate my UTF8-HEX</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="https://cdn.rawgit.com/zenorocha/clipboard.js/master/dist/clipboard.min.js"></script>
+<script type="text/javascript">
+	function cyrill_to_latin(text){
+		var arr1 = Array ('Я','я','Ю','ю','Ч','ч','Ш','ш','Щ','щ','Ж','ж','А','а','Б','б','В','в','Г','г','Д','д','Е','е','Ё','ё','З','з','И','и','Й','й','К','к','Л','л','М','м','Н','н', 'О','о','П','п','Р','р','С','с','Т','т','У','у','Ф','ф','Х','х','Ц','ц','Ы','ы','Ь','ь','Ъ','ъ','Э','э');
+		var arr2 = Array ('Я','я','Ю','ю','Ч','ч','Ш','ш','Щ','щ','Ж','ж','A','a','Б','б','B','в','Г','г','Д','д','E','e','E','e','3','з','И','u','Й','й','K','к','Л','л','M','м','H','н', 'O','o','П','п','P','p','C','c','T','т','У','y','Ф','ф','X','x','Ц','ц','Ы','ы','Ь','b','Ъ','ъ','Э','э');
+
+		for(var i=0; i<arr1.length; i++){
+			var reg = new RegExp(arr1[i], "g");
+			text = text.replace(reg, arr2[i]);
+	    }
+		return text;
+	}
+
+	function getXMLNodeText(node){
+	return node.text || node.textContent;
+	}
+
+	function translit(){
+		$("[name=result]").val(cyrill_to_latin($("[name=translit]").val()));
+		btLength();
+	}
+
+	function translater(){
+		var translaterEngine = $('input[name=translaterEngine]:checked').val();
+		switch (translaterEngine) {
+			case 'goo':
+			translater_goo();
+			break;
+
+			case 'ya':
+			translater_ya();
+			break;
+
+			default:
+			translater_goo();
+			break;
+		}
+	}
+
+	function translater_ya(){
+		var apiUrl = 'https://translate.yandex.net/api/v1.5/tr/translate?key=trnsl.1.1.20170219T103517Z.b509ba86abcca008.caf7be4afec785f83c167b395390cc436502ee40&text='+encodeURIComponent($("[name=original]").val()).replace(/%20/g,'+')+'&lang=en-ru&format=plain';
+		
+		$.ajax({
+			url: apiUrl,
+			type: 'GET',
+			dataType: 'html',
+			success: function(d){
+				$(d).find('text').each(function(){
+					$("[name=translit]").val( $(this).text() );
+					translit();
+				})
+			}
+		});
+	}
+
+	function translater_goo(){
+		var apiUrl = 'https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&dt=t&dt=bd&dj=1&text='+encodeURIComponent($("[name=original]").val()).replace(/%20/g,'+')+'&tl=ru';
+		
+		$.ajax({
+			url: apiUrl,
+			type: 'GET',
+			dataType: 'json',
+			success: function(d){
+				$("[name=translit]").val( $(d)[0]['sentences'][0]['trans'] );
+				translit();
+			}
+		});
+	}
+
+	function byteLength(str){
+	   var length = str.length;
+	   var count = 0;
+	   var i = 0;
+	   var ch = 0;
+	   for(i; i < length; i++){
+	     ch = str.charCodeAt(i);
+	     if(ch <= 127){
+	        count++;
+	     }else if(ch <= 2047){
+	        count += 2;
+	     }else if(ch <= 65535){
+	        count += 3;
+	     }else if(ch <= 2097151){
+	        count += 4;
+	     }else if(ch <= 67108863){
+	        count += 5;
+	     }else{
+	        count += 6;
+	     }    
+	  }
+	  return count;
+	};
+
+	function btLength(){
+		var copy = $("[name=result]")[0].value;
+		var strO = unescape(encodeURIComponent($("[name=original]")[0].value)).length;
+		var strR = unescape(encodeURIComponent($("[name=result]")[0].value)).length;
+		diff = strO - strR;
+		if (diff === 0) {alert('Тютелька в тютельку!!!');}
+		else if (diff > 0) {alert('Остался запас в '+diff+' байт');}
+		else if (diff < 0) {alert('Надо уменьшить на '+ -1*diff +' байт');}
+	}
+</script>
+<style type="text/css">
+	body {
+		color: #000;
+		font: 13px/1.6em Arial, Helvetica, sans-serif;
+		margin: 0;
+		padding: 0 10px;
+		border:100px solid #0769AD;
+		border-width:0 100px;
+		background:#000;
+	}
+	a {color:#0769AD; text-decoration:underline;}
+	.conteiner {
+		margin: auto;
+
+		text-align:center;
+		padding:10px 0 10px 0;
+		position:relative;
+	}
+	.header {
+		background: none;
+		margin: 0;
+		padding: 10px 0;
+		text-align: left;
+		height:72px;
+		position:fixed;
+		bottom:0;
+		left:0;
+	}
+	.autor {
+		left: -112px;
+	    position: fixed;
+	    top: 50%;
+		margin-top:-45px;
+		
+	}
+	.logoMass {
+		color:#fff;
+	}
+	.logoMasscode {
+		color:#000;
+		text-decoration:none;
+		line-height:72px;
+		font-size:50px;
+		font-family:Arial, Helvetica, sans-serif;
+		font-weight:900;
+		display:block;
+		letter-spacing:-8px;
+		
+		-moz-transform:rotate(-90deg);
+		-webkit-transform:rotate(-90deg);
+		-o-transform:rotate(-90deg);
+		-ms-transform:rotate(-90deg);
+		transform:rotate(-90deg);
+	}
+	.descr {
+		text-align: left;
+		margin-left:30px;
+		margin-right:30px;
+	}
+	h2 { clear:both; padding:40px 0 5px 0; line-height:1.2em; text-align:left}
+	hr { clear:both; border:0; border-bottom:1px dashed #ccc; height:0; margin:20px 0; display:block}
+	.slidik { margin:auto !important}
+	pre {text-align:left} 
+	h3,
+	p { text-align:left;}
+
+
+	fieldset { border:1px dotted #AAADC4; margin:0 0 45px 0; background:#fff; box-shadow:0 0 0 20px #fff; border-radius:1px; text-align:left; padding:30px 40px;  position:relative; display:block; z-index:100}
+	legend { text-transform:uppercase; font-weight:900;}
+	h3 {
+		color:#fff;
+		padding:0 0 10px 0;
+		text-align:center;
+		text-transform:uppercase;
+	}
+	.navPr {
+		margin:0 0 40px ;
+	}
+	.navPr a {
+		display:inline-block;
+		vertical-align:top;
+		background:#0769AD;
+		color:#fff;
+		font-weight:700;
+		text-decoration:none;
+		padding:5px 15px;
+		margin:0 5px;
+		border:1px solid #0769AD;
+	}
+	.navPr span {
+		display:inline-block;
+		vertical-align:top;
+		background:#fff;
+		color:#000;
+		font-weight:700;
+		text-decoration:none;
+		padding:5px 15px;
+		margin:0 5px;
+		border:1px solid #fff;
+		
+	}
+	.optionsTable { 
+		border-collapse:collapse;
+	}
+	.optionsTable td {
+		border-top:1px solid #e5e5e5;
+		padding:10px 50px 10px 0;
+	}
+	.optionsTable th {padding:10px 50px 10px 0; }
+	.optionsTable tr td:first-child {
+		font-weight:900;
+	} 
+	.optionsTable tr:nth-child(even) td {
+		background:#FCFCFC
+	}
+	.optionsTable th {
+		color:#000;
+		text-transform:uppercase;
+		font-weight:900;
+	}
+	.value { padding:2px 10px 3px; background:#000; color:#fff; white-space:nowrap; margin-bottom:1px; display:inline-block; vertical-align:middle;}
+
+	.addContent,
+	.removeContent { background: #0769AD; color:#fff; display:inline-block; padding:10px 20px; font-size:16px;}
+
+	h2 { clear:both; padding:0px 0 5px 0; line-height:1.2em; text-align:left}
+	div.text{}
+	div.buttons{
+		padding: 3px 1px;
+	}
+	fieldset input[type=button] {
+		border-radius: 7px;
+		width:275px;
+		padding:15px 10px;
+		background:#fff;
+		border:2px solid #C1C9D5;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) inset;
+	}
+	fieldset input[type=button]:hover {
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.2) inset;
+	}
+	fieldset label {
+		display: block;
+		width:109px;
+		height: 30px;
+		padding:15px;
+		float: left;
+	}
+	fieldset label:first-child {
+		padding-left: 16px;
+	}
+	textarea {
+		border-radius: 7px;
+		width:528px;
+		height: 100px;
+		padding:0.6em 10px;
+		background:#fff;
+		border:4px solid #C1C9D5;
+		height:6em;
+	}
+	.demo3 { background:#f1f1f1; padding:20px 30px; display:inline-block}
+	.info { margin-left:30px; padding:5px 10px; background:#FFE49F}
+</style>
+</head>
+<body>
+
+<fieldset>
+    <legend>"Translate my UTF8-HEX" by kesha4</legend>	
+	<div class="text">
+		<textarea class="demo2_text" placeholder="Текст оригинала" name="original" style="height: 50px;"></textarea>
+	</div>
+	<div class="text">
+		<textarea class="demo2_text" placeholder="Перевод" name="translit"></textarea>
+	</div>
+	<div class="text">
+		<textarea class="demo2_translit" placeholder="Конвертация перевода" name="result" id="inputId"></textarea>
+	</div>
+	<div class="buttons">
+		<input onclick="translater();" type="button" value="Перевести оригинал" /> 
+		<input onclick="translit();" type="button" value="Конвертировать перевод" data-clipboard-target="#inputId" id="buttonId1" />
+	</div>
+	<div class="buttons">
+		<label><input type="radio" name="translaterEngine" value="goo" checked="checked">Google</label>
+		<label><input type="radio" name="translaterEngine" value="ya">Yandex</label>
+		<input onclick="btLength();" type="button" value="Сравнить длинну побайтово" data-clipboard-target="#inputId" id="buttonId2" />
+	</div>
+
+<script>
+	new ClipboardJS('#buttonId1, #buttonId2');
+</script>
+</fieldset> 
+
+</body>
+</html>
+
+
