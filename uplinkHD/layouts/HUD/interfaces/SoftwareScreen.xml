@@ -19,7 +19,7 @@
   <ButtonStandard name="btnSecurity" x="481" y="271" w="120" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
     <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="120" h="45" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
     <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="120" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
-    <TextPoint name="txtCaption" x="60" y="9" align="center" font="Philosopher-Regular" size="24" text="Безопасность" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtCaption" x="60" y="9" align="center" font="Philosopher-Regular" size="24" text="Защита" fillColor="2BAAFF" alpha="1"/>
   </ButtonStandard>
   <ButtonStandard name="btnLAN" x="601" y="271" w="120" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
     <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="120" h="45" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
