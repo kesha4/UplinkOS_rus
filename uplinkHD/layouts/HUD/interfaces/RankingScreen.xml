@@ -28,7 +28,7 @@
     <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
     <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
     <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
-    <TextPoint name="txtCaption" x="80" y="1" align="center" font="Philosopher-Regular" size="24" text="Close" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtCaption" x="80" y="1" align="center" font="Philosopher-Regular" size="24" text="Закрыть" fillColor="2BAAFF" alpha="1"/>
   </ButtonStandard>
   <TextPoint name="txtSubtitle" x="12" y="182" align="left" font="Philosopher-Regular" size="30" text="Subtitle Long Name" fillColor="1E62A8" alpha="1"/>
   <TextPoint name="txtTitle" x="61" y="131" align="left" font="Philosopher-Regular" size="48" text="Main Title" fillColor="2BAAFF" alpha="1"/>

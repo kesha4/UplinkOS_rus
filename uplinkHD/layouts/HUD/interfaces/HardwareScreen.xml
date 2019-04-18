@@ -4,22 +4,22 @@
   <ButtonStandard name="btnCPU" x="160" y="225" w="160" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
     <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="160" h="45" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
     <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="160" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
-    <TextPoint name="txtCaption" x="80" y="9" align="center" font="Philosopher-Regular" size="24" text="Processors" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtCaption" x="80" y="9" align="center" font="Philosopher-Regular" size="24" text="Процессоры" fillColor="2BAAFF" alpha="1"/>
   </ButtonStandard>
   <ButtonStandard name="btnMemory" x="320" y="225" w="160" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
     <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="160" h="45" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
     <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="160" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
-    <TextPoint name="txtCaption" x="80" y="9" align="center" font="Philosopher-Regular" size="24" text="Storage" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtCaption" x="80" y="9" align="center" font="Philosopher-Regular" size="24" text="Хранилище" fillColor="2BAAFF" alpha="1"/>
   </ButtonStandard>
   <ButtonStandard name="btnModems" x="480" y="225" w="160" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
     <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="160" h="45" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
     <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="160" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
-    <TextPoint name="txtCaption" x="80" y="9" align="center" font="Philosopher-Regular" size="24" text="Modems" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtCaption" x="80" y="9" align="center" font="Philosopher-Regular" size="24" text="Модемы" fillColor="2BAAFF" alpha="1"/>
   </ButtonStandard>
   <ButtonStandard name="btnSecurity" x="640" y="225" w="160" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
     <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="160" h="45" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
     <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="160" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
-    <TextPoint name="txtCaption" x="80" y="9" align="center" font="Philosopher-Regular" size="24" text="Security" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtCaption" x="80" y="9" align="center" font="Philosopher-Regular" size="24" text="Безопасность" fillColor="2BAAFF" alpha="1"/>
   </ButtonStandard>
   <TextPoint name="txtSubtitle" x="244" y="45" align="left" font="Philosopher-Regular" size="30" text="Subtitle Long Name" fillColor="1E62A8" alpha="1"/>
   <TextPoint name="txtTitle" x="60" y="27" align="left" font="Philosopher-Regular" size="48" text="Main Title" fillColor="2BAAFF" alpha="1"/>
