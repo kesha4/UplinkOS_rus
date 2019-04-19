@@ -11,11 +11,11 @@
     <TextPoint name="txtDetails1" x="10" y="4" align="left" font="Philosopher-Regular" size="24" text="You will require 2 GQs of storage space." fillColor="2BAAFF" alpha="1"/>
     <TextPoint name="txtDetails2" x="10" y="35" align="left" font="Philosopher-Regular" size="24" text="The files are on a LAN server." fillColor="2BAAFF" alpha="1"/>
     <TextPoint name="txtRankAmount" x="9" y="94" align="left" font="Philosopher-Bold" size="30" text="Intermediate" fillColor="2BAAFF" alpha="1"/>
-    <TextPoint name="Ranking" x="10" y="76" align="left" font="Philosopher-Regular" size="18" text="Ranking" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="Ranking" x="10" y="76" align="left" font="Philosopher-Regular" size="18" text="Рейтинг" fillColor="2BAAFF" alpha="1"/>
     <TextPoint name="txtPayAmount" x="286" y="94" align="left" font="Philosopher-Bold" size="30" text="200500c" fillColor="2BAAFF" alpha="1"/>
-    <TextPoint name="Payment" x="287" y="76" align="left" font="Philosopher-Regular" size="18" text="Payment" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="Payment" x="287" y="76" align="left" font="Philosopher-Regular" size="18" text="Оплата" fillColor="2BAAFF" alpha="1"/>
     <TextPoint name="txtDiffAmount" x="189" y="94" align="left" font="Philosopher-Bold" size="30" text="5" fillColor="2BAAFF" alpha="1"/>
-    <TextPoint name="Difficulty" x="190" y="76" align="left" font="Philosopher-Regular" size="18" text="Difficulty" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="Difficulty" x="190" y="76" align="left" font="Philosopher-Regular" size="18" text="Сложность" fillColor="2BAAFF" alpha="1"/>
     <Line name="separator" x="10" y="68" w="438" h="1" x1="0" y1="0" x2="438" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
     <ButtonStandard name="btnContact" x="413" y="0" w="45" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
       <Image name="gfxStandard" file="btnContact_s.png" x="0" y="0" alpha="1"/>

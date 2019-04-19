@@ -7,9 +7,9 @@
       <Rectangle name="base" subtype="filled" x="0" y="0" w="722" h="43" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.25098039215686"/>
     </Container>
     <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="722" h="43" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
-    <TextPoint name="txtCaption" x="9" y="3" align="left" font="Philosopher-Regular" size="30" text="Input Command" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtCaption" x="9" y="3" align="left" font="Philosopher-Regular" size="30" text="Введите команду" fillColor="2BAAFF" alpha="1"/>
   </ButtonTextField>
   <TextPoint name="txtDir" x="156" y="951" align="right" font="Philosopher-Regular" size="30" text="dir:>" fillColor="1E62A8" alpha="1"/>
   <Rectangle name="titleBase" subtype="filled" x="10" y="135" w="942" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
-  <TextPoint name="txtContactTitle" x="481" y="139" align="center" font="Philosopher-Regular" size="30" text="UNIX Console" fillColor="FFFFFF" alpha="1"/>
+  <TextPoint name="txtContactTitle" x="481" y="139" align="center" font="Philosopher-Regular" size="30" text="UNIX консоль" fillColor="FFFFFF" alpha="1"/>
 </layout>
