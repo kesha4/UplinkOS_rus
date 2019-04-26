@@ -9,7 +9,7 @@
     <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
     <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
     <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
-    <TextPoint name="txtCaption" x="80" y="-1" align="center" font="Philosopher-Regular" size="24" text="Proceed" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtCaption" x="80" y="-1" align="center" font="Philosopher-Regular" size="22" text="Далее" fillColor="2BAAFF" alpha="1"/>
   </ButtonStandard>
   <Line name="bottomSeparator" x="13" y="722" w="936" h="2" x1="0" y1="0" x2="936" y2="0" strokeColor="2BAAFF" strokeW="2" alpha="1"/>
   <TextPoint name="txtNumberLine" x="480" y="662" align="center" font="Philosopher-Bold" size="48" text="012345678901234567890123456789" fillColor="2BAAFF" alpha="1"/>

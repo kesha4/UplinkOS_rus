@@ -1,4 +1,4 @@
-Name,           Cost,   MaxCPU, MaxMem, MaxUpg, MaxSec, Bandwi, Width,  Height, Description
+﻿Name,           Cost,   MaxCPU, MaxMem, MaxUpg, MaxSec, Bandwi, Width,  Height, Description
 numgateways     10
 
 ALFA
@@ -31,7 +31,7 @@ mem             86  24      86  64      110 24      110 64
 modem           280 158
 power           8   134
 
-The KRONOS Corp 80-860
+KRONOS 80-860
                 38000   2       8       0       1       4       300     230     Улучшенный процессор и объем памяти. Место для одной системы безопасности (например, датчика движения).
 cpu             134 52      134 116
 mem             61  86      61  128     230 47      230 93
@@ -40,7 +40,7 @@ sec             89  192
 modem           236 150 
 power           10  25
 
-The ZION-780 series Workstation
+ZION-780 Workstation
                 50000   3       12      0       2       6       350     250     Хороший универсал без каких-либо серьезных недостатков и хороший задел на расширение.
 cpu             159 65      75  143     236 143
 mem             134 147     156 147     178 147     201 147

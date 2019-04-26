@@ -8,9 +8,9 @@
     <Line name="separator" x="40" y="0" w="399" h="1" x1="0" y1="0" x2="399" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
     <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="479" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
     <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="479" h="45" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
-    <TextPoint name="txtCaption" x="240" y="7" align="center" font="Philosopher-Regular" size="24" text="Balance All" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtCaption" x="240" y="7" align="center" font="Philosopher-Regular" size="24" text="Уровнять все" fillColor="2BAAFF" alpha="1"/>
   </ButtonStandard>
-  <TextPoint name="txtError" x="122" y="223" align="center" font="Philosopher-Regular" size="24" text="Нет запущенных приложений." fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtError" x="240" y="223" align="center" font="Philosopher-Regular" size="24" text="Нет запущенных приложений." fillColor="2BAAFF" alpha="1"/>
   <ButtonStandard name="btnClose" x="435" y="0" w="45" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
     <Image name="gfxStandard" file="btnCloseWin_s.png" x="0" y="0" alpha="1"/>
     <Image name="gfxHover" file="btnCloseWin_h.png" x="0" y="0" alpha="1"/>
