@@ -8,12 +8,21 @@
 <script type="text/javascript">
 	function cyrill_to_latin(text){
 		var arr1 = Array ('Я','я','Ю','ю','Ч','ч','Ш','ш','Щ','щ','Ж','ж','А','а','Б','б','В','в','Г','г','Д','д','Е','е','Ё','ё','З','з','И','и','Й','й','К','к','Л','л','М','м','Н','н', 'О','о','П','п','Р','р','С','с','Т','т','У','у','Ф','ф','Х','х','Ц','ц','Ы','ы','Ь','ь','Ъ','ъ','Э','э');
-		var arr2 = Array ('Я','я','Ю','ю','Ч','ч','Ш','ш','Щ','щ','Ж','ж','A','a','Б','б','B','в','Г','г','Д','д','E','e','E','e','3','з','И','u','Й','й','K','к','Л','л','M','м','H','н', 'O','o','П','п','P','p','C','c','T','т','У','y','Ф','ф','X','x','Ц','ц','Ы','ы','Ь','b','Ъ','ъ','Э','э');
+		var arr2 = Array ('Я','я','Ю','ю','Ч','ч','Ш','ш','Щ','щ','Ж','ж','A','a','Б','б','B','в','Г','г','Д','д','E','e','E','e','3','з','И','u','Й','й','K','к','Л','л','M','м','H','н', 'O','o','П','п','P','p','C','c','T','т','У','y','Ф','ф','X','x','Ц','ц','Ы','ы','Ь','ь','Ъ','ъ','Э','э');
 
 		for(var i=0; i<arr1.length; i++){
 			var reg = new RegExp(arr1[i], "g");
 			text = text.replace(reg, arr2[i]);
 	    }
+
+	    if ($('input[name=translate_b]').is(':checked')) {
+	    	text = text.replace(/\ь/g, "b");
+	    }
+
+	    if ($('input[name=translate_k]').is(':checked')) {
+	    	text = text.replace(/\к/g, "k");
+	    }
+
 		return text;
 	}
 
@@ -111,10 +120,6 @@
 	body {
 		color: #000;
 		font: 13px/1.6em Arial, Helvetica, sans-serif;
-		margin: 0;
-		padding: 0 10px;
-		border:100px solid #0769AD;
-		border-width:0 100px;
 		background:#000;
 	}
 	a {color:#0769AD; text-decoration:underline;}
@@ -174,7 +179,7 @@
 	p { text-align:left;}
 
 
-	fieldset { border:1px dotted #AAADC4; margin:0 0 45px 0; background:#fff; box-shadow:0 0 0 20px #fff; border-radius:1px; text-align:left; padding:30px 40px;  position:relative; display:block; z-index:100}
+	fieldset { width: 570px; border:1px dotted #AAADC4; margin:25px auto; background:#fff; box-shadow:0 0 0 20px #fff; border-radius:1px; text-align:left; padding:30px 40px;  position:relative; display:block; z-index:100}
 	legend { text-transform:uppercase; font-weight:900;}
 	h3 {
 		color:#fff;
@@ -274,7 +279,7 @@
 <body>
 
 <fieldset>
-    <legend>"Translate my UTF8-HEX" by kesha4</legend>	
+    <legend>"Translate my UTF8-HEX" by <a href="https://github.com/kesha4">kesha4</a></legend>	
 	<div class="text">
 		<textarea class="demo2_text" placeholder="Текст оригинала" name="original" style="height: 50px;"></textarea>
 	</div>
@@ -293,6 +298,8 @@
 		<label><input type="radio" name="translaterEngine" value="ya">Yandex</label>
 		<input onclick="btLength();" type="button" value="Сравнить длинну побайтово" data-clipboard-target="#inputId" id="buttonId2" />
 	</div>
+	<label><input type="checkbox" name="translate_b" value="1">ь = b</label>
+	<label><input type="checkbox" name="translate_k" value="1">к = k</label>
 
 <script>
 	new ClipboardJS('#buttonId1, #buttonId2');
