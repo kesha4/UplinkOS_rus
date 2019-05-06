@@ -35,6 +35,10 @@
 	    if ($('input[name=translate_r]').is(':checked')) {
 	    	text = text.replace(/\г/g, "r");
 	    }
+	    
+	    if ($('input[name=translate_6]').is(':checked')) {
+	    	text = text.replace(/\б/g, "6");
+	    }
 
 		return text;
 	}
@@ -297,6 +301,7 @@
 		<label><input type="checkbox" name="translate_k" value="1">к = k</label>
 		<label><input type="checkbox" name="translate_r" value="1">г = r</label>
 		<label><input type="checkbox" name="translate_n" value="1">п = n</label>
+		<label><input type="checkbox" name="translate_6" value="1">б = 6</label>
 	</div>
 
 <script>
