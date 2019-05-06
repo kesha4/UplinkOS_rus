@@ -114,7 +114,7 @@
     <TextPoint name="txtCaption" x="5" y="1" align="left" font="Philosopher-Regular" size="24" text="Разрешение" fillColor="2BAAFF" alpha="1"/>
   </ButtonStandard>
   <TextPoint name="txtResolution" x="9" y="53" align="left" font="Philosopher-Regular" size="36" text="Экран" fillColor="2BAAFF" alpha="1"/>
-  <TextPoint name="txtTitle" x="62" y="5" align="center" font="Philosopher-Bold" size="30" text="НАСТРОЙКИ" fillColor="0B0B0B" alpha="1"/>
+  <TextPoint name="txtTitle" x="160" y="5" align="center" font="Philosopher-Bold" size="30" text="НАСТРОЙКИ" fillColor="0B0B0B" alpha="1"/>
   <ButtonStandard name="btnClose" x="275" y="0" w="45" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
     <Image name="gfxStandard" file="btnCloseWin_s.png" x="0" y="0" alpha="1"/>
     <Image name="gfxHover" file="btnCloseWin_h.png" x="0" y="0" alpha="1"/>
