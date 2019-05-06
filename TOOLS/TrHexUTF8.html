@@ -8,11 +8,16 @@
 <script type="text/javascript">
 	function cyrill_to_latin(text){
 		var arr1 = Array ('Я','я','Ю','ю','Ч','ч','Ш','ш','Щ','щ','Ж','ж','А','а','Б','б','В','в','Г','г','Д','д','Е','е','Ё','ё','З','з','И','и','Й','й','К','к','Л','л','М','м','Н','н', 'О','о','П','п','Р','р','С','с','Т','т','У','у','Ф','ф','Х','х','Ц','ц','Ы','ы','Ь','ь','Ъ','ъ','Э','э');
-		var arr2 = Array ('Я','я','Ю','ю','Ч','ч','Ш','ш','Щ','щ','Ж','ж','A','a','Б','б','B','в','Г','г','Д','д','E','e','E','e','3','з','И','u','Й','й','K','к','Л','л','M','м','H','н', 'O','o','П','п','P','p','C','c','T','т','У','y','Ф','ф','X','x','Ц','ц','Ы','ы','Ь','ь','Ъ','ъ','Э','э');
+		var arr2 = Array ('Я','я','Ю','ю','Ч','ч','Ш','ш','Щ','щ','Ж','ж','A','a','Б','б','B','в','Г','г','Д','д','E','e','Ё','ё','3','з','И','u','Й','й','K','к','Л','л','M','м','H','н', 'O','o','П','п','P','p','C','c','T','т','У','y','Ф','ф','X','x','Ц','ц','Ы','ы','Ь','ь','Ъ','ъ','Э','э');
 
 		for(var i=0; i<arr1.length; i++){
 			var reg = new RegExp(arr1[i], "g");
 			text = text.replace(reg, arr2[i]);
+	    }
+
+	    if ($('input[name=translate_e]').is(':checked')) {
+	    	text = text.replace(/\ё/g, "e");
+	    	text = text.replace(/\Ё/g, "E");
 	    }
 
 	    if ($('input[name=translate_b]').is(':checked')) {
@@ -21,6 +26,14 @@
 
 	    if ($('input[name=translate_k]').is(':checked')) {
 	    	text = text.replace(/\к/g, "k");
+	    }
+	    
+	    if ($('input[name=translate_n]').is(':checked')) {
+	    	text = text.replace(/\п/g, "n");
+	    }
+	    
+	    if ($('input[name=translate_r]').is(':checked')) {
+	    	text = text.replace(/\г/g, "r");
 	    }
 
 		return text;
@@ -228,11 +241,16 @@
 	fieldset input[type=button]:hover {
 		box-shadow: 0 0 10px rgba(0, 0, 0, 0.2) inset;
 	}
-	fieldset label {
+	fieldset .buttons label {
 		display: block;
 		width:109px;
-		height: 30px;
 		padding:15px;
+		float: left;
+	}
+	fieldset .checkboxs label {
+		display: block;
+		width:75px;
+		padding:5px;
 		float: left;
 	}
 	fieldset label:first-child {
@@ -273,8 +291,13 @@
 		<label><input type="radio" name="translaterEngine" value="ya">Yandex</label>
 		<input onclick="btLength();" type="button" value="Сравнить длинну побайтово" data-clipboard-target="#inputId" id="buttonId2" />
 	</div>
-	<label><input type="checkbox" name="translate_b" value="1">ь = b</label>
-	<label><input type="checkbox" name="translate_k" value="1">к = k</label>
+	<div class="checkboxs">
+		<label><input type="checkbox" name="translate_e" value="1" checked="checked">ё = e</label>
+		<label><input type="checkbox" name="translate_b" value="1">ь = b</label>
+		<label><input type="checkbox" name="translate_k" value="1">к = k</label>
+		<label><input type="checkbox" name="translate_r" value="1">г = r</label>
+		<label><input type="checkbox" name="translate_n" value="1">п = n</label>
+	</div>
 
 <script>
 	new ClipboardJS('#buttonId1, #buttonId2');
