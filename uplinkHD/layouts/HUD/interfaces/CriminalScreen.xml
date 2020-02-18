@@ -31,7 +31,7 @@
     <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="320" h="40" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
     <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="320" h="40" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
     <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="320" h="40" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
-    <TextPoint name="txtCaption" x="160" y="6" align="center" font="Philosopher-Regular" size="24" text="Готово" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtCaption" x="160" y="6" align="center" font="Philosopher-Regular" size="24" text="Ок" fillColor="2BAAFF" alpha="1"/>
   </ButtonStandard>
   <Rectangle name="nameBase" subtype="filled" x="80" y="586" w="320" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
   <TextPoint name="txtName" x="90" y="588" align="left" font="Philosopher-Bold" size="30" text="Tom Woogllven" fillColor="FFFFFF" alpha="1"/>
