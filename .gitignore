@@ -1,0 +1,6 @@
+*.bak
+temp/
+TOOLS/
+users/
+userstmp/
+usersold/
