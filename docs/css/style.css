@@ -1,0 +1,154 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	color: #2baaff;
+	font-family: "Trebuchet MS",sans-serif,Tahoma,Arial,Verdana;
+	line-height: 1.5;
+	background-color: #000;
+}
+
+.wrapper {
+	width: 1200px;
+	min-height: 100%;
+	margin: 0 auto;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	background-image: linear-gradient(#0b0b0b, #112b3c);
+	margin-bottom: 10px;
+}
+
+.wrapper .u {
+	position: relative;
+	width: 100%;
+	min-height: 100%;
+	padding-bottom: 150px;
+}
+
+.wrapper .u .content {
+	width: 1000px;
+	min-height: 200px;
+	border: 1px solid #2baaff;
+	margin: 0 auto;
+	background-image: url('../images/uhd_logo_bg.png'); 
+	background-repeat: no-repeat; 
+	background-position: 50%;
+	padding: 10px 20px;
+}
+
+.wrapper .u .content h1 {
+	color: #fff;
+	text-align: center;
+}
+
+.wrapper .u .content h2 {
+	color: #fff;
+	text-align: center;
+}
+
+.wrapper .u .content h3 {
+	color: #fff;
+	text-align: center;
+}
+
+.wrapper .u .content h4 {
+	color: #fff;
+	text-align: center;
+}
+
+.wrapper .u .content h5 {
+	color: #fff;
+	text-align: center;
+}
+
+.wrapper .u .content h6 {
+	color: #fff;
+	text-align: center;
+}
+
+.wrapper .u .content a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.wrapper .u .content a:hover {
+	color: #f66;
+	text-decoration: underline;
+}
+
+.wrapper .u .content .download {
+	width: 60%;
+	margin: 10px auto;
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+	border: 2px solid #fff;
+	cursor: pointer;
+}
+
+.wrapper .u .content .download a {
+	display: block;
+	width: 100%
+	height: 100%;
+	font-weight: bold;
+	color: inherit;
+	text-decoration: none;
+}
+
+.wrapper .u .content .download:hover {
+	color: #f66;
+	border: 2px solid #f66;
+}
+
+.u .menu {
+	width: 100%;
+	height: 60px;
+	padding: 0;
+	margin: 0;
+	color: #fff;
+	text-align: center;
+	line-height: 60px;
+	background-image: url('../images/string-bg.png');
+	background-repeat: repeat-x;
+}
+
+.u .menu li {
+	display: inline;
+	margin-right: 50px;
+}
+
+.u .menu li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.u .menu li a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+.head-image {
+	margin: 30px auto;
+	width: 600px
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+
+.footer .cr {
+	margin-top: 8px;
+}
+
+.contacts {
+	text-align: center;
+	list-style: none;
+}
