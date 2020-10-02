@@ -42,37 +42,37 @@ body {
 }
 
 .wrapper .u .content h1 {
-	color: #fff;
+	color: #ccecff;
 	text-align: center;
 }
 
 .wrapper .u .content h2 {
-	color: #fff;
+	color: #ccecff;
 	text-align: center;
 }
 
 .wrapper .u .content h3 {
-	color: #fff;
+	color: #ccecff;
 	text-align: center;
 }
 
 .wrapper .u .content h4 {
-	color: #fff;
+	color: #ccecff;
 	text-align: center;
 }
 
 .wrapper .u .content h5 {
-	color: #fff;
+	color: #ccecff;
 	text-align: center;
 }
 
 .wrapper .u .content h6 {
-	color: #fff;
+	color: #ccecff;
 	text-align: center;
 }
 
 .wrapper .u .content a {
-	color: #fff;
+	color: #ccecff;
 	text-decoration: none;
 }
 
@@ -83,7 +83,7 @@ body {
 
 .wrapper .u .content .download {
 	width: 60%;
-	margin: 10px auto;
+	margin: 50px auto;
 	text-align: center;
 	font-size: 30px;
 	color: #fff;
@@ -123,7 +123,7 @@ body {
 }
 
 .u .menu li a {
-	color: #fff;
+	color: #ccecff;
 	text-decoration: none;
 }
 
