@@ -16,22 +16,22 @@
     <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
     <TextPoint name="txtCaption" x="80" y="1" align="center" font="Philosopher-Regular" size="24" text="Закрыть" fillColor="2BAAFF" alpha="1"/>
   </ButtonStandard>
-  <ButtonStandard name="btnAdd1" x="592" y="462" w="44" h="44" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+  <ButtonStandard name="btnAdd1" x="612" y="462" w="44" h="44" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
     <Image name="gfxStandard" file="btnAddToLinks_s.png" x="0" y="0" alpha="1"/>
     <Image name="gfxHover" file="btnAddToLinks_h.png" x="0" y="0" alpha="1"/>
     <Image name="gfxClick" file="btnAddToLinks_c.png" x="0" y="0" alpha="1"/>
   </ButtonStandard>
-  <ButtonStandard name="btnAdd2" x="592" y="732" w="44" h="44" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+  <ButtonStandard name="btnAdd2" x="612" y="732" w="44" h="44" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
     <Image name="gfxStandard" file="btnAddToLinks_s.png" x="0" y="0" alpha="1"/>
     <Image name="gfxHover" file="btnAddToLinks_h.png" x="0" y="0" alpha="1"/>
     <Image name="gfxClick" file="btnAddToLinks_c.png" x="0" y="0" alpha="1"/>
   </ButtonStandard>
-  <ButtonStandard name="btnCall1" x="646" y="462" w="44" h="44" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+  <ButtonStandard name="btnCall1" x="666" y="462" w="44" h="44" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
     <Image name="gfxStandard" file="btnCall_s.png" x="0" y="0" alpha="1"/>
     <Image name="gfxHover" file="btnCall_h.png" x="0" y="0" alpha="1"/>
     <Image name="gfxClick" file="btnCall_c.png" x="0" y="0" alpha="1"/>
   </ButtonStandard>
-  <ButtonStandard name="btnCall2" x="646" y="732" w="44" h="44" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+  <ButtonStandard name="btnCall2" x="666" y="732" w="44" h="44" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
     <Image name="gfxStandard" file="btnCall_s.png" x="0" y="0" alpha="1"/>
     <Image name="gfxHover" file="btnCall_h.png" x="0" y="0" alpha="1"/>
     <Image name="gfxClick" file="btnCall_c.png" x="0" y="0" alpha="1"/>
