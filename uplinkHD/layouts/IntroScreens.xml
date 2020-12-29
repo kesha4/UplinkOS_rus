@@ -22,15 +22,15 @@
     <TextPoint name="TRUST IS A WEAKNESS" x="240" y="524" align="center" font="Philosopher-Regular" size="36" text="ДОВЕРИЕ - ЭТО СЛАБОСТЬ" fillColor="2BAAFF" alpha="0.01960784313725"/>
   </Container>
   <Container name="step1" x="490" y="147" w="783" h="603" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
-    <ButtonStandard name="btnOK" x="390" y="573" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <ButtonStandard name="btnOK" x="390" y="603" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
       <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <TextPoint name="txtCaption" x="80" y="1" align="center" font="Philosopher-Regular" size="24" text="OK" fillColor="2BAAFF" alpha="1"/>
     </ButtonStandard>
-    <TextParagraph name="txtDesc" x="150" y="161" w="640.953369140625" h="355.361694335938" align="left" font="Philosopher-Regular" size="24" leading="0" text="Добро пожаловать на Общедоступный Сервер Uplink.&#xD;&#xD;Корпорация Uplink имеет самый большой список внештатных агентов в мире, за последние 10 лет мы заручились поддержкой множества довольных клиентов и успешных специалистов по безопасности. Наша компания действует как анонимный центр занятости, связывая корпорации с агентами, которые могут работать на них. Мы сдаем в аренду всем своим агентам компьютерные шлюзы которые обеспечивают непревзойденную безопасность в условиях высокого риска.&#xD;&#xD;Вы здесь, потому что вы хотите присоединиться к нам." fillColor="2BAAFF" alpha="1"/>
+    <TextParagraph name="txtDesc" x="150" y="161" w="640.953369140625" h="385.361694335938" align="left" font="Philosopher-Regular" size="24" leading="0" text="Добро пожаловать на Общедоступный сервер Uplink.&#xD;&#xD;Корпорация Uplink имеет самый большой список внештатных агентов во всем мире. За последние 10 лет мы заручились поддержкой множества довольных клиентов и успешных специалистов по безопасности. Наша компания играет роль анонимного центра занятости, связывая большие корпорации и агентов, выполняющих различные задания. Всем своим агентам мы сдаем в аренду компьютерные шлюзы, которые обеспечивают непревзойденную безопасность в условиях высокого риска.&#xD;&#xD;Вы здесь, потому что хотите присоединиться к нам." fillColor="2BAAFF" alpha="1"/>
     <TextPoint name="txtSubtitle" x="1" y="45" align="left" font="Philosopher-Regular" size="30" text="О нас" fillColor="1E62A8" alpha="1"/>
-    <TextPoint name="txtTitle" x="1" y="-13" align="left" font="Philosopher-Regular" size="48" text="Uplink Общедоступный Сервер" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtTitle" x="1" y="-13" align="left" font="Philosopher-Regular" size="48" text="Общедоступный сервер Uplink" fillColor="2BAAFF" alpha="1"/>
   </Container>
   <Container name="step2" x="491" y="147" w="790" h="346" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
     <ButtonStandard name="btnRegister" x="147" y="301" w="643" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
@@ -62,25 +62,26 @@
       <TextPoint name="txtCaption" x="80" y="1" align="center" font="Philosopher-Regular" size="24" text="Отмена" fillColor="2BAAFF" alpha="1"/>
     </ButtonStandard>
     <TextPoint name="txtDesc0" x="149" y="158" align="left" font="Philosopher-Regular" size="24" text="Ваш пакет агента Uplink включает в себя:" fillColor="2BAAFF" alpha="1"/>
-    <TextParagraph name="txtDesc1" x="189" y="212" w="600.953369140625" h="121.586700439453" align="left" font="Philosopher-Regular" size="24" leading="0" text="Компьютер-шлюз в безопасном месте. Вы сможете подключиться к этой машине с вашего домашнего компьютера когда будете работать с Uplink. Вы можете обновить его железо в будущем, если потребуется." fillColor="2BAAFF" alpha="1"/>
+    <TextParagraph name="txtDesc1" x="189" y="212" w="600.953369140625" h="121.586700439453" align="left" font="Philosopher-Regular" size="24" leading="0" text="Компьютер-шлюз в безопасном месте. Вы будете подключаться к этой машине со своего домашнего компьютера при работе с Uplink. Вы сможете обновить железо шлюза, если потребуется." fillColor="2BAAFF" alpha="1"/>
     <Rectangle name="iconDesc0" subtype="filled" x="170" y="218" w="8" h="8" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
-    <TextParagraph name="txtDesc2" x="189" y="353" w="600.953369140625" h="64.5867004394531" align="left" font="Philosopher-Regular" size="24" leading="0" text="Низкопроцентный займ 3000 кредитов в Международном Банке Uplink для начала работы." fillColor="2BAAFF" alpha="1"/>
+    <TextParagraph name="txtDesc2" x="189" y="353" w="600.953369140625" h="64.5867004394531" align="left" font="Philosopher-Regular" size="24" leading="0" text="Льготный займ на 3000 кредитов в Международном банке Uplink для комфортного старта." fillColor="2BAAFF" alpha="1"/>
     <Rectangle name="iconDesc1" subtype="filled" x="170" y="359" w="8" h="8" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
     <TextParagraph name="txtDesc3" x="189" y="433" w="600.953369140625" h="64.5867004394531" align="left" font="Philosopher-Regular" size="24" leading="0" text="Доступ к нашей Доске объявлений, на которой агенты могут найти работу." fillColor="2BAAFF" alpha="1"/>
     <Rectangle name="iconDesc2" subtype="filled" x="170" y="439" w="8" h="8" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
-    <TextParagraph name="txtDesc4" x="189" y="513" w="600.953369140625" h="90.361701965332" align="left" font="Philosopher-Regular" size="24" leading="0" text="Официальный статус агента Uplink, мы будем следить за вашими успехами. Когда ваш рейтинг вырастет, вы получите доступ к более интересным заданиям." fillColor="2BAAFF" alpha="1"/>
+    <TextParagraph name="txtDesc4" x="189" y="513" w="600.953369140625" h="90.361701965332" align="left" font="Philosopher-Regular" size="24" leading="0" text="Официальный статус агента Uplink. Мы будем следить за вашими успехами. Когда ваш рейтинг повысится, вы получите доступ к более интересным заданиям." fillColor="2BAAFF" alpha="1"/>
     <Rectangle name="iconDesc3" subtype="filled" x="170" y="519" w="8" h="8" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
     <TextPoint name="txtSubtitle" x="0" y="45" align="left" font="Philosopher-Regular" size="30" text="Регистрация" fillColor="1E62A8" alpha="1"/>
     <TextPoint name="txtTitle" x="0" y="-13" align="left" font="Philosopher-Regular" size="48" text="Uplink Общедоступный Сервер" fillColor="2BAAFF" alpha="1"/>
   </Container>
-  <Container name="step4" x="491" y="147" w="782" h="693" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+  <Container name="step4" x="491" y="147" w="782" h="800" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <TextParagraph name="txtDesc2" x="149" y="740" w="640.953369140625" h="178.766708374023" align="left" font="Philosopher-Regular" size="19" leading="0" text="* Интерфейс этой версии ПО частично переведен на русский язык, но не позволяет вам деанонимизировать себя вводом русскоязычного текста." fillColor="1E62A8" alpha="1"/>
     <ButtonStandard name="btnDone" x="389" y="663" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
       <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <TextPoint name="txtCaption" x="80" y="1" align="center" font="Philosopher-Regular" size="24" text="Принять" fillColor="2BAAFF" alpha="1"/>
     </ButtonStandard>
-    <TextParagraph name="txtDesc" x="149" y="482" w="640.953369140625" h="178.766708374023" align="left" font="Philosopher-Regular" size="24" leading="0" text="Корпорация Uplink не запрашивает никаких личных данных. В случае, если вы будете обвинены в незаконных операциях, мы будем вынуждены отрицать свою причастность, однако, вы будете защищены от ареста, так как ваш реальный адрес неизвестен." fillColor="2BAAFF" alpha="1"/>
+    <TextParagraph name="txtDesc" x="149" y="458" w="640.953369140625" h="178.766708374023" align="left" font="Philosopher-Regular" size="24" leading="0" text="Корпорация Uplink не запрашивает личных данных.&#xD;&#xD;Если вы будете обвинены в незаконных операциях, мы будем вынуждены отрицать свою причастность, однако, вы будете защищены от ареста, так как ваш реальный адрес нам неизвестен." fillColor="2BAAFF" alpha="1"/>
     <ButtonTextField name="btnUser" x="309" y="163" w="320" h="50" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
       <Line name="gfxStandard" x="0" y="49" w="320" h="1" x1="0" y1="0" x2="320" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Container name="gfxHover" x="0" y="0" w="320" h="50" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
@@ -165,7 +166,7 @@
       <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <TextPoint name="txtCaption" x="80" y="1" align="center" font="Philosopher-Regular" size="24" text="OK" fillColor="2BAAFF" alpha="1"/>
     </ButtonStandard>
-    <TextParagraph name="txtDesc" x="150" y="161" w="640.953369140625" h="412.361694335938" align="left" font="Philosopher-Regular" size="24" leading="0" text="Идет процесс регистрации.&#xD;&#xD;Назначается шлюз в выбранной серверной комнате. Он будет действовать как отправная точка для работы с остальной сетью. Когда вы в следующий раз войдете в Uplink, вы сможете подключиться непосредственно с вашего домашнего компьютера к этой машине, и оттуда ко всему остальному миру.&#xD;&#xD;Если ваши действия будут прослежены до  Шлюза, Корпорация Uplink будет отрицать свою причастность, заблокирует ваш аккаунт и счет. Ваш шлюз также будет уничтожен.&#xD;&#xD;Аренда шлюза стоит 300 кредитов в месяц." fillColor="2BAAFF" alpha="1"/>
+    <TextParagraph name="txtDesc" x="150" y="161" w="640.953369140625" h="412.361694335938" align="left" font="Philosopher-Regular" size="24" leading="0" text="Идет процесс регистрации.&#xD;&#xD;Назначается шлюз в выбранной серверной комнате. Он будет вашей отправной точкой для работы с остальной сетью. Когда вы в следующий раз войдете в Uplink, вы сможете подключиться с вашего домашнего компьютера к этой машине, а оттуда ко всей остальной мировой сети.&#xD;&#xD;Если ваши действия будут прослежены до  Шлюза, Корпорация Uplink будет отрицать свою причастность, заблокирует ваш аккаунт и счет. Ваш шлюз также будет уничтожен.&#xD;&#xD;Аренда шлюза стоит 300 кредитов в месяц." fillColor="2BAAFF" alpha="1"/>
     <TextPoint name="txtSubtitle" x="1" y="45" align="left" font="Philosopher-Regular" size="30" text="Ваш Шлюз" fillColor="1E62A8" alpha="1"/>
     <TextPoint name="txtTitle" x="1" y="-13" align="left" font="Philosopher-Regular" size="48" text="Uplink Общедоступный Сервер" fillColor="2BAAFF" alpha="1"/>
   </Container>
