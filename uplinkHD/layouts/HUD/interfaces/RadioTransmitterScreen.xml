@@ -3,9 +3,9 @@
     <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="240" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
     <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="240" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
     <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="240" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
-    <TextPoint name="txtCaption" x="120" y="1" align="center" font="Philosopher-Regular" size="24" text="Establish Uplink" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtCaption" x="120" y="1" align="center" font="Philosopher-Regular" size="24" text="Соединиться" fillColor="2BAAFF" alpha="1"/>
   </ButtonStandard>
-  <TextPoint name="txtStatus" x="481" y="571" align="center" font="Philosopher-Regular" size="24" text="Not Connected" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtStatus" x="481" y="571" align="center" font="Philosopher-Regular" size="24" text="Нет соединения" fillColor="2BAAFF" alpha="1"/>
   <Image name="iconStatus" file="loadingCircle.png" x="430" y="428" alpha="1"/>
   <ButtonStandard name="btnDown" x="351" y="491" w="50" h="50" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
     <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="50" h="50" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
@@ -54,9 +54,9 @@
     </Poly>
   </ButtonStandard>
   <TextPoint name="txtFreq" x="481" y="495" align="center" font="Philosopher-Regular" size="36" text="150.0 Ghz" fillColor="2BAAFF" alpha="1"/>
-  <TextPoint name="txtTitleFreq" x="481" y="413" align="center" font="Philosopher-Bold" size="30" text="Transmitter Frequency" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtTitleFreq" x="481" y="413" align="center" font="Philosopher-Bold" size="30" text="Частота передатчика" fillColor="2BAAFF" alpha="1"/>
   <Line name="separator" x="163" y="360" w="636" h="1" x1="0" y1="0" x2="636" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
-  <TextParagraph name="txtHelp" x="204" y="292" w="554" h="61.40625" align="center" font="Philosopher-Regular" size="24" leading="0" text="Wireless LAN transmitter Online&#xD;Ready to establish Uplink." fillColor="2BAAFF" alpha="1"/>
+  <TextParagraph name="txtHelp" x="204" y="292" w="554" h="61.40625" align="center" font="Philosopher-Regular" size="24" leading="0" text="Передатчик беспроводной сети: Онлайн&#xD;Готов установить соединение." fillColor="2BAAFF" alpha="1"/>
   <TextPoint name="txtSubtitle" x="12" y="182" align="left" font="Philosopher-Regular" size="30" text="Subtitle Long Name" fillColor="1E62A8" alpha="1"/>
   <TextPoint name="txtTitle" x="12" y="134" align="left" font="Philosopher-Regular" size="48" text="Main Title" fillColor="2BAAFF" alpha="1"/>
 </layout>
