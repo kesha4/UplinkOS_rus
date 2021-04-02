@@ -23,6 +23,10 @@ body {
 	margin-bottom: 10px;
 }
 
+.wrapper.hextranslater {
+	width: 900px;
+}
+
 .wrapper .u {
 	position: relative;
 	width: 100%;
@@ -31,6 +35,17 @@ body {
 
 .wrapper .u .content {
 	width: 1000px;
+	min-height: 200px;
+	border: 1px solid #2baaff;
+	margin: 0 auto;
+	background-image: url('../images/uhd_logo_bg.png'); 
+	background-repeat: no-repeat; 
+	background-position: 50%;
+	padding: 10px 20px;
+}
+
+.wrapper.hextranslater .u .content {
+	width: 830px;
 	min-height: 200px;
 	border: 1px solid #2baaff;
 	margin: 0 auto;
