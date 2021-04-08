@@ -3,9 +3,9 @@
   <Line name="lineBG" x="0" y="26" w="640" h="4" x1="0" y1="2" x2="640" y2="2" strokeColor="2BAAFF" strokeW="3" alpha="1"/>
   <Image name="handle" file="winIcon_analyser_handle.png" x="275" y="0" alpha="1"/>
   <Line name="connectionLine" x="10" y="119" w="621" h="3" x1="0" y1="0" x2="621" y2="0" strokeColor="FFFFFF" strokeW="2" alpha="1"/>
-  <TextParagraph name="txtLocal" x="10" y="71" w="100" h="45" align="left" font="Philosopher-Regular" size="18" leading="0" text="Локальный&#xD;хост" fillColor="2BAAFF" alpha="1"/>
-  <TextParagraph name="txtRemote" x="531" y="71" w="100" h="45" align="right" font="Philosopher-Regular" size="18" leading="0" text="Удаленный&#xD;хост" fillColor="2BAAFF" alpha="1"/>
-  <TextPoint name="txtTitle" x="320" y="39" align="center" font="Philosopher-Regular" size="24" text="Uplink Internal Services System" fillColor="2BAAFF" alpha="1"/>
+  <TextParagraph name="txtLocal" x="10" y="71" w="100" h="45" align="left" font="Jura-Regular" size="18" leading="0" text="Локальный&#xD;хост" fillColor="2BAAFF" alpha="1"/>
+  <TextParagraph name="txtRemote" x="531" y="71" w="100" h="45" align="right" font="Jura-Regular" size="18" leading="0" text="Удаленный&#xD;хост" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtTitle" x="320" y="39" align="center" font="Jura-Regular" size="24" text="Uplink Internal Services System" fillColor="2BAAFF" alpha="1"/>
   <ButtonStandard name="btnSystem0" x="109" y="69" w="102" h="102" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
     <Circle name="gfxStandard" subtype="stroked" x="0" y="0" w="102" h="102" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="2" alpha="1"/>
     <Circle name="gfxHover" subtype="strokedFill" x="0" y="0" w="102" h="102" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="2" alpha="1"/>
@@ -31,7 +31,7 @@
   <Image name="system0status" file="winIcon_analyser_statusBypassed.png" x="178" y="78" alpha="1"/>
   <Image name="system1status" file="winIcon_analyser_statusOn.png" x="338" y="78" alpha="1"/>
   <Image name="system2status" file="winIcon_analyser_statusOff.png" x="498" y="78" alpha="1"/>
-  <TextPoint name="txtSystem0name" x="160" y="174" align="center" font="Philosopher-Regular" size="18" text="Firewall Level 3" fillColor="FFFFFF" alpha="1"/>
-  <TextPoint name="txtSystem1name" x="321" y="174" align="center" font="Philosopher-Regular" size="18" text="Monitor Level 4" fillColor="FFFFFF" alpha="1"/>
-  <TextPoint name="txtSystem2name" x="480" y="174" align="center" font="Philosopher-Regular" size="18" text="Proxy Level 2" fillColor="FFFFFF" alpha="1"/>
+  <TextPoint name="txtSystem0name" x="160" y="174" align="center" font="Jura-Regular" size="18" text="Firewall Level 3" fillColor="FFFFFF" alpha="1"/>
+  <TextPoint name="txtSystem1name" x="321" y="174" align="center" font="Jura-Regular" size="18" text="Monitor Level 4" fillColor="FFFFFF" alpha="1"/>
+  <TextPoint name="txtSystem2name" x="480" y="174" align="center" font="Jura-Regular" size="18" text="Proxy Level 2" fillColor="FFFFFF" alpha="1"/>
 </layout>

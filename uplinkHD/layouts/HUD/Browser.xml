@@ -4,8 +4,8 @@
   </Container>
   <Container name="connectTo" x="295" y="429" w="372" h="199" scalingType="scaleByWidth" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
     <Image name="icon" file="loadingCircle.png" x="135" y="0" alpha="1"/>
-    <TextPoint name="txtTitle" x="186" y="113" align="center" font="Philosopher-Regular" size="30" text="Соединение с" fillColor="2BAAFF" alpha="1"/>
-    <TextPoint name="txtLocation" x="186" y="157" align="center" font="Philosopher-Regular" size="36" text="Uplink: Публичный сервер" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtTitle" x="186" y="113" align="center" font="Jura-Regular" size="30" text="Соединение с" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtLocation" x="186" y="157" align="center" font="Jura-Regular" size="36" text="Uplink: Публичный сервер" fillColor="2BAAFF" alpha="1"/>
   </Container>
   <Rectangle name="baseStroke" subtype="stroked" x="0" y="0" w="962" h="1082" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="0.30196078431373"/>
 </layout>

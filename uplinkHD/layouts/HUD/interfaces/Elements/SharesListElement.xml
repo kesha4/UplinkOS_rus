@@ -15,7 +15,7 @@
     <Vertex x="0" y="0"/>
   </Poly>
   <Rectangle name="iconOwn" subtype="filled" x="10" y="20" w="10" h="10" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
-  <TextPoint name="txtChange" x="722" y="4" align="left" font="Philosopher-Regular" size="30" text="- 16%" fillColor="2BAAFF" alpha="1"/>
-  <TextPoint name="txtPrice" x="547" y="4" align="left" font="Philosopher-Regular" size="30" text="5 c" fillColor="2BAAFF" alpha="1"/>
-  <TextPoint name="txtName" x="29" y="4" align="left" font="Philosopher-Regular" size="30" text="Company Name" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtChange" x="722" y="4" align="left" font="Jura-Regular" size="30" text="- 16%" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtPrice" x="547" y="4" align="left" font="Jura-Regular" size="30" text="5 c" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtName" x="29" y="4" align="left" font="Jura-Regular" size="30" text="Company Name" fillColor="2BAAFF" alpha="1"/>
 </layout>

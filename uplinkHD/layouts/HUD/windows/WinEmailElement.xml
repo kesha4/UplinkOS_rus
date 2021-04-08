@@ -4,8 +4,8 @@
     <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="451" h="50" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
   </ButtonStandard>
   <Line name="separator" x="0" y="49" w="451" h="1" x1="0" y1="0" x2="451" y2="0" strokeColor="1E62A8" strokeW="1" alpha="1"/>
-  <TextPoint name="txtSubject" x="10" y="-1" align="left" font="Philosopher-Bold" size="24" text="Добро пожаловать в UplinkOS" fillColor="2BAAFF" alpha="1"/>
-  <TextPoint name="txtDetails" x="10" y="26" align="left" font="Philosopher-Regular" size="20" text="13 February 2027 | Uplink: Публичный сервер" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtSubject" x="10" y="-1" align="left" font="Jura-Bold" size="24" text="Добро пожаловать в UplinkOS" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtDetails" x="10" y="26" align="left" font="Jura-Regular" size="20" text="13 February 2027 | Uplink: Публичный сервер" fillColor="2BAAFF" alpha="1"/>
   <Line name="unread" x="0" y="0" w="4" h="49" x1="0" y1="0" x2="0" y2="49" strokeColor="FFFFFF" strokeW="4" alpha="1"/>
   <Image name="attachIcon" file="winIcon_attach.png" x="434" y="5" alpha="1"/>
 </layout>
