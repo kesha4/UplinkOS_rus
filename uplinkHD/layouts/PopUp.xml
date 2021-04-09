@@ -8,13 +8,13 @@
       <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
-      <TextPoint name="txtCaption" x="80" y="0" align="center" font="Jura-Regular" size="24" text="Отмена" fillColor="2BAAFF" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="2" align="center" font="uOSr-IconsFont" size="24" text="C" fillColor="2BAAFF" alpha="1"/>
     </ButtonStandard>
     <ButtonStandard name="btnOK" x="280" y="210" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
       <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
-      <TextPoint name="txtCaption" x="80" y="0" align="center" font="Jura-Regular" size="24" text="OK" fillColor="2BAAFF" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="6" align="center" font="uOSr-IconsFont" size="20" text="O" fillColor="2BAAFF" alpha="1"/>
     </ButtonStandard>
     <TextPoint name="txtTitle" x="239" y="5" align="center" font="Jura-Bold" size="30" text="TITLE ALL CAPS 30px" fillColor="0B0B0B" alpha="1"/>
     <TextParagraph name="txtContents" x="40" y="65" w="400" h="123" align="left" font="Jura-Regular" size="24" leading="0" text="Pop-Up text body long, very long. So long that it’s a multiline text!&#xD;My god, so much text this is getting ridiculous!&#xD;Jeezus, still going with this? Really? It w..." fillColor="2BAAFF" alpha="1"/>
