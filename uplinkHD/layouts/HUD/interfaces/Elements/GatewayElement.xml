@@ -8,7 +8,7 @@
   <Image name="icon" file="iconGateway_01.png" x="10" y="10" alpha="1"/>
   <Container name="info" x="0" y="0" w="308" h="225" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
     <Rectangle name="base" subtype="filled" x="0" y="0" w="308" h="225" fillColor="112B3C" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
-    <TextParagraph name="txtDesc" x="11" y="97" w="286.499969482422" h="83.5" align="left" font="Jura-Regular" size="18" leading="0" text="Increased CPU and memory capacity. This gateway also has a room for one security system (such as a camera)." fillColor="2BAAFF" alpha="1"/>
+    <TextParagraph name="txtDesc" x="11" y="88" w="286.499969482422" h="100" align="left" font="Jura-Regular" size="17" leading="0" text="Increased CPU and memory capacity. This gateway also has a room for one security system (such as a camera)." fillColor="2BAAFF" alpha="1"/>
     <TextPoint name="txtName" x="10" y="7" align="left" font="Jura-Bold" size="23" text="Gateway ALPHA IMEMORY" fillColor="2BAAFF" alpha="1"/>
     <TextPoint name="txtPrice" x="11" y="185" align="left" font="Jura-Bold" size="30" text="25000c" fillColor="2BAAFF" alpha="1"/>
     <TextPoint name="txtCPU" x="10" y="40" align="left" font="Jura-Regular" size="18" text="Max CPUs: 2" fillColor="2BAAFF" alpha="1"/>

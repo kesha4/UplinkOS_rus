@@ -7,7 +7,7 @@
     <Line name="separator03" x="10" y="0" w="299" h="1" x1="0" y1="0" x2="299" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
     <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="319" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
     <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="319" h="45" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
-    <TextPoint name="txtCaption" x="160" y="7" align="center" font="Jura-Regular" size="24" text="Применить" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtCaption" x="160" y="6" align="center" font="Jura-Bold" size="25" text="Применить" fillColor="2BAAFF" alpha="1"/>
   </ButtonStandard>
   <ButtonSelect name="btnSWMouse" x="22" y="871" w="275" h="30" scalingType="scaleByWidth" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
     <TextPoint name="txtOn" x="203" y="1" align="left" font="Jura-Regular" size="24" text="On" fillColor="2BAAFF" alpha="1"/>
@@ -118,7 +118,7 @@
     <Line name="separator01" x="10" y="0" w="299" h="1" x1="0" y1="0" x2="299" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
     <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="319" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
     <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="319" h="45" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
-    <TextPoint name="txtCaption" x="160" y="9" align="center" font="Jura-Regular" size="24" text="Новый пользователь" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtCaption" x="160" y="6" align="center" font="Jura-Bold" size="25" text="Новый пользователь" fillColor="2BAAFF" alpha="1"/>
   </ButtonStandard>
   <Container name="user4" x="11" y="377" w="299" h="60" scalingType="scaleByWidth" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
     <ButtonStandard name="btnBase" x="0" y="0" w="299" h="60" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">

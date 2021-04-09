@@ -5,7 +5,7 @@
       <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
-      <TextPoint name="txtCaption" x="80" y="1" align="center" font="Jura-Regular" size="24" text="OK" fillColor="2BAAFF" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="0" align="center" font="Jura-Regular" size="24" text="OK" fillColor="2BAAFF" alpha="1"/>
     </ButtonStandard>
   </Container>
   <Container name="gatewayScreen6" x="0" y="405" w="962" h="256" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
@@ -17,7 +17,7 @@
       <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
-      <TextPoint name="txtCaption" x="80" y="1" align="center" font="Jura-Regular" size="24" text="OK" fillColor="2BAAFF" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="0" align="center" font="Jura-Regular" size="24" text="OK" fillColor="2BAAFF" alpha="1"/>
     </ButtonStandard>
   </Container>
   <Container name="gatewayScreen7" x="80" y="329" w="791" h="391" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
@@ -27,13 +27,13 @@
       <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
-      <TextPoint name="txtCaption" x="80" y="1" align="center" font="Jura-Regular" size="24" text="NO" fillColor="2BAAFF" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="0" align="center" font="Jura-Regular" size="24" text="НЕТ" fillColor="2BAAFF" alpha="1"/>
     </ButtonStandard>
     <ButtonStandard name="dontruntutorial" x="481" y="361" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
       <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
-      <TextPoint name="txtCaption" x="80" y="1" align="center" font="Jura-Regular" size="24" text="YES" fillColor="2BAAFF" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="0" align="center" font="Jura-Regular" size="24" text="ДА" fillColor="2BAAFF" alpha="1"/>
     </ButtonStandard>
   </Container>
   <Container name="uplinkScreen2" x="0" y="329" w="882" h="482" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
@@ -44,13 +44,13 @@
       <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
-      <TextPoint name="txtCaption" x="80" y="1" align="center" font="Jura-Regular" size="24" text="Cancel" fillColor="2BAAFF" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="0" align="center" font="Jura-Regular" size="24" text="Отмена" fillColor="2BAAFF" alpha="1"/>
     </ButtonStandard>
     <ButtonStandard name="continue" x="561" y="452" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
       <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
-      <TextPoint name="txtCaption" x="80" y="1" align="center" font="Jura-Regular" size="24" text="Continue" fillColor="2BAAFF" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="0" align="center" font="Jura-Regular" size="24" text="Продолжить" fillColor="2BAAFF" alpha="1"/>
     </ButtonStandard>
   </Container>
   <Container name="uplinkScreen3" x="81" y="316" w="791" h="670" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
@@ -63,7 +63,7 @@
       <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
-      <TextPoint name="txtCaption" x="80" y="1" align="center" font="Jura-Regular" size="24" text="Continue" fillColor="2BAAFF" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="0" align="center" font="Jura-Regular" size="24" text="Продолжить" fillColor="2BAAFF" alpha="1"/>
     </ButtonStandard>
     <ButtonTextField name="nametext" x="240" y="0" w="320" h="50" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
       <Line name="gfxStandard" x="0" y="49" w="320" h="1" x1="0" y1="0" x2="320" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
@@ -101,7 +101,7 @@
       <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
-      <TextPoint name="txtCaption" x="80" y="1" align="center" font="Jura-Regular" size="24" text="Done" fillColor="2BAAFF" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="0" align="center" font="Jura-Regular" size="24" text="Готово" fillColor="2BAAFF" alpha="1"/>
     </ButtonStandard>
   </Container>
   <Container name="uplinkScreen10" x="0" y="329" w="879" h="442" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
@@ -112,13 +112,13 @@
       <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
-      <TextPoint name="txtCaption" x="80" y="1" align="center" font="Jura-Regular" size="24" text="NO" fillColor="2BAAFF" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="0" align="center" font="Jura-Regular" size="24" text="НЕТ" fillColor="2BAAFF" alpha="1"/>
     </ButtonStandard>
     <ButtonStandard name="yes" x="561" y="412" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
       <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
-      <TextPoint name="txtCaption" x="80" y="1" align="center" font="Jura-Regular" size="24" text="YES" fillColor="2BAAFF" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="0" align="center" font="Jura-Regular" size="24" text="ДА" fillColor="2BAAFF" alpha="1"/>
     </ButtonStandard>
   </Container>
   <Container name="criminalScreen7" x="192" y="360" w="578" h="271" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
@@ -137,7 +137,7 @@
       <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
-      <TextPoint name="txtCaption" x="80" y="1" align="center" font="Jura-Regular" size="24" text="Cancel" fillColor="2BAAFF" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="0" align="center" font="Jura-Regular" size="24" text="Отмена" fillColor="2BAAFF" alpha="1"/>
     </ButtonStandard>
     <ButtonStandard name="OK" x="529" y="131" w="49" h="50" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
       <Image name="gfxStandard" file="btnSubmitTextField_s.png" x="0" y="0" alpha="1"/>
@@ -161,7 +161,7 @@
       <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
-      <TextPoint name="txtCaption" x="80" y="1" align="center" font="Jura-Regular" size="24" text="Cancel" fillColor="2BAAFF" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="0" align="center" font="Jura-Regular" size="24" text="Отмена" fillColor="2BAAFF" alpha="1"/>
     </ButtonStandard>
     <ButtonStandard name="OK" x="529" y="131" w="49" h="50" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
       <Image name="gfxStandard" file="btnSubmitTextField_s.png" x="0" y="0" alpha="1"/>
@@ -185,7 +185,7 @@
       <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
-      <TextPoint name="txtCaption" x="80" y="1" align="center" font="Jura-Regular" size="24" text="Cancel" fillColor="2BAAFF" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="0" align="center" font="Jura-Regular" size="24" text="Отмена" fillColor="2BAAFF" alpha="1"/>
     </ButtonStandard>
     <ButtonStandard name="OK" x="529" y="131" w="49" h="50" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
       <Image name="gfxStandard" file="btnSubmitTextField_s.png" x="0" y="0" alpha="1"/>
@@ -228,13 +228,13 @@
       <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
-      <TextPoint name="txtCaption" x="80" y="1" align="center" font="Jura-Regular" size="24" text="Cancel" fillColor="2BAAFF" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="0" align="center" font="Jura-Regular" size="24" text="Отмена" fillColor="2BAAFF" alpha="1"/>
     </ButtonStandard>
     <ButtonStandard name="create" x="354" y="270" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
       <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
-      <TextPoint name="txtCaption" x="80" y="1" align="center" font="Jura-Regular" size="24" text="Create" fillColor="2BAAFF" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="0" align="center" font="Jura-Regular" size="24" text="Создать" fillColor="2BAAFF" alpha="1"/>
     </ButtonStandard>
   </Container>
   <Container name="bankScreen4" x="207" y="361" w="555" h="300" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
@@ -272,13 +272,13 @@
       <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
-      <TextPoint name="txtCaption" x="80" y="1" align="center" font="Jura-Regular" size="24" text="Cancel" fillColor="2BAAFF" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="0" align="center" font="Jura-Regular" size="24" text="Отмена" fillColor="2BAAFF" alpha="1"/>
     </ButtonStandard>
     <ButtonStandard name="create" x="354" y="270" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
       <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
-      <TextPoint name="txtCaption" x="80" y="1" align="center" font="Jura-Regular" size="24" text="Create" fillColor="2BAAFF" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="0" align="center" font="Jura-Regular" size="24" text="Создать" fillColor="2BAAFF" alpha="1"/>
     </ButtonStandard>
   </Container>
   <Container name="bankScreen7" x="241" y="361" w="521" h="359" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
@@ -326,13 +326,13 @@
       <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
-      <TextPoint name="txtCaption" x="80" y="1" align="center" font="Jura-Regular" size="24" text="Cancel" fillColor="2BAAFF" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="0" align="center" font="Jura-Regular" size="24" text="Отмена" fillColor="2BAAFF" alpha="1"/>
     </ButtonStandard>
     <ButtonStandard name="transfer" x="320" y="329" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
       <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
-      <TextPoint name="txtCaption" x="80" y="1" align="center" font="Jura-Regular" size="24" text="Transfer" fillColor="2BAAFF" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="0" align="center" font="Jura-Regular" size="24" text="Перевод" fillColor="2BAAFF" alpha="1"/>
     </ButtonStandard>
   </Container>
   <Container name="bankScreen19" x="110" y="405" w="739" h="166" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
@@ -341,13 +341,13 @@
       <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
-      <TextPoint name="txtCaption" x="80" y="1" align="center" font="Jura-Regular" size="24" text="Cancel" fillColor="2BAAFF" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="0" align="center" font="Jura-Regular" size="24" text="Отмена" fillColor="2BAAFF" alpha="1"/>
     </ButtonStandard>
     <ButtonStandard name="close" x="451" y="136" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
       <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
-      <TextPoint name="txtCaption" x="80" y="1" align="center" font="Jura-Regular" size="24" text="«акрыть" fillColor="2BAAFF" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="0" align="center" font="Jura-Regular" size="24" text="Закрыть" fillColor="2BAAFF" alpha="1"/>
     </ButtonStandard>
   </Container>
   <Container name="lanScreen" x="0" y="405" w="962" h="266" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">

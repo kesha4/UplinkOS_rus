@@ -30,21 +30,21 @@
     <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="223" h="24" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
     <Rectangle name="noticeRed" subtype="filled" x="0" y="0" w="223" h="24" fillColor="D31A1A" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
     <Rectangle name="noticeGreen" subtype="filled" x="0" y="0" w="223" h="24" fillColor="2BFFD1" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
-    <TextPoint name="txtCaption" x="112" y="2" align="center" font="Jura-Bold" size="18" text="Acc no. 123456: 1000000c" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtCaption" x="112" y="0" align="center" font="Jura-Bold" size="18" text="Acc no. 123456: 1000000c" fillColor="2BAAFF" alpha="1"/>
   </ButtonStandard>
   <Line name="speedMarker" x="1737" y="22" w="24" h="4" x1="0" y1="0" x2="24" y2="0" strokeColor="FFFFFF" strokeW="4" alpha="1"/>
   <ButtonStandard name="btnDisconnect" x="1281" y="0" w="162" h="26" scalingType="scaleByHeight" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
     <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="162" h="26" fillColor="D31A1A" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.50196078431373"/>
     <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="162" h="26" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
-    <Image name="icon" file="icon_x.png" x="27" y="6" alpha="1"/>
-    <TextPoint name="txt" x="45" y="3" align="left" font="Jura-Bold" size="17" text="ОТКЛЮЧИТЬ" fillColor="D31A1A" alpha="1"/>
+    <Image name="icon" file="icon_x.png" x="19" y="7" alpha="1"/>
+    <TextPoint name="txt" x="37" y="1" align="left" font="Jura-Bold" size="19" text="ОТКЛЮЧИТЬ" fillColor="D31A1A" alpha="1"/>
   </ButtonStandard>
   <TextPoint name="txtLocName" x="929" y="3" align="left" font="Jura-Bold" size="18" text="Personal Gateway" fillColor="2BAAFF" alpha="1"/>
   <TextPoint name="txtLocIP" x="920" y="3" align="right" font="Jura-Regular" size="18" text="127.0.0.1" fillColor="2BAAFF" alpha="1"/>
   <ButtonStandard name="btnCPU" x="187" y="1" w="292" h="24" scalingType="scaleByHeight" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
     <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="292" h="24" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.50196078431373"/>
     <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="292" h="24" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
-    <TextPoint name="CPU" x="9" y="2" align="left" font="Jura-Bold" size="18" text="CPU" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="CPU" x="5" y="0" align="left" font="Jura-Bold" size="18" text="CPU" fillColor="2BAAFF" alpha="1"/>
     <Rectangle name="fillBase" subtype="filled" x="47" y="6" w="237" h="12" fillColor="083E76" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
     <Rectangle name="fill" subtype="filled" x="47" y="6" w="237" h="12" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
   </ButtonStandard>

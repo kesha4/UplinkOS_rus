@@ -14,7 +14,7 @@
     <Line name="separator01" x="72" y="8" w="1" h="64" x1="0" y1="64" x2="0" y2="0" strokeColor="1E62A8" strokeW="1" alpha="1"/>
     <TextPoint name="txtFromDetails" x="77" y="5" align="left" font="Jura-Bold" size="20" text="Uplink: Публичный сервер" fillColor="2BAAFF" alpha="1"/>
     <TextPoint name="txtDateDetails" x="77" y="27" align="left" font="Jura-Regular" size="20" text="02:17, 24-03-2027" fillColor="2BAAFF" alpha="1"/>
-    <TextPoint name="txtSubjectDetails" x="77" y="50" align="left" font="Jura-Bold" size="20" text="Welco456me to Uplink" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtSubjectDetails" x="77" y="50" align="left" font="Jura-Bold" size="20" text="Welcome to Uplink" fillColor="2BAAFF" alpha="1"/>
     <Line name="separator02 copy" x="2" y="555" w="474" h="1" x1="0" y1="0" x2="474" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
     <ButtonStandard name="btnAttachment" x="0" y="558" w="240" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
       <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="240" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.50196078431373"/>
@@ -25,12 +25,12 @@
     <ButtonStandard name="btnReply" x="359" y="558" w="119" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
       <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="119" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.50196078431373"/>
       <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="119" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
-      <TextPoint name="txtCaption" x="60" y="0" align="center" font="Jura-Regular" size="24" text="Ответить" fillColor="2BAAFF" alpha="1"/>
+      <TextPoint name="txtCaption" x="60" y="-2" align="center" font="Jura-Regular" size="24" text="Ответить" fillColor="2BAAFF" alpha="1"/>
     </ButtonStandard>
     <ButtonStandard name="btnDelete" x="240" y="558" w="119" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
       <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="119" h="30" fillColor="D31A1A" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.50196078431373"/>
       <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="119" h="30" fillColor="D31A1A" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
-      <TextPoint name="txtCaption" x="60" y="0" align="center" font="Jura-Regular" size="24" text="Удалить" fillColor="D31F1F" alpha="1"/>
+      <TextPoint name="txtCaption" x="60" y="-2" align="center" font="Jura-Regular" size="24" text="Удалить" fillColor="D31F1F" alpha="1"/>
     </ButtonStandard>
   </Container>
   <Container name="composeMessage" x="1" y="75" w="478" h="588" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
@@ -60,36 +60,36 @@
     <ButtonStandard name="btnAttach" x="0" y="558" w="240" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
       <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="240" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.50196078431373"/>
       <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="240" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
-      <TextPoint name="txtCaption" x="39" y="0" align="left" font="Jura-Regular" size="24" text="Файл" fillColor="2BAAFF" alpha="1"/>
+      <TextPoint name="txtCaption" x="36" y="-2" align="left" font="Jura-Regular" size="24" text="Файл" fillColor="2BAAFF" alpha="1"/>
       <Image name="icon" file="winIcon_attach.png" x="13" y="3" alpha="1"/>
     </ButtonStandard>
-    <ButtonStandard name="btnSend" x="359" y="558" w="119" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
-      <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="119" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.50196078431373"/>
-      <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="119" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
-      <TextPoint name="txtCaption" x="60" y="0" align="center" font="Jura-Regular" size="24" text="Отправить" fillColor="2BAAFF" alpha="1"/>
+    <ButtonStandard name="btnSend" x="339" y="558" w="139" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="139" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.50196078431373"/>
+      <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="139" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <TextPoint name="txtCaption" x="69" y="-2" align="center" font="Jura-Regular" size="24" text="Отправить" fillColor="2BAAFF" alpha="1"/>
     </ButtonStandard>
-    <ButtonStandard name="btnCancel" x="240" y="558" w="119" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
-      <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="119" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.50196078431373"/>
-      <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="119" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
-      <TextPoint name="txtCaption" x="60" y="0" align="center" font="Jura-Regular" size="24" text="Отмена" fillColor="2BAAFF" alpha="1"/>
+    <ButtonStandard name="btnCancel" x="240" y="558" w="99" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="99" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.50196078431373"/>
+      <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="99" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <TextPoint name="txtCaption" x="49" y="-2" align="center" font="Jura-Regular" size="24" text="Отмена" fillColor="2BAAFF" alpha="1"/>
     </ButtonStandard>
   </Container>
   <Rectangle name="tabsBg" subtype="filled" x="1" y="45" w="478" h="30" fillColor="1E62A8" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
-  <ButtonStandard name="btnTab0" x="1" y="45" w="100" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
-    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="100" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.50196078431373"/>
-    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="100" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  <ButtonStandard name="btnTab0" x="1" y="45" w="140" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="140" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.50196078431373"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="140" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
     <TextPoint name="txtCaption" x="29" y="1" align="left" font="Jura-Regular" size="24" text="Почта" fillColor="FFFFFF" alpha="1"/>
     <Image name="icon" file="winIcon_tab_email.png" x="5" y="8" alpha="1"/>
     <Rectangle name="notif" subtype="filled" x="2" y="18" w="8" h="8" fillColor="D31F1F" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
   </ButtonStandard>
-  <ButtonStandard name="btnTab1" x="101" y="45" w="130" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
-    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="130" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.50196078431373"/>
-    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="130" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  <ButtonStandard name="btnTab1" x="141" y="45" w="130" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="140" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.50196078431373"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="140" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
     <TextPoint name="txtCaption" x="29" y="1" align="left" font="Jura-Regular" size="24" text="Задания" fillColor="FFFFFF" alpha="1"/>
     <Image name="icon" file="winIcon_tab_mission.png" x="8" y="5" alpha="1"/>
     <Rectangle name="notif" subtype="filled" x="2" y="18" w="8" h="8" fillColor="D31F1F" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
   </ButtonStandard>
-  <ButtonStandard name="btnTab2" x="231" y="45" w="140" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+  <ButtonStandard name="btnTab2" x="281" y="45" w="140" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
     <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="140" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.50196078431373"/>
     <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="140" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
     <TextPoint name="txtCaption" x="29" y="1" align="left" font="Jura-Regular" size="24" text="Написать" fillColor="FFFFFF" alpha="1"/>
@@ -113,7 +113,7 @@
       <Vertex x="9" y="18"/>
     </Poly>
   </ButtonStandard>
-  <Line name="tabSelection" x="1" y="73" w="100" h="2" x1="0" y1="0" x2="100" y2="0" strokeColor="FFFFFF" strokeW="2" alpha="1"/>
+  <Line name="tabSelection" x="1" y="73" w="140" h="2" x1="0" y1="0" x2="140" y2="0" strokeColor="FFFFFF" strokeW="2" alpha="1"/>
   <ButtonStandard name="btnClose" x="435" y="0" w="45" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
     <Image name="gfxStandard" file="btnCloseWin_s.png" x="0" y="0" alpha="1"/>
     <Image name="gfxHover" file="btnCloseWin_h.png" x="0" y="0" alpha="1"/>

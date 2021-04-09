@@ -14,13 +14,13 @@
       <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
-      <TextPoint name="txtCaption" x="80" y="1" align="center" font="Jura-Regular" size="23" text="Сброс" fillColor="2BAAFF" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="0" align="center" font="Jura-Regular" size="23" text="Сброс" fillColor="2BAAFF" alpha="1"/>
     </ButtonStandard>
     <ButtonStandard name="btnConnect" x="0" y="40" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
       <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
-      <TextPoint name="txtCaption" x="80" y="1" align="center" font="Jura-Regular" size="23" text="Соединение" fillColor="2BAAFF" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="0" align="center" font="Jura-Regular" size="23" text="Соединение" fillColor="2BAAFF" alpha="1"/>
     </ButtonStandard>
   </Container>
   <Container name="sidePanel" x="12" y="42" w="938" h="68" scalingType="scaleByWidth" arrangeType="arrangeFree" arrangePadding="0" alpha="1">

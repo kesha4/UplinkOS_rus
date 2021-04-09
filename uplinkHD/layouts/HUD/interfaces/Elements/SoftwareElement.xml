@@ -9,7 +9,7 @@
   <Container name="info" x="0" y="0" w="308" h="226" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
     <Rectangle name="base" subtype="filled" x="0" y="0" w="308" h="226" fillColor="112B3C" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
     <TextPoint name="txtName" x="11" y="4" align="left" font="Jura-Bold" size="24" text="HUD Connection Analysis" fillColor="2BAAFF" alpha="1"/>
-    <TextParagraph name="txtDesc" x="11" y="38" w="287.999969482422" h="130.999992370605" align="left" font="Jura-Regular" size="18" leading="0" text="v1.0 - This tool will force open any lock system you might encounter on a LAN system.&#xD;The sys Admin will probably notice this." fillColor="2BAAFF" alpha="1"/>
+    <TextParagraph name="txtDesc" x="11" y="35" w="287.999969482422" h="150.999992370605" align="left" font="Jura-Regular" size="18" leading="0" text="v1.0 - This tool will force open any lock system you might encounter on a LAN system.&#xD;The sys Admin will probably notice this." fillColor="2BAAFF" alpha="1"/>
     <ButtonStandard name="btnVersion" x="0" y="181" w="80" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
       <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="80" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.4"/>
       <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="80" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>

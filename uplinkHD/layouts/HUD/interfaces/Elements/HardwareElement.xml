@@ -7,7 +7,7 @@
   <Image name="hwIcon" file="icon_hw_unknown.png" x="54" y="10" alpha="1"/>
   <Container name="info" x="0" y="0" w="228" h="225" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
     <Rectangle name="base" subtype="filled" x="0" y="0" w="228" h="225" fillColor="112B3C" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
-    <TextParagraph name="txtDesc" x="11" y="39" w="207.499969482422" h="141.5" align="left" font="Jura-Regular" size="18" leading="0" text="A faster processor with onboard MPU instruction handling for faster instruction execution." fillColor="2BAAFF" alpha="1"/>
+    <TextParagraph name="txtDesc" x="11" y="35" w="207.499969482422" h="161.5" align="left" font="Jura-Regular" size="17" leading="0" text="A faster processor with onboard MPU instruction handling for faster instruction execution." fillColor="2BAAFF" alpha="1"/>
     <TextPoint name="txtName" x="10" y="7" align="left" font="Jura-Bold" size="24" text="CPU ( 120 GHz )" fillColor="2BAAFF" alpha="1"/>
   </Container>
   <TextPoint name="txtPrice" x="74" y="183" align="center" font="Jura-Bold" size="30" text="25000c" fillColor="2BAAFF" alpha="1"/>

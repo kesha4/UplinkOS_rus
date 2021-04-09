@@ -5,7 +5,7 @@
     <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
     <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
     <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
-    <TextPoint name="txtCaption" x="80" y="1" align="center" font="Jura-Regular" size="24" text="Закрыть" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtCaption" x="80" y="0" align="center" font="Jura-Regular" size="24" text="Закрыть" fillColor="2BAAFF" alpha="1"/>
   </ButtonStandard>
   <Rectangle name="rect0" subtype="filled" x="14" y="428" w="935" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.25098039215686"/>
   <Image name="iconProxy" file="icon_proxy_40px.png" x="80" y="430" alpha="1"/>

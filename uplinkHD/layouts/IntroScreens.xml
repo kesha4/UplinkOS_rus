@@ -22,54 +22,54 @@
     <TextPoint name="TRUST IS A WEAKNESS" x="240" y="524" align="center" font="Jura-Regular" size="36" text="ДОВЕРИЕ - ЭТО СЛАБОСТЬ" fillColor="2BAAFF" alpha="0.01960784313725"/>
   </Container>
   <Container name="step1" x="490" y="147" w="783" h="603" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
-    <ButtonStandard name="btnOK" x="390" y="603" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <ButtonStandard name="btnOK" x="390" y="618" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
       <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
-      <TextPoint name="txtCaption" x="80" y="1" align="center" font="Jura-Regular" size="24" text="OK" fillColor="2BAAFF" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="0" align="center" font="Jura-Regular" size="24" text="OK" fillColor="2BAAFF" alpha="1"/>
     </ButtonStandard>
-    <TextParagraph name="txtDesc" x="150" y="161" w="640.953369140625" h="385.361694335938" align="left" font="Jura-Regular" size="24" leading="0" text="Добро пожаловать на Общедоступный сервер Uplink.&#xD;&#xD;Корпорация Uplink работает с множеством внештатных агентов по всему миру. За последние 10 лет мы заручились поддержкой большого количества влиятельных клиентов и успешных специалистов по безопасности. Наша компания играет роль анонимного центра занятости, связывая большие корпорации и агентов, выполняющих заказы. Всем своим агентам мы сдаем в аренду компьютерные шлюзы, которые обеспечивают анонимность действий в условиях высокого риска раскрытия.&#xD;&#xD;Вы здесь, потому что хотите присоединиться к нам." fillColor="2BAAFF" alpha="1"/>
+    <TextParagraph name="txtDesc" x="150" y="161" w="640.953369140625" h="400.361694335938" align="left" font="Jura-Regular" size="24" leading="0" text="Добро пожаловать на Общедоступный сервер Uplink.&#xD;&#xD;Корпорация Uplink работает с множеством внештатных агентов по всему миру. За последние 10 лет мы заручились поддержкой большого количества влиятельных клиентов и успешных специалистов по безопасности. Наша компания играет роль анонимного центра занятости, связывая большие корпорации и агентов, выполняющих заказы. Всем своим агентам мы сдаем в аренду компьютерные шлюзы, которые обеспечивают анонимность действий в условиях высокого риска раскрытия.&#xD;&#xD;Вы здесь, потому что хотите присоединиться к нам." fillColor="2BAAFF" alpha="1"/>
     <TextPoint name="txtSubtitle" x="1" y="45" align="left" font="Jura-Regular" size="30" text="О нас" fillColor="1E62A8" alpha="1"/>
     <TextPoint name="txtTitle" x="1" y="-13" align="left" font="Jura-Regular" size="48" text="Общедоступный сервер Uplink" fillColor="2BAAFF" alpha="1"/>
   </Container>
-  <Container name="step2" x="491" y="147" w="790" h="346" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
-    <ButtonStandard name="btnRegister" x="147" y="301" w="643" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
-      <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="643" h="45" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
-      <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="643" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  <Container name="step2" x="491" y="147" w="800" h="346" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <ButtonStandard name="btnRegister" x="147" y="301" w="670" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="670" h="45" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="670" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
       <Image name="icon" file="icon_menuOption.png" x="1" y="10" alpha="1"/>
-      <TextPoint name="txtCaption" x="29" y="-4" align="left" font="Jura-Regular" size="42" text="Регистрация в качестве агента" fillColor="2BAAFF" alpha="1"/>
+      <TextPoint name="txtCaption" x="29" y="-6" align="left" font="Jura-Regular" size="42" text="Регистрация в качестве агента" fillColor="2BAAFF" alpha="1"/>
     </ButtonStandard>
-    <ButtonStandard name="btnAbout" x="147" y="211" w="643" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
-      <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="643" h="45" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
-      <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="643" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <ButtonStandard name="btnAbout" x="147" y="211" w="670" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+      <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="670" h="45" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+      <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="670" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
       <Image name="icon" file="icon_menuOption.png" x="1" y="10" alpha="1"/>
-      <TextPoint name="txtCaption" x="29" y="-4" align="left" font="Jura-Regular" size="42" text="О нас" fillColor="2BAAFF" alpha="1"/>
+      <TextPoint name="txtCaption" x="29" y="-6" align="left" font="Jura-Regular" size="42" text="О нас" fillColor="2BAAFF" alpha="1"/>
     </ButtonStandard>
     <TextPoint name="txtSubtitle" x="0" y="45" align="left" font="Jura-Regular" size="30" text="Главное меню" fillColor="1E62A8" alpha="1"/>
     <TextPoint name="txtTitle" x="0" y="-13" align="left" font="Jura-Regular" size="48" text="Uplink Общедоступный Сервер" fillColor="2BAAFF" alpha="1"/>
   </Container>
-  <Container name="step3" x="491" y="147" w="789" h="693" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
-    <ButtonStandard name="btnContinue" x="629" y="663" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+  <Container name="step3" x="491" y="147" w="789" h="803" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <ButtonStandard name="btnContinue" x="629" y="673" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
       <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
-      <TextPoint name="txtCaption" x="80" y="1" align="center" font="Jura-Regular" size="24" text="Продолжить" fillColor="2BAAFF" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="0" align="center" font="Jura-Regular" size="24" text="Продолжить" fillColor="2BAAFF" alpha="1"/>
     </ButtonStandard>
-    <ButtonStandard name="btnCancel" x="149" y="663" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <ButtonStandard name="btnCancel" x="149" y="673" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
       <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
-      <TextPoint name="txtCaption" x="80" y="1" align="center" font="Jura-Regular" size="24" text="Отмена" fillColor="2BAAFF" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="0" align="center" font="Jura-Regular" size="24" text="Отмена" fillColor="2BAAFF" alpha="1"/>
     </ButtonStandard>
     <TextPoint name="txtDesc0" x="149" y="158" align="left" font="Jura-Regular" size="24" text="Ваш стартовый пакет агента включает в себя:" fillColor="2BAAFF" alpha="1"/>
     <TextParagraph name="txtDesc1" x="189" y="212" w="600.953369140625" h="121.586700439453" align="left" font="Jura-Regular" size="24" leading="0" text="Компьютер-шлюз в безопасном месте. Вы будете подключаться к этой машине со своего домашнего компьютера при работе с Uplink. Можете обновить железо шлюза, если потребуется." fillColor="2BAAFF" alpha="1"/>
-    <Rectangle name="iconDesc0" subtype="filled" x="170" y="218" w="8" h="8" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="iconDesc0" subtype="filled" x="170" y="225" w="8" h="8" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
     <TextParagraph name="txtDesc2" x="189" y="353" w="600.953369140625" h="64.5867004394531" align="left" font="Jura-Regular" size="24" leading="0" text="Льготный займ на 3000 кредитов в Международном банке Uplink для комфортного старта." fillColor="2BAAFF" alpha="1"/>
-    <Rectangle name="iconDesc1" subtype="filled" x="170" y="359" w="8" h="8" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="iconDesc1" subtype="filled" x="170" y="366" w="8" h="8" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
     <TextParagraph name="txtDesc3" x="189" y="433" w="600.953369140625" h="64.5867004394531" align="left" font="Jura-Regular" size="24" leading="0" text="Доступ к нашему серверу внутренних сервисов, где публикуются предложения о найме на работу." fillColor="2BAAFF" alpha="1"/>
-    <Rectangle name="iconDesc2" subtype="filled" x="170" y="439" w="8" h="8" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
-    <TextParagraph name="txtDesc4" x="189" y="513" w="600.953369140625" h="90.361701965332" align="left" font="Jura-Regular" size="24" leading="0" text="Официальный статус агента Uplink. Мы будем следить за вашими успехами. При повышении рейтинга вы получите доступ к более интересной работе." fillColor="2BAAFF" alpha="1"/>
-    <Rectangle name="iconDesc3" subtype="filled" x="170" y="519" w="8" h="8" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="iconDesc2" subtype="filled" x="170" y="446" w="8" h="8" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <TextParagraph name="txtDesc4" x="189" y="513" w="600.953369140625" h="150" align="left" font="Jura-Regular" size="24" leading="0" text="Официальный статус агента Uplink. Мы будем следить за вашими успехами. При повышении рейтинга вы получите доступ к более интересной работе." fillColor="2BAAFF" alpha="1"/>
+    <Rectangle name="iconDesc3" subtype="filled" x="170" y="525" w="8" h="8" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
     <TextPoint name="txtSubtitle" x="0" y="45" align="left" font="Jura-Regular" size="30" text="Регистрация" fillColor="1E62A8" alpha="1"/>
     <TextPoint name="txtTitle" x="0" y="-13" align="left" font="Jura-Regular" size="48" text="Uplink Общедоступный Сервер" fillColor="2BAAFF" alpha="1"/>
   </Container>
@@ -79,7 +79,7 @@
       <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
-      <TextPoint name="txtCaption" x="80" y="1" align="center" font="Jura-Regular" size="24" text="Принять" fillColor="2BAAFF" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="0" align="center" font="Jura-Regular" size="24" text="Принять" fillColor="2BAAFF" alpha="1"/>
     </ButtonStandard>
     <TextParagraph name="txtDesc" x="149" y="458" w="640.953369140625" h="178.766708374023" align="left" font="Jura-Regular" size="24" leading="0" text="Корпорация Uplink не запрашивает личных данных.&#xD;&#xD;Если вы будете обвинены в незаконных операциях, мы будем вынуждены отрицать свою причастность, однако, вы будете защищены от ареста, так как ваш реальный адрес нам неизвестен." fillColor="2BAAFF" alpha="1"/>
     <ButtonTextField name="btnUser" x="309" y="163" w="320" h="50" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
@@ -89,7 +89,7 @@
         <Rectangle name="base" subtype="filled" x="0" y="0" w="320" h="50" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.25098039215686"/>
       </Container>
       <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="320" h="50" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
-      <TextPoint name="txtCaption" x="9" y="4" align="left" font="Jura-Regular" size="36" text="Логин" fillColor="2BAAFF" alpha="1"/>
+      <TextPoint name="txtCaption" x="9" y="4" align="left" font="Jura-Regular" size="34" text="Логин" fillColor="2BAAFF" alpha="1"/>
     </ButtonTextField>
     <ButtonTextField name="btnPass" x="309" y="253" w="320" h="50" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
       <Line name="gfxStandard" x="0" y="49" w="320" h="1" x1="0" y1="0" x2="320" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
@@ -98,7 +98,7 @@
         <Rectangle name="base" subtype="filled" x="0" y="0" w="320" h="50" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.25098039215686"/>
       </Container>
       <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="320" h="50" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
-      <TextPoint name="txtCaption" x="9" y="4" align="left" font="Jura-Regular" size="36" text="Пароль" fillColor="2BAAFF" alpha="1"/>
+      <TextPoint name="txtCaption" x="9" y="4" align="left" font="Jura-Regular" size="34" text="Пароль" fillColor="2BAAFF" alpha="1"/>
     </ButtonTextField>
     <ButtonTextField name="btnPass2" x="309" y="343" w="320" h="50" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
       <Line name="gfxStandard" x="0" y="49" w="320" h="1" x1="0" y1="0" x2="320" y2="0" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
@@ -107,7 +107,7 @@
         <Rectangle name="base" subtype="filled" x="0" y="0" w="320" h="50" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.25098039215686"/>
       </Container>
       <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="320" h="50" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
-      <TextPoint name="txtCaption" x="9" y="4" align="left" font="Jura-Regular" size="36" text="Повторите пароль" fillColor="2BAAFF" alpha="1"/>
+      <TextPoint name="txtCaption" x="9" y="4" align="left" font="Jura-Regular" size="34" text="Повторите пароль" fillColor="2BAAFF" alpha="1"/>
     </ButtonTextField>
     <TextPoint name="txtSubtitle" x="0" y="45" align="left" font="Jura-Regular" size="30" text="Создать пользователя" fillColor="1E62A8" alpha="1"/>
     <TextPoint name="txtTitle" x="0" y="-13" align="left" font="Jura-Regular" size="48" text="Общедоступный Сервер Uplink" fillColor="2BAAFF" alpha="1"/>
@@ -159,14 +159,14 @@
       <Rectangle name="gfxClick" subtype="filled" x="1" y="1" w="14" h="14" fillColor="FFFFFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
     </ButtonStandard>
   </Container>
-  <Container name="step6" x="490" y="147" w="785" h="663" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
-    <ButtonStandard name="btnOK" x="390" y="633" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+  <Container name="step6" x="490" y="147" w="785" h="683" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <ButtonStandard name="btnOK" x="390" y="653" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
       <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
-      <TextPoint name="txtCaption" x="80" y="1" align="center" font="Jura-Regular" size="24" text="OK" fillColor="2BAAFF" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="0" align="center" font="Jura-Regular" size="24" text="OK" fillColor="2BAAFF" alpha="1"/>
     </ButtonStandard>
-    <TextParagraph name="txtDesc" x="150" y="161" w="640.953369140625" h="412.361694335938" align="left" font="Jura-Regular" size="24" leading="0" text="Идет процесс регистрации.&#xD;&#xD;Назначается шлюз в выбранной серверной комнате. Он будет вашей отправной точкой для работы с остальной сетью. Когда вы в следующий раз войдете в Uplink, вы сможете подключиться с вашего домашнего компьютера к этой машине, а оттуда ко всей остальной мировой сети.&#xD;&#xD;Если ваши действия будут прослежены до  Шлюза, Корпорация Uplink будет отрицать свою причастность, заблокирует ваш аккаунт и счет. Ваш шлюз также будет уничтожен.&#xD;&#xD;Аренда шлюза стоит 300 кредитов в месяц." fillColor="2BAAFF" alpha="1"/>
+    <TextParagraph name="txtDesc" x="150" y="161" w="640.953369140625" h="422.361694335938" align="left" font="Jura-Regular" size="24" leading="0" text="Идет процесс регистрации.&#xD;&#xD;Назначается шлюз в выбранной серверной комнате. Он будет вашей отправной точкой для работы с остальной сетью. Когда вы в следующий раз войдете в Uplink, вы сможете подключиться с вашего домашнего компьютера к этой машине, а оттуда ко всей остальной мировой сети.&#xD;&#xD;Если ваши действия будут прослежены до  Шлюза, Корпорация Uplink будет отрицать свою причастность, заблокирует ваш аккаунт и счет. Ваш шлюз также будет уничтожен.&#xD;&#xD;Аренда шлюза стоит 300 кредитов в месяц." fillColor="2BAAFF" alpha="1"/>
     <TextPoint name="txtSubtitle" x="1" y="45" align="left" font="Jura-Regular" size="30" text="Ваш Шлюз" fillColor="1E62A8" alpha="1"/>
     <TextPoint name="txtTitle" x="1" y="-13" align="left" font="Jura-Regular" size="48" text="Uplink Общедоступный Сервер" fillColor="2BAAFF" alpha="1"/>
   </Container>
