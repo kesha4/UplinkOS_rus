@@ -4,7 +4,7 @@
     <Rectangle name="baseRect" subtype="filled" x="141" y="3" w="680" h="20" fillColor="1E62A8" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
     <Rectangle name="fillRect" subtype="filled" x="141" y="3" w="680" h="20" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
     <TextPoint name="txtFreeSpace" x="0" y="-5" align="left" font="Jura-Regular" size="24" text="Свободно" fillColor="2BAAFF" alpha="1"/>
-    <TextPoint name="txtAmount" x="832" y="-5" align="left" font="Jura-Regular" size="24" text="6 / 20 GQs" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtAmount" x="832" y="-3" align="left" font="Jura-Regular" size="24" text="6 / 20 GQs" fillColor="2BAAFF" alpha="1"/>
   </Container>
   <Line name="topSeparator" x="13" y="314" w="936" h="2" x1="0" y1="0" x2="936" y2="0" strokeColor="2BAAFF" strokeW="2" alpha="1"/>
   <Line name="bottomSeparator" x="13" y="948" w="936" h="2" x1="0" y1="0" x2="936" y2="0" strokeColor="2BAAFF" strokeW="2" alpha="1"/>
