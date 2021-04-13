@@ -1,27 +1,27 @@
 <layout name="UserIDScreen" w="962" h="1082">
-  <ButtonStandard name="btnPass0" x="321" y="811" w="320" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
-    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="320" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
-    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="320" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  <ButtonStandard name="btnPass0" x="221" y="811" w="520" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="520" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="520" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
     <Image name="icon" file="icon_lock.png" x="2" y="2" alpha="1"/>
-    <TextPoint name="txtCaption" x="34" y="1" align="left" font="Jura-Regular" size="24" text="Known User &amp; Password 1" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtCaption" x="260" y="1" align="center" font="Jura-Regular" size="24" text="Known User &amp; Password 1" fillColor="2BAAFF" alpha="1"/>
   </ButtonStandard>
-  <ButtonStandard name="btnPass1" x="321" y="861" w="320" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
-    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="320" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
-    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="320" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  <ButtonStandard name="btnPass1" x="221" y="861" w="520" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="520" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="520" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
     <Image name="icon" file="icon_lock.png" x="2" y="2" alpha="1"/>
-    <TextPoint name="txtCaption" x="34" y="1" align="left" font="Jura-Regular" size="24" text="Known User &amp; Password 2" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtCaption" x="260" y="1" align="center" font="Jura-Regular" size="24" text="Known User &amp; Password 2" fillColor="2BAAFF" alpha="1"/>
   </ButtonStandard>
-  <ButtonStandard name="btnPass2" x="321" y="911" w="320" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
-    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="320" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
-    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="320" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  <ButtonStandard name="btnPass2" x="221" y="911" w="520" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="520" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="520" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
     <Image name="icon" file="icon_lock.png" x="2" y="2" alpha="1"/>
-    <TextPoint name="txtCaption" x="34" y="1" align="left" font="Jura-Regular" size="24" text="Known User &amp; Password 3" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtCaption" x="260" y="1" align="center" font="Jura-Regular" size="24" text="Known User &amp; Password 3" fillColor="2BAAFF" alpha="1"/>
   </ButtonStandard>
-  <ButtonStandard name="btnPass3" x="321" y="961" w="320" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
-    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="320" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
-    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="320" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+  <ButtonStandard name="btnPass3" x="221" y="961" w="520" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
+    <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="520" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="FF00FF" strokeW="0" alpha="1"/>
+    <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="520" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
     <Image name="icon" file="icon_lock.png" x="2" y="2" alpha="1"/>
-    <TextPoint name="txtCaption" x="34" y="1" align="left" font="Jura-Regular" size="24" text="Known User &amp; Password 3" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtCaption" x="260" y="1" align="center" font="Jura-Regular" size="24" text="Known User &amp; Password 3" fillColor="2BAAFF" alpha="1"/>
   </ButtonStandard>
   <ButtonStandard name="btnBypass" x="720" y="810" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
     <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
