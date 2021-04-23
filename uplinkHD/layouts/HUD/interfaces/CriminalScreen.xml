@@ -8,7 +8,7 @@
       <Rectangle name="base" subtype="filled" x="0" y="0" w="352" h="50" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.25098039215686"/>
     </Container>
     <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="352" h="50" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
-    <TextPoint name="txtCaption" x="9" y="4" align="left" font="Jura-Regular" size="36" text="Добавить судимость" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtCaption" x="9" y="4" align="left" font="Jura_uOSr-Regular" size="36" text="Добавить судимость" fillColor="2BAAFF" alpha="1"/>
   </ButtonTextField>
   <ButtonStandard name="btnAdd" x="833" y="731" w="49" h="50" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
     <Image name="gfxStandard" file="btnSubmitTextField_s.png" x="0" y="0" alpha="1"/>
@@ -19,25 +19,25 @@
     <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="320" h="40" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
     <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="320" h="40" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
     <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="320" h="40" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
-    <TextPoint name="txtCaption" x="160" y="4" align="center" font="Jura-Regular" size="24" text="Очистить криминал" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtCaption" x="160" y="4" align="center" font="Jura_uOSr-Regular" size="24" text="Очистить криминал" fillColor="2BAAFF" alpha="1"/>
   </ButtonStandard>
   <ButtonStandard name="btnArrest" x="80" y="691" w="320" h="40" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
     <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="320" h="40" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
     <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="320" h="40" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
     <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="320" h="40" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
-    <TextPoint name="txtCaption" x="160" y="6" align="center" font="Jura-Regular" size="24" text="Разрешить арест" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtCaption" x="160" y="6" align="center" font="Jura_uOSr-Regular" size="24" text="Разрешить арест" fillColor="2BAAFF" alpha="1"/>
   </ButtonStandard>
   <ButtonStandard name="btnDone" x="80" y="741" w="320" h="40" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
     <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="320" h="40" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
     <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="320" h="40" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
     <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="320" h="40" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
-    <TextPoint name="txtCaption" x="160" y="6" align="center" font="Jura-Regular" size="24" text="Ок" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtCaption" x="160" y="6" align="center" font="Jura_uOSr-Regular" size="24" text="Ок" fillColor="2BAAFF" alpha="1"/>
   </ButtonStandard>
   <Rectangle name="nameBase" subtype="filled" x="80" y="586" w="320" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
-  <TextPoint name="txtName" x="90" y="588" align="left" font="Jura-Bold" size="30" text="Tom Woogllven" fillColor="FFFFFF" alpha="1"/>
+  <TextPoint name="txtName" x="90" y="588" align="left" font="Jura_uOSr-Bold" size="30" text="Tom Woogllven" fillColor="FFFFFF" alpha="1"/>
   <Rectangle name="crimBase" subtype="filled" x="482" y="270" w="400" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
-  <TextPoint name="txtCrim" x="682" y="272" align="center" font="Jura-Bold" size="30" text="Криминальная история" fillColor="FFFFFF" alpha="1"/>
-  <TextParagraph name="txtRecord" x="482" y="320" w="399.999969482422" h="401.000030517578" align="left" font="Jura-Regular" size="30" leading="0" text="txtRecordRef" fillColor="2BAAFF" alpha="1"/>
-  <TextPoint name="txtSubtitle" x="12" y="182" align="left" font="Jura-Regular" size="30" text="Subtitle Long Name" fillColor="1E62A8" alpha="1"/>
-  <TextPoint name="txtTitle" x="12" y="134" align="left" font="Jura-Regular" size="48" text="Main Title" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtCrim" x="682" y="272" align="center" font="Jura_uOSr-Bold" size="30" text="Криминальная история" fillColor="FFFFFF" alpha="1"/>
+  <TextParagraph name="txtRecord" x="482" y="320" w="399.999969482422" h="401.000030517578" align="left" font="Jura_uOSr-Regular" size="30" leading="0" text="txtRecordRef" fillColor="2BAAFF" alpha="1"/>
+  <TextPoint name="txtSubtitle" x="12" y="182" align="left" font="Jura_uOSr-Regular" size="30" text="Subtitle Long Name" fillColor="1E62A8" alpha="1"/>
+  <TextPoint name="txtTitle" x="12" y="134" align="left" font="Jura_uOSr-Regular" size="48" text="Main Title" fillColor="2BAAFF" alpha="1"/>
 </layout>

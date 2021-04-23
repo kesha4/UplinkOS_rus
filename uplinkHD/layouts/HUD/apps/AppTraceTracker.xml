@@ -4,7 +4,7 @@
   <Image name="icon1" file="appIcon_traceTracker_01.png" x="8" y="17" alpha="1"/>
   <Image name="icon2" file="appIcon_traceTracker_02.png" x="8" y="17" alpha="1"/>
   <Image name="icon3" file="appIcon_traceTracker_03.png" x="8" y="17" alpha="1"/>
-  <TextPoint name="txtCaption" x="45" y="28" align="center" font="Jura-Bold" size="30" text="0" fillColor="FFFFFF" alpha="1"/>
+  <TextPoint name="txtCaption" x="45" y="28" align="center" font="Jura_uOSr-Bold" size="30" text="0" fillColor="FFFFFF" alpha="1"/>
   <ButtonStandard name="btnClose" x="72" y="0" w="18" h="18" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
     <Image name="gfxStandard" file="appBtn_close_s.png" x="0" y="0" alpha="1"/>
     <Image name="gfxHover" file="appBtn_close_h.png" x="0" y="0" alpha="1"/>

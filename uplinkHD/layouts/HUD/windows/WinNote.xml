@@ -9,11 +9,11 @@
       <Rectangle name="base" subtype="filled" x="0" y="0" w="320" h="50" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.25098039215686"/>
     </Container>
     <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="320" h="50" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
-    <TextPoint name="txtCaption" x="19" y="10" align="left" font="Jura-Bold" size="27" text="Заголовок заметки" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtCaption" x="19" y="10" align="left" font="Jura_uOSr-Bold" size="27" text="Заголовок заметки" fillColor="2BAAFF" alpha="1"/>
   </ButtonTextField>
   <ButtonTextFieldBox name="btnContents" x="9" y="79" w="304" h="430" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
     <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="304" h="430" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.25098039215686"/>
-    <TextParagraph name="txtCaption" x="0" y="1" w="303.999969482422" h="429" align="left" font="Jura-Regular" size="20" leading="0" text="Текст вашей заметки..." fillColor="2BAAFF" alpha="1"/>
+    <TextParagraph name="txtCaption" x="0" y="1" w="303.999969482422" h="429" align="left" font="Jura_uOSr-Regular" size="20" leading="0" text="Текст вашей заметки..." fillColor="2BAAFF" alpha="1"/>
   </ButtonTextFieldBox>
   <ButtonStandard name="btnNew" x="0" y="0" w="18" h="18" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
     <Image name="gfxStandard" file="btnNewNote_s.png" x="0" y="0" alpha="1"/>

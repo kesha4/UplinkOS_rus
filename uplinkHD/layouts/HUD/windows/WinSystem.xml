@@ -3,55 +3,55 @@
   <Rectangle name="baseTitle" subtype="filled" x="0" y="0" w="480" h="45" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
   <Line name="baseLine" x="0" y="470" w="480" h="4" x1="0" y1="2" x2="480" y2="2" strokeColor="2BAAFF" strokeW="4" alpha="1"/>
   <Container name="gateway" x="10" y="85" w="460" h="397" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
-    <TextPoint name="txtHardware" x="9" y="-5" align="left" font="Jura-Bold" size="24" text="Железо" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtHardware" x="9" y="-5" align="left" font="Jura_uOSr-Bold" size="24" text="Железо" fillColor="2BAAFF" alpha="1"/>
     <Line name="separator" x="0" y="22" w="460" h="2" x1="0" y1="1" x2="460" y2="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
-    <TextPoint name="txtCPU" x="10" y="31" align="left" font="Jura-Regular" size="18" text="Частота CPU:" fillColor="2BAAFF" alpha="1"/>
-    <TextPoint name="txtBandwidth" x="10" y="51" align="left" font="Jura-Regular" size="18" text="Интернет:" fillColor="2BAAFF" alpha="1"/>
-    <TextPoint name="txtMemory" x="10" y="71" align="left" font="Jura-Regular" size="18" text="Жесткий диск:" fillColor="2BAAFF" alpha="1"/>
-    <TextPoint name="txtCPUAmount" x="232" y="31" align="right" font="Jura-Bold" size="18" text="260 GHz" fillColor="2BAAFF" alpha="1"/>
-    <TextPoint name="txtBandwidthAmount" x="232" y="51" align="right" font="Jura-Bold" size="18" text="8 GQ/s" fillColor="2BAAFF" alpha="1"/>
-    <TextPoint name="txtMemoryAmount" x="232" y="71" align="right" font="Jura-Bold" size="18" text="24 GQ" fillColor="2BAAFF" alpha="1"/>
-    <TextPoint name="txtCPUMax" x="451" y="31" align="right" font="Jura-Bold" size="18" text="1/2 слотов" fillColor="2BAAFF" alpha="1"/>
-    <TextPoint name="txtBandwidthMax" x="451" y="51" align="right" font="Jura-Bold" size="18" text="16 GQ/s макс." fillColor="2BAAFF" alpha="1"/>
-    <TextPoint name="txtMemoryMax" x="451" y="71" align="right" font="Jura-Bold" size="18" text="80 GQ макс." fillColor="2BAAFF" alpha="1"/>
-    <TextPoint name="txtDevices" x="9" y="115" align="left" font="Jura-Bold" size="24" text="Устройства" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtCPU" x="10" y="31" align="left" font="Jura_uOSr-Regular" size="18" text="Частота CPU:" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtBandwidth" x="10" y="51" align="left" font="Jura_uOSr-Regular" size="18" text="Интернет:" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtMemory" x="10" y="71" align="left" font="Jura_uOSr-Regular" size="18" text="Жесткий диск:" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtCPUAmount" x="232" y="31" align="right" font="Jura_uOSr-Bold" size="18" text="260 GHz" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtBandwidthAmount" x="232" y="51" align="right" font="Jura_uOSr-Bold" size="18" text="8 GQ/s" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtMemoryAmount" x="232" y="71" align="right" font="Jura_uOSr-Bold" size="18" text="24 GQ" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtCPUMax" x="451" y="31" align="right" font="Jura_uOSr-Bold" size="18" text="1/2 слотов" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtBandwidthMax" x="451" y="51" align="right" font="Jura_uOSr-Bold" size="18" text="16 GQ/s макс." fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtMemoryMax" x="451" y="71" align="right" font="Jura_uOSr-Bold" size="18" text="80 GQ макс." fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtDevices" x="9" y="115" align="left" font="Jura_uOSr-Bold" size="24" text="Устройства" fillColor="2BAAFF" alpha="1"/>
     <Line name="separator2" x="0" y="142" w="460" h="2" x1="0" y1="1" x2="460" y2="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
-    <TextPoint name="txtDevice01" x="10" y="151" align="left" font="Jura-Regular" size="18" text="Датчик движения" fillColor="2BAAFF" alpha="1"/>
-    <TextPoint name="txtDevice02" x="10" y="171" align="left" font="Jura-Regular" size="18" text="Самоуничтожитель" fillColor="2BAAFF" alpha="1"/>
-    <TextPoint name="txtDeviceMax" x="451" y="151" align="right" font="Jura-Regular" size="18" text="1/2 слотов" fillColor="2BAAFF" alpha="1"/>
-    <TextPoint name="txtHUD" x="9" y="215" align="left" font="Jura-Bold" size="24" text="HUD моды" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtDevice01" x="10" y="151" align="left" font="Jura_uOSr-Regular" size="18" text="Датчик движения" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtDevice02" x="10" y="171" align="left" font="Jura_uOSr-Regular" size="18" text="Самоуничтожитель" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtDeviceMax" x="451" y="151" align="right" font="Jura_uOSr-Regular" size="18" text="1/2 слотов" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtHUD" x="9" y="215" align="left" font="Jura_uOSr-Bold" size="24" text="HUD моды" fillColor="2BAAFF" alpha="1"/>
     <Line name="separator3" x="0" y="242" w="460" h="2" x1="0" y1="1" x2="460" y2="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
-    <TextParagraph name="txtHUD" x="10" y="252" w="471" h="87.0000038146973" align="left" font="Jura-Regular" size="18" leading="0" text="Датчик движения" fillColor="2BAAFF" alpha="1"/>
+    <TextParagraph name="txtHUD" x="10" y="252" w="471" h="87.0000038146973" align="left" font="Jura_uOSr-Regular" size="18" leading="0" text="Датчик движения" fillColor="2BAAFF" alpha="1"/>
     <ButtonStandard name="btnViewGateway" x="110" y="347" w="240" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
       <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="240" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="240" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="240" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
-      <TextPoint name="txtCaption" x="120" y="0" align="center" font="Jura-Regular" size="24" text="Просмотр" fillColor="2BAAFF" alpha="1"/>
+      <TextPoint name="txtCaption" x="120" y="0" align="center" font="Jura_uOSr-Regular" size="24" text="Просмотр" fillColor="2BAAFF" alpha="1"/>
     </ButtonStandard>
   </Container>
   <Container name="about" x="83" y="103" w="316" h="297" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
-    <TextPoint name="txtUplink" x="158" y="-10" align="center" font="Jura-Bold" size="24" text="UPLINK v1.5" fillColor="2BAAFF" alpha="1"/>
-    <TextPoint name="txtUplinkCredit" x="158" y="15" align="center" font="Jura-Regular" size="24" text="Introversion Software" fillColor="2BAAFF" alpha="1"/>
-    <TextPoint name="txtUplinkOS" x="158" y="65" align="center" font="Jura-Bold" size="24" text="UPLINK OS vBETA" fillColor="2BAAFF" alpha="1"/>
-    <TextPoint name="txtUplinkOSCredit" x="152" y="90" align="center" font="Jura-Regular" size="24" text="Tudor C. Stamate" fillColor="2BAAFF" alpha="1"/>
-    <TextPoint name="txtTranslate" x="158" y="140" align="center" font="Jura-Bold" size="24" text="UplinkOS_RUS 21.04" fillColor="2BAAFF" alpha="1"/>
-    <TextPoint name="txtTranslateCredits" x="155" y="165" align="center" font="Jura-Regular" size="24" text="Сергей 'kesha4' Макаров" fillColor="2BAAFF" alpha="1"/>
-    <TextPoint name="txtFont" x="158" y="215" align="center" font="Jura-Bold" size="24" text="Шрифт Jura" fillColor="2BAAFF" alpha="1"/>
-    <TextPoint name="txtFontCredit" x="158" y="240" align="center" font="Jura-Regular" size="24" text="Daniel Johnson & Alexei Vanyashin" fillColor="2BAAFF" alpha="1"/>
-    <TextPoint name="txtSound" x="158" y="292" align="center" font="Jura-Bold" size="24" text="Звуки" fillColor="2BAAFF" alpha="1"/>
-    <TextPoint name="txtSoundCredits" x="158" y="317" align="center" font="Jura-Regular" size="24" text="narfstuff &amp; dev_tones" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtUplink" x="158" y="-10" align="center" font="Jura_uOSr-Bold" size="24" text="UPLINK v1.5" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtUplinkCredit" x="158" y="15" align="center" font="Jura_uOSr-Regular" size="24" text="Introversion Software" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtUplinkOS" x="158" y="65" align="center" font="Jura_uOSr-Bold" size="24" text="UPLINK OS vBETA" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtUplinkOSCredit" x="152" y="90" align="center" font="Jura_uOSr-Regular" size="24" text="Tudor C. Stamate" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtTranslate" x="158" y="140" align="center" font="Jura_uOSr-Bold" size="24" text="UplinkOS_RUS 21.04" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtTranslateCredits" x="155" y="165" align="center" font="Jura_uOSr-Regular" size="24" text="Сергей 'kesha4' Макаров" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtFont" x="158" y="215" align="center" font="Jura_uOSr-Bold" size="24" text="Шрифт Jura" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtFontCredit" x="158" y="240" align="center" font="Jura_uOSr-Regular" size="24" text="Daniel Johnson & Alexei Vanyashin" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtSound" x="158" y="292" align="center" font="Jura_uOSr-Bold" size="24" text="Звуки" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtSoundCredits" x="158" y="317" align="center" font="Jura_uOSr-Regular" size="24" text="narfstuff &amp; dev_tones" fillColor="2BAAFF" alpha="1"/>
   </Container>
-  <TextPoint name="txtTitle" x="240" y="5" align="center" font="Jura-Bold" size="30" text="СИСТЕМА" fillColor="0B0B0B" alpha="1"/>
+  <TextPoint name="txtTitle" x="240" y="5" align="center" font="Jura_uOSr-Bold" size="30" text="СИСТЕМА" fillColor="0B0B0B" alpha="1"/>
   <Rectangle name="tabsBg" subtype="filled" x="1" y="45" w="478" h="30" fillColor="1E62A8" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
   <ButtonStandard name="btnTab0" x="1" y="45" w="235" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
     <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="235" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.50196078431373"/>
     <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="235" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
-    <TextPoint name="txtCaption" x="118" y="0" align="center" font="Jura-Regular" size="24" text="Шлюз" fillColor="FFFFFF" alpha="1"/>
+    <TextPoint name="txtCaption" x="118" y="0" align="center" font="Jura_uOSr-Regular" size="24" text="Шлюз" fillColor="FFFFFF" alpha="1"/>
   </ButtonStandard>
   <ButtonStandard name="btnTab1" x="246" y="45" w="233" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
     <Rectangle name="gfxHover" subtype="filled" x="0" y="0" w="233" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="0.50196078431373"/>
     <Rectangle name="gfxClick" subtype="filled" x="0" y="0" w="233" h="30" fillColor="2BAAFF" fillA="1" strokeColor="FF00FF" strokeW="0" alpha="1"/>
-    <TextPoint name="txtCaption" x="116" y="0" align="center" font="Jura-Regular" size="24" text="UplinkOS" fillColor="FFFFFF" alpha="1"/>
+    <TextPoint name="txtCaption" x="116" y="0" align="center" font="Jura_uOSr-Regular" size="24" text="UplinkOS" fillColor="FFFFFF" alpha="1"/>
   </ButtonStandard>
   <Line name="tabSelection" x="1" y="73" w="235" h="2" x1="0" y1="0" x2="235" y2="0" strokeColor="FFFFFF" strokeW="2" alpha="1"/>
   <ButtonStandard name="btnClose" x="435" y="0" w="45" h="45" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
