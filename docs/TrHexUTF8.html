@@ -38,7 +38,7 @@
 	    }
 
 	    if ($('input[name=translate_b]').is(':checked')) {
-	    	text = text.replace(/\ь/g, "b");
+	    	text = text.replace(/\ь/g, "`");
 	    }
 
 	    if ($('input[name=translate_k]').is(':checked')) {
@@ -308,7 +308,7 @@
 		<label><input type="radio" name="translaterEngine" value="goo" checked="checked">Google</label>
 		<!--label><input type="radio" name="translaterEngine" value="ya">Yandex</label-->
 		<label><input type="checkbox" name="translate_e" value="1" checked="checked">ё = e</label>
-		<label><input type="checkbox" name="translate_b" value="1">ь = b</label>
+		<label><input type="checkbox" name="translate_b" value="1" checked="checked">ь = `</label>
 		<label><input type="checkbox" name="translate_k" value="1">к = k</label>
 		<label><input type="checkbox" name="translate_r" value="1">г = r</label>
 		<label><input type="checkbox" name="translate_n" value="1">п = n</label>
