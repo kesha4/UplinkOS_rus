@@ -7,8 +7,8 @@
 
 [Setup]
 AppName=UplinkOS RUS
-AppVersion=21.03
-AppVerName=UplinkOS RUS 21.03
+AppVersion=21.04
+AppVerName=UplinkOS RUS 21.04
 DefaultDirName={code:GetAppDir}
 DefaultGroupName=UplinkOS RUS
 DirExistsWarning=no
@@ -16,7 +16,7 @@ AllowNoIcons=true
 AppPublisher=by kesha4
 AppPublisherURL=https://kesha4.github.io/UplinkOS_rus/
 AppCopyright=Introversion Software, TUDOR C. STAMAT, Sergey kesha4 Makarov
-OutputBaseFilename=UplinkOS_RUS_21.03_setup
+OutputBaseFilename=UplinkOS_RUS_21.04_setup
 WizardImageFile=InstallFiles\WizardImage.bmp
 WizardSmallImageFile=InstallFiles\WizardSmallImage.bmp
 SetupIconFile=InstallFiles\icon.ico
