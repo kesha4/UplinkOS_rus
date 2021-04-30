@@ -12,6 +12,20 @@ body {
 	background-color: #000;
 }
 
+.siteMoved {
+	border: 2px solid #ff6666;
+	border-radius: 10px;
+	font-size: 20px;
+	text-align: center;
+	color: #ff6666;
+	width: 500px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 40px;
+}
+
 .wrapper {
 	width: 1200px;
 	min-height: 100%;
