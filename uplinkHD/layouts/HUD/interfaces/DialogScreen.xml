@@ -161,7 +161,7 @@
       <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
-      <TextPoint name="txtCaption" x="80" y="2" align="center" font="Jura_uOSr-Regular" size="50" text="Cancel" fillColor="2BAAFF" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="-9" align="center" font="uOSr-IconsFont" size="50" text="Cancel" fillColor="2BAAFF" alpha="1"/>
     </ButtonStandard>
     <ButtonStandard name="OK" x="529" y="131" w="49" h="50" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
       <Image name="gfxStandard" file="btnSubmitTextField_s.png" x="0" y="0" alpha="1"/>
