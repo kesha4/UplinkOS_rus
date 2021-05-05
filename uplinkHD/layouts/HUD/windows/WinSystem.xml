@@ -34,7 +34,7 @@
     <TextPoint name="txtUplinkCredit" x="158" y="15" align="center" font="Jura_uOSr-Regular" size="24" text="Introversion Software" fillColor="2BAAFF" alpha="1"/>
     <TextPoint name="txtUplinkOS" x="158" y="65" align="center" font="Jura_uOSr-Bold" size="24" text="UPLINK OS vBETA" fillColor="2BAAFF" alpha="1"/>
     <TextPoint name="txtUplinkOSCredit" x="152" y="90" align="center" font="Jura_uOSr-Regular" size="24" text="Tudor C. Stamate" fillColor="2BAAFF" alpha="1"/>
-    <TextPoint name="txtTranslate" x="158" y="140" align="center" font="Jura_uOSr-Bold" size="24" text="UplinkOS_RUS 21.04" fillColor="2BAAFF" alpha="1"/>
+    <TextPoint name="txtTranslate" x="158" y="140" align="center" font="Jura_uOSr-Bold" size="24" text="UplinkOS_RUS 21.05" fillColor="2BAAFF" alpha="1"/>
     <TextPoint name="txtTranslateCredits" x="155" y="165" align="center" font="Jura_uOSr-Regular" size="24" text="Сергей 'kesha4' Макаров" fillColor="2BAAFF" alpha="1"/>
     <TextPoint name="txtFont" x="158" y="215" align="center" font="Jura_uOSr-Bold" size="24" text="Шрифт Jura" fillColor="2BAAFF" alpha="1"/>
     <TextPoint name="txtFontCredit" x="158" y="240" align="center" font="Jura_uOSr-Regular" size="24" text="Daniel Johnson & Alexei Vanyashin" fillColor="2BAAFF" alpha="1"/>
