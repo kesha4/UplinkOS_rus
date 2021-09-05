@@ -107,7 +107,7 @@
   <Container name="uplinkScreen10" x="0" y="329" w="879" h="442" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
     <TextParagraph name="caption1" x="80" y="-2" w="803.90625" h="454.058776855469" align="left" font="Jura_uOSr-Regular" size="24" leading="0" text="We have been unable to connect you to your Gateway computer.&#xD;&#xD;This may be due to a fault in out communications lines, and if this is the case then we apologise and ask you to try again later.&#xD;&#xD;We are aware that Uplink Agents occasionally suffer 'difficulties' with their Gateway systems and sometimes require a new one as a result.  If this is the case, click YES below and we will assign you a new gateway.  (There will be an administrative charge of 1000 credits if you take this action.) Otherwise, click NO to log off and try again later.&#xD;&#xD;Rent a new Gateway computer?" fillColor="2BAAFF" alpha="1"/>
     <Line name="separator" x="160" y="372" w="642" h="2" x1="0" y1="0" x2="642" y2="0" strokeColor="2BAAFF" strokeW="2" alpha="1"/>
-    <Line name="separator2" x="0" y="28" w="481" h="2" x1="0" y1="0" x2="481" y2="0" strokeColor="2BAAFF" strokeW="2" alpha="1"/>
+    <Line name="separator2" x="160" y="-40" w="642" h="2" x1="0" y1="0" x2="642" y2="0" strokeColor="2BAAFF" strokeW="2" alpha="1"/>
     <ButtonStandard name="no" x="240" y="412" w="160" h="30" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
       <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
@@ -137,7 +137,7 @@
       <Rectangle name="gfxClick" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxHover" subtype="strokedFill" x="0" y="0" w="160" h="30" fillColor="2BAAFF" fillA="0.50196078431373" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
       <Rectangle name="gfxStandard" subtype="stroked" x="0" y="0" w="160" h="30" fillColor="FF00FF" fillA="1" strokeColor="2BAAFF" strokeW="1" alpha="1"/>
-      <TextPoint name="txtCaption" x="80" y="2" align="center" font="uOSr-IconsFont" size="50" text="Cancel" fillColor="2BAAFF" alpha="1"/>
+      <TextPoint name="txtCaption" x="80" y="-9" align="center" font="uOSr-IconsFont" size="50" text="Cancel" fillColor="2BAAFF" alpha="1"/>
     </ButtonStandard>
     <ButtonStandard name="OK" x="529" y="131" w="49" h="50" scalingType="scaleNormal" arrangeType="arrangeFree" arrangePadding="0" alpha="1">
       <Image name="gfxStandard" file="btnSubmitTextField_s.png" x="0" y="0" alpha="1"/>
