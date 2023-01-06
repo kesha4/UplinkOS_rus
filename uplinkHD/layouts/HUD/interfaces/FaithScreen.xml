@@ -1,5 +1,5 @@
 <layout name="FaithScreen" w="962" h="1082">
-  <TextParagraph name="txtDesc" x="239" y="629" w="485.15625" h="274.40625" align="left" font="Jura_uOSr-Regular" size="24" leading="0" text="Эта информация основана на неофициальных сообщениях из Интернета. Нет никаких гарантий точности этой информации.&#xD;&#xD;Если у вас есть какая-либо информация, которая может помочь обновить ее, свяжитесь с нами по адресу:&#xD;internal@uplink.net" fillColor="2BAAFF" alpha="1"/>
+  <TextParagraph name="txtDesc" x="239" y="629" w="485.15625" h="274.40625" align="left" font="Jura_uOSr-Regular" size="24" leading="0" text="Эта информация основана на неофициальных сообщениях из Интернета и может быть недостоверна.&#xD;&#xD;Если у вас есть какая-либо информация, которая может помочь обновить ее, свяжитесь с нами по адресу:&#xD;internal@uplink.net" fillColor="2BAAFF" alpha="1"/>
   <TextPoint name="txtRevelationV" x="642" y="513" align="center" font="Jura_uOSr-Regular" size="30" text="Version 3.0" fillColor="2BAAFF" alpha="1"/>
   <TextPoint name="txtRevelation" x="642" y="468" align="center" font="Jura_uOSr-Bold" size="36" text="Revelation" fillColor="2BAAFF" alpha="1"/>
   <Image name="iconRevelation" file="iconNews_storyRevelation.png" x="609" y="363" alpha="1"/>
