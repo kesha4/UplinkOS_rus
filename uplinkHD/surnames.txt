@@ -61,7 +61,6 @@ Blake
 Bogdanov
 Bolkvadze
 Bolton
-Bondyopadhyay 
 Bonik
 Borg
 Boruya
@@ -98,12 +97,10 @@ Chakma
 Chan
 Chappell
 Cheung
-Chislett-Trim
 Chislohm
 Cho
 Choi
 Chokroborti
-Chottopadhyay 
 Choudhuri
 Chow
 Christensen
@@ -144,7 +141,6 @@ De Groot
 De Jong
 de la Cruz
 de Leon
-de los Santos
 De Luca
 De Smet
 De Vries
@@ -344,7 +340,6 @@ Kukk
 Kumar
 Kurt
 Kuznetsov
-Kvaratskhelia
 Kwok
 Kwon
 Lacey
@@ -481,7 +476,6 @@ Ozdemir
 Ozturk
 Page
 Palmer
-Panagiotopoulos
 Papadakis
 Papadopoulos
 Papantoniou
